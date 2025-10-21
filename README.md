@@ -8,7 +8,9 @@ This comprehensive performance analysis compares three Cassandra deployments und
 - **Cassandra 4.0.4**: Newer Apache Cassandra 
 - **HCD 1.2.3 (Hybrid Cloud Database)**: DataStax's enterprise offering
 
-All clusters were deployed using **MissionControl Operator v1.15** on identical infrastructure specifications across bounded (resource-throttled) and unbounded (maximum capacity) scenarios.
+All clusters were deployed using **MissionControl Operator v1.15** on identical infrastructure specifications for unbounded (maximum capacity) scenarios.
+
+**Verdict**: HCD 1.2.3 demonstrates superior performance with 101,010 ops/sec throughput and consistent sub-5ms P99 latencies, making it the optimal choice for mission-critical fraud detection workloads.
 
 ---
 
@@ -19,24 +21,14 @@ All clusters were deployed using **MissionControl Operator v1.15** on identical 
 - **Kubernetes Version**: v1.33.5-gke.1080000
 - **Deployment Tool**: MissionControl Operator v1.15
 - **Node Configuration**: 6 database nodes per cluster
-- **Resource Allocation**: 1 CPU, 8Gi memory per node
+- **Machine Type**: n2-standard-16
+- **Resource Allocation**: 16 CPU, 8Gi memory per node
 - **Storage**: 
   - Cassandra 3: 25Gi standard-rwo
   - Cassandra 4: 20Gi premium-rwo
   - HCD: 25Gi standard-rwo
 - **Replication Factor**: 3 across 3 availability zones (us-east1-b, us-east1-c, us-east1-d)
 
----
-
-## Database Versions Deployed
-
-| Cluster | Database Version | Server Type | Deployment Type |
-|---------|------------------|-------------|-----------------|
-| cass3 | **3.11.17** | cassandra | MissionControl managed |
-| cass4 | **4.0.4** | cassandra | MissionControl managed |
-| hcd | **1.2.3** | hcd | MissionControl managed |
-
----
 
 ## Database Schema Design
 
@@ -112,13 +104,12 @@ Operation Mix:
 - 50% Read Operations (transaction lookups, user history queries)
 - 50% Write Operations (dual table inserts per transaction)
 
-Threading: threads=auto (optimal client connection scaling)
+Threading: optimal client connection scaling, on average ~160 threads
 Rate Limiting: Uncapped for maximum throughput testing
 ```
 
 ### Test Execution Parameters
 - **Target Operations**: 100 million operations
-- **Actual Records Inserted**: 200 million (100M per table)
 - **Consistency Level**: LOCAL_QUORUM
 - **Client Auto-scaling**: Leveraged NoSQLBench's automatic thread optimization
 
@@ -128,22 +119,14 @@ Rate Limiting: Uncapped for maximum throughput testing
 
 ### Latency Performance Comparison (100M Operations)
 
-#### Bounded Workload Results
-
-| Database | Min (ms) | Max (ms) | P95 (ms) | P99 (ms) | Operations Completed | Job Duration | Avg Throughput |
-|----------|----------|----------|----------|----------|--------------------|--------------|--------------| 
-| **HCD** | 0.55 | 152.12 | **1.32** | **1.56** | 100,000,000 | ~45 minutes | **37,037 ops/sec** |
-| **Cassandra 4** | 0.52 | 205.36 | 1.47 | 14.08 | 100,000,000 | 58 minutes | 28,736 ops/sec |
-| **Cassandra 3** | 0.46 | **2,051.74** | 1.21 | 27.02 | 99,999,961 | 95 minutes | 17,544 ops/sec |
-
 #### Unbounded Workload Results
 
-| Database | Min (ms) | Max (ms) | P95 (ms) | P99 (ms) | Operations Completed | Job Duration | Avg Throughput |
-|----------|----------|----------|----------|----------|--------------------|--------------|--------------| 
-| **HCD (UCS)** | 0.58 | **123.97** | 2.14 | 4.60 | 100,000,000 | ~16.5 minutes | **101,010 ops/sec** |
-| **HCD** | 0.61 | 140.44 | 2.16 | **5.33** | 100,000,000 | ~19 minutes | **87,719 ops/sec** |
-| **Cassandra 4** | 0.54 | 284.20 | 3.61 | 40.19 | 100,000,000 | 25 minutes | 66,667 ops/sec |
-| **Cassandra 3** | 0.49 | **2,055.47** | 2.01 | **238.91** | 99,999,368 | 67 minutes | 24,876 ops/sec |
+| Database | Min (ms) | Max (ms) | P95 (ms) | P99 (ms) | Operations Completed | Job Duration | Avg Throughput | Avg Threads |
+|----------|----------|----------|----------|----------|--------------------|--------------|--------------|--------------| 
+| **HCD (UCS)** | 0.58 | **123.97** | 2.14 | 4.60 | 100,000,000 | ~16.5 minutes | **101,010 ops/sec** | 159 |
+| **HCD** | 0.61 | 140.44 | 2.16 | **5.33** | 100,000,000 | ~19 minutes | **87,719 ops/sec** | 158 |
+| **Cassandra 4** | 0.54 | 284.20 | 3.61 | 40.19 | 100,000,000 | 25 minutes | 66,667 ops/sec | 158 |
+| **Cassandra 3** | 0.49 | **2,055.47** | 2.01 | **238.91** | 99,999,368 | 67 minutes | 24,876 ops/sec | 159 |
 
 ---
 
@@ -151,15 +134,9 @@ Rate Limiting: Uncapped for maximum throughput testing
 
 ### Cassandra 3 Timeout Analysis
 
-**Bounded Scenario:**
-- **39 timeout errors** detected
-- Error pattern: `Query timed out after PT2S`
-- All timeouts occurred during cycle execution
-
 **Unbounded Scenario:**  
 - **633 timeout errors** detected
 - Significantly higher timeout rate under unbounded load
-- **Total Cassandra 3 Timeouts: 672**
 
 #### Sample Timeout Error:
 ```
@@ -169,13 +146,10 @@ WARN [main:033] ERRORS error with cycle 66367507 errmsg: Error in space '6636750
 ### Performance Rankings by Scenario
 
 #### Best P99 Latency Performance:
-1. **HCD Bounded**: 1.56ms
-2. **HCD UCS**: 4.60ms  
-3. **HCD**: 5.33ms
-4. **Cassandra 4 Bounded**: 14.08ms
-5. **Cassandra 3 Bounded**: 27.02ms
-6. **Cassandra 4 Unbounded**: 40.19ms
-7. **Cassandra 3 Unbounded**: 238.91ms ⚠️
+1. **HCD UCS**: 4.60ms  
+2. **HCD**: 5.33ms
+3. **Cassandra 4 Unbounded**: 40.19ms
+4. **Cassandra 3 Unbounded**: 238.91ms ⚠️
 
 #### Transaction Completion Rates:
 - **HCD & Cassandra 4**: 100% completion (100,000,000 operations)
@@ -188,20 +162,6 @@ WARN [main:033] ERRORS error with cycle 66367507 errmsg: Error in space '6636750
 ### Performance Visualizations
 
 #### Cassandra 3.11.17 Results
-
-**Bounded Configuration:**
-
-![Cassandra 3 Bounded Reads and Writes](./cassandra-3/bounded/reads-and-writes.png)
-*Throughput analysis showing read/write operations per second*
-
-![Cassandra 3 Bounded Latency](./cassandra-3/bounded/write-and-read-latency.png)
-*Latency distribution showing timeout spikes*
-
-![Cassandra 3 Bounded Timeouts](./cassandra-3/bounded/timeouts.png)
-*Timeout visualization showing 39 timeout events*
-
-![Cassandra 3 Bounded Compactions](./cassandra-3/bounded/compactions.png)
-*Compaction activity during test execution*
 
 **Unbounded Configuration:**
 
@@ -216,17 +176,6 @@ WARN [main:033] ERRORS error with cycle 66367507 errmsg: Error in space '6636750
 
 #### Cassandra 4.0.4 Results
 
-**Bounded Configuration:**
-
-![Cassandra 4 Bounded Reads and Writes](./cassandra-4/bounded/writes-and-reads.png)
-*Throughput analysis showing improved performance*
-
-![Cassandra 4 Bounded Latency](./cassandra-4/bounded/write-and-read-latency.png)
-*Latency distribution showing better stability*
-
-![Cassandra 4 Bounded Compactions](./cassandra-4/bounded/compaction.png)
-*Compaction metrics showing efficient processing*
-
 **Unbounded Configuration:**
 
 ![Cassandra 4 Unbounded Reads and Writes](./cassandra-4/unbounded/writes-and-reads.png)
@@ -239,17 +188,6 @@ WARN [main:033] ERRORS error with cycle 66367507 errmsg: Error in space '6636750
 *Compaction analysis showing improved efficiency*
 
 #### HCD (Hybrid Cloud Database) Results
-
-**Bounded Configuration:**
-
-![HCD Bounded Reads and Writes](./hcd/bounded-insert/images/Writes_and_reads.png)
-*Throughput analysis showing optimal performance*
-
-![HCD Bounded Latency](./hcd/bounded-insert/images/write-and-read-latency.png)
-*Latency distribution demonstrating sub-millisecond performance*
-
-![HCD Bounded Compactions](./hcd/bounded-insert/images/compactions.png)
-*Compaction activity showing enterprise optimization*
 
 **Unbounded Configuration:**
 
@@ -272,15 +210,15 @@ WARN [main:033] ERRORS error with cycle 66367507 errmsg: Error in space '6636750
 ## Key Findings & Recommendations
 
 ### 🏆 **Winner: HCD 1.2.3 (Hybrid Cloud Database)**
-- **Best P99 latency**: 1.56ms (bounded), 4.60ms (unbounded UCS)
+- **Best P99 latency**: 4.60ms (unbounded UCS)
 - **Most controlled max latencies**: 123.97-152.12ms vs 2000+ ms for Cassandra 3
 - **100% operation completion** across all test scenarios
 - **Zero timeout errors** detected
 - **Enterprise optimizations**: Advanced compaction and query processing
 
 ### ⚠️ **Cassandra 3 Performance Concerns**
-- **672 total timeout errors** across bounded/unbounded tests
-- **Extreme max latencies**: Over 2 seconds in both scenarios
+- **633 timeout errors** in unbounded tests
+- **Extreme max latencies**: Over 2 seconds in unbounded scenario
 - **Poor P99 performance**: 238.91ms in unbounded scenario
 - **Operation failures**: Did not complete full 100M operations
 
@@ -288,10 +226,9 @@ WARN [main:033] ERRORS error with cycle 66367507 errmsg: Error in space '6636750
 - **Zero timeout errors**
 - **Significantly better max latencies**: 205-284ms vs 2000+ ms  
 - **100% operation completion**
-- **Better P99 performance** in both scenarios
+- **Better P99 performance** in unbounded scenarios
 
 ### 🔧 **Infrastructure Impact**
-- **Bounded vs Unbounded**: Resource throttling generally improves latency consistency
 - **Storage Configuration**: Premium SSD (Cassandra 4) vs Standard (Cassandra 3) may contribute to performance differences
 
 ---
@@ -304,12 +241,12 @@ For **mission-critical fraud detection workloads** requiring sub-10ms P99 latenc
 2. **Cassandra 4 is viable** for less stringent latency requirements  
 3. **Cassandra 3 is not recommended** due to timeout issues and high tail latencies
 
-**Deployment Recommendation**: HCD 1.2.3 with bounded resource configuration provides optimal balance of performance and resource efficiency for real-time fraud detection systems.
+**Deployment Recommendation**: HCD 1.2.3 provides optimal performance and resource efficiency for real-time fraud detection systems.
 
 **Technical Specifications for HCD 1.2.3:**
 - Server Type: hcd (DataStax Hybrid Cloud Database)
 - Version: 1.2.3
 - JVM: G1GC with 2Gi heap
 - Storage: 25Gi standard-rwo (same as Cassandra 3)
-- Resource allocation: 1 CPU, 8Gi memory per node
+- Resource allocation: 16 CPU, 8Gi memory per node
 - Identical infrastructure to comparative tests, demonstrating superior optimization
