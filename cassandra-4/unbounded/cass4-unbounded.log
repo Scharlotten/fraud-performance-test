@@ -1,0 +1,1030 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/nb5.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.datastax.oss.driver.shaded.guava.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/nb5.jar)
+WARNING: Please consider reporting this to the maintainers of class com.datastax.oss.driver.shaded.guava.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+schema (pending,current,complete)=(0,1,2) 100.00% (last report)
+rampup (pending,current,complete)=(0,0,100000) 100.00% (last report)
+main (pending,current,complete)=(99752372,160,247468) 0.25%
+   21448 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 58.01042517113609 > threshold 50.0
+main (pending,current,complete)=(99345529,159,654314) 0.65%
+main (pending,current,complete)=(98902229,160,1097611) 1.10%
+   31441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 65.58791801510249 > threshold 50.0
+main (pending,current,complete)=(98474901,159,1524940) 1.52%
+main (pending,current,complete)=(98083022,156,1916823) 1.92%
+   41440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 58.26877520968051 > threshold 50.0
+main (pending,current,complete)=(97662649,155,2337197) 2.34%
+main (pending,current,complete)=(97236871,160,2762969) 2.76%
+   51441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.496187152643145 > threshold 50.0
+main (pending,current,complete)=(96800871,160,3198969) 3.20%
+main (pending,current,complete)=(96405635,160,3594205) 3.59%
+   61440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 57.982868551555356 > threshold 50.0
+main (pending,current,complete)=(96028217,159,3971624) 3.97%
+main (pending,current,complete)=(95599304,160,4400536) 4.40%
+   71443 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 56.205273676745534 > threshold 50.0
+main (pending,current,complete)=(95192506,157,4807338) 4.81%
+main (pending,current,complete)=(94792165,160,5207675) 5.21%
+   81440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.08452703574655 > threshold 50.0
+main (pending,current,complete)=(94360421,157,5639422) 5.64%
+main (pending,current,complete)=(93943288,159,6056553) 6.06%
+   91440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.23821803881117 > threshold 50.0
+main (pending,current,complete)=(93546449,160,6453391) 6.45%
+main (pending,current,complete)=(93160858,147,6838995) 6.84%
+  101440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.78485747452599 > threshold 50.0
+main (pending,current,complete)=(92755104,157,7244739) 7.24%
+main (pending,current,complete)=(92350904,159,7648937) 7.65%
+  111439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.21049235335872 > threshold 50.0
+main (pending,current,complete)=(91947979,157,8051864) 8.05%
+main (pending,current,complete)=(91530464,159,8469377) 8.47%
+  121441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.963434330383095 > threshold 50.0
+main (pending,current,complete)=(91135640,160,8864200) 8.86%
+main (pending,current,complete)=(90754158,160,9245682) 9.25%
+  131440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 56.47505144032922 > threshold 50.0
+main (pending,current,complete)=(90391615,160,9608225) 9.61%
+main (pending,current,complete)=(90012651,159,9987190) 9.99%
+  141440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.57751937984496 > threshold 50.0
+main (pending,current,complete)=(89624430,160,10375411) 10.38%
+main (pending,current,complete)=(89223649,159,10776193) 10.78%
+  151440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.4100580270793 > threshold 50.0
+main (pending,current,complete)=(88825823,159,11174018) 11.17%
+main (pending,current,complete)=(88410951,158,11588891) 11.59%
+  161440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.61270743203978 > threshold 50.0
+main (pending,current,complete)=(88025859,158,11973983) 11.97%
+main (pending,current,complete)=(87643035,160,12356805) 12.36%
+  171440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.103222072158985 > threshold 50.0
+main (pending,current,complete)=(87263726,155,12736119) 12.74%
+main (pending,current,complete)=(86882064,158,13117778) 13.12%
+  181439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.49742268041236 > threshold 50.0
+main (pending,current,complete)=(86509429,160,13490411) 13.49%
+main (pending,current,complete)=(86126508,159,13873335) 13.87%
+  191444 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.25554409489428 > threshold 50.0
+main (pending,current,complete)=(85729023,158,14270819) 14.27%
+main (pending,current,complete)=(85341916,159,14657925) 14.66%
+  201442 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.64358097205189 > threshold 50.0
+main (pending,current,complete)=(84967393,160,15032447) 15.03%
+main (pending,current,complete)=(84590911,159,15408930) 15.41%
+  211441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.872872614749866 > threshold 50.0
+main (pending,current,complete)=(84214568,160,15785272) 15.79%
+main (pending,current,complete)=(83848345,159,16151496) 16.15%
+  221440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.067233384853175 > threshold 50.0
+main (pending,current,complete)=(83482056,159,16517785) 16.52%
+main (pending,current,complete)=(83106673,159,16893168) 16.89%
+  231440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.42674583709823 > threshold 50.0
+main (pending,current,complete)=(82736842,160,17262998) 17.26%
+main (pending,current,complete)=(82375987,160,17623853) 17.62%
+  241441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 56.00128576020572 > threshold 50.0
+main (pending,current,complete)=(82033013,156,17966831) 17.97%
+main (pending,current,complete)=(81695686,160,18304154) 18.30%
+  251440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.06396808031405 > threshold 50.0
+main (pending,current,complete)=(81360251,159,18639591) 18.64%
+main (pending,current,complete)=(81034129,160,18965711) 18.97%
+  261440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.12938525909238 > threshold 50.0
+main (pending,current,complete)=(80692075,160,19307765) 19.31%
+main (pending,current,complete)=(80315050,160,19684790) 19.68%
+  271440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.84987441231404 > threshold 50.0
+main (pending,current,complete)=(79970441,157,20029403) 20.03%
+main (pending,current,complete)=(79630138,160,20369702) 20.37%
+  281441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.636655948553056 > threshold 50.0
+main (pending,current,complete)=(79281335,157,20718508) 20.72%
+main (pending,current,complete)=(78947366,160,21052474) 21.05%
+  291440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 56.36924262863751 > threshold 50.0
+main (pending,current,complete)=(78613838,159,21386003) 21.39%
+main (pending,current,complete)=(78292364,159,21707477) 21.71%
+  301440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.248408053000574 > threshold 50.0
+main (pending,current,complete)=(77928692,160,22071148) 22.07%
+main (pending,current,complete)=(77577529,156,22422315) 22.42%
+  311442 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.98620600747712 > threshold 50.0
+main (pending,current,complete)=(77221056,160,22778784) 22.78%
+main (pending,current,complete)=(76865957,159,23133884) 23.13%
+  321442 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.78076898306176 > threshold 50.0
+main (pending,current,complete)=(76526702,160,23473138) 23.47%
+main (pending,current,complete)=(76182853,160,23816987) 23.82%
+  331440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.029131219386436 > threshold 50.0
+main (pending,current,complete)=(75829683,157,24170160) 24.17%
+main (pending,current,complete)=(75478283,160,24521559) 24.52%
+  341440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.36495643756051 > threshold 50.0
+main (pending,current,complete)=(75144073,159,24855768) 24.86%
+main (pending,current,complete)=(74798655,160,25201185) 25.20%
+  351440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.78996582188688 > threshold 50.0
+main (pending,current,complete)=(74460100,160,25539741) 25.54%
+main (pending,current,complete)=(74120761,160,25879079) 25.88%
+  361440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.75001611967245 > threshold 50.0
+main (pending,current,complete)=(73798912,157,26200932) 26.20%
+main (pending,current,complete)=(73487117,159,26512724) 26.51%
+  371442 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.817147631595866 > threshold 50.0
+main (pending,current,complete)=(73131753,160,26868087) 26.87%
+main (pending,current,complete)=(72783494,159,27216347) 27.22%
+  381439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.25508556667743 > threshold 50.0
+main (pending,current,complete)=(72451927,160,27547915) 27.55%
+main (pending,current,complete)=(72131040,156,27868804) 27.87%
+  391439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.003290534873216 > threshold 50.0
+main (pending,current,complete)=(71792504,159,28207337) 28.21%
+main (pending,current,complete)=(71440608,160,28559232) 28.56%
+main (pending,current,complete)=(71097437,159,28902404) 28.90%
+main (pending,current,complete)=(70768942,159,29230900) 29.23%
+  411440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.35551269688204 > threshold 50.0
+main (pending,current,complete)=(70423756,159,29576085) 29.58%
+main (pending,current,complete)=(70090998,158,29908845) 29.91%
+  421439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.154887990243274 > threshold 50.0
+main (pending,current,complete)=(69742633,158,30257209) 30.26%
+main (pending,current,complete)=(69429611,159,30570232) 30.57%
+  431441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.62177098059375 > threshold 50.0
+main (pending,current,complete)=(69084288,158,30915554) 30.92%
+main (pending,current,complete)=(68758521,159,31241320) 31.24%
+  441439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.823998970001284 > threshold 50.0
+main (pending,current,complete)=(68413094,160,31586746) 31.59%
+main (pending,current,complete)=(68097128,159,31902714) 31.90%
+  451440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.25694444444444 > threshold 50.0
+main (pending,current,complete)=(67756881,159,32242960) 32.24%
+main (pending,current,complete)=(67448100,160,32551740) 32.55%
+  461439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.59952561061606 > threshold 50.0
+main (pending,current,complete)=(67108132,158,32891710) 32.89%
+main (pending,current,complete)=(66789408,160,33210432) 33.21%
+  471442 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.93296232329048 > threshold 50.0
+main (pending,current,complete)=(66474885,160,33524955) 33.53%
+main (pending,current,complete)=(66181649,159,33818193) 33.82%
+  481440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.719645380958504 > threshold 50.0
+main (pending,current,complete)=(65867170,160,34132670) 34.13%
+main (pending,current,complete)=(65572001,160,34427839) 34.43%
+  491441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.883033419023135 > threshold 50.0
+main (pending,current,complete)=(65255643,160,34744199) 34.74%
+main (pending,current,complete)=(64930276,159,35069565) 35.07%
+  501440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.08252988816044 > threshold 50.0
+main (pending,current,complete)=(64623456,160,35376384) 35.38%
+main (pending,current,complete)=(64329022,160,35670819) 35.67%
+  511440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.415567706658095 > threshold 50.0
+main (pending,current,complete)=(64010570,160,35989270) 35.99%
+main (pending,current,complete)=(63667255,160,36332585) 36.33%
+  521440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.64740664567131 > threshold 50.0
+main (pending,current,complete)=(63318471,160,36681369) 36.68%
+main (pending,current,complete)=(62968429,159,37031412) 37.03%
+  531442 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.85420416559526 > threshold 50.0
+main (pending,current,complete)=(62619270,160,37380570) 37.38%
+main (pending,current,complete)=(62285654,158,37714188) 37.71%
+  541439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.38551431873636 > threshold 50.0
+main (pending,current,complete)=(61963264,160,38036579) 38.04%
+main (pending,current,complete)=(61627431,157,38372413) 38.37%
+  551440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.12321668479304 > threshold 50.0
+main (pending,current,complete)=(61297931,159,38701911) 38.70%
+main (pending,current,complete)=(60944137,159,39055704) 39.06%
+  561439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.296526930731204 > threshold 50.0
+main (pending,current,complete)=(60583117,158,39416725) 39.42%
+main (pending,current,complete)=(60228132,160,39771708) 39.77%
+  571439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.928007192858516 > threshold 50.0
+main (pending,current,complete)=(59877827,160,40122013) 40.12%
+main (pending,current,complete)=(59535707,160,40464133) 40.46%
+  581440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.53796653796654 > threshold 50.0
+main (pending,current,complete)=(59197367,160,40802473) 40.80%
+main (pending,current,complete)=(58880792,160,41119048) 41.12%
+  591440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.672414902515925 > threshold 50.0
+main (pending,current,complete)=(58542610,160,41457232) 41.46%
+main (pending,current,complete)=(58179821,159,41820021) 41.82%
+  601439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.86471193415638 > threshold 50.0
+main (pending,current,complete)=(57815596,159,42184245) 42.18%
+main (pending,current,complete)=(57456246,160,42543594) 42.54%
+  611441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.68908049675053 > threshold 50.0
+main (pending,current,complete)=(57111805,160,42888035) 42.89%
+main (pending,current,complete)=(56772445,160,43227396) 43.23%
+  621440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.69306038367451 > threshold 50.0
+main (pending,current,complete)=(56439384,157,43560460) 43.56%
+main (pending,current,complete)=(56096558,159,43903285) 43.90%
+main (pending,current,complete)=(55748825,160,44251015) 44.25%
+main (pending,current,complete)=(55415223,160,44584617) 44.58%
+  641439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.90429297805239 > threshold 50.0
+main (pending,current,complete)=(55064984,157,44934860) 44.93%
+main (pending,current,complete)=(54713667,160,45286174) 45.29%
+  651440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.30595813204509 > threshold 50.0
+main (pending,current,complete)=(54370558,160,45629283) 45.63%
+main (pending,current,complete)=(54024594,160,45975249) 45.98%
+main (pending,current,complete)=(53689595,159,46310246) 46.31%
+main (pending,current,complete)=(53353360,159,46646483) 46.65%
+  671441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.15082936865115 > threshold 50.0
+main (pending,current,complete)=(53025069,160,46974771) 46.97%
+main (pending,current,complete)=(52687307,159,47312534) 47.31%
+  681439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.54770931054424 > threshold 50.0
+main (pending,current,complete)=(52360937,158,47638906) 47.64%
+main (pending,current,complete)=(52013615,160,47986226) 47.99%
+  691440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.7463339336249 > threshold 50.0
+main (pending,current,complete)=(51652297,160,48347543) 48.35%
+main (pending,current,complete)=(51297098,160,48702743) 48.70%
+main (pending,current,complete)=(50966496,160,49033344) 49.03%
+main (pending,current,complete)=(50652275,159,49347567) 49.35%
+  711442 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.544368819827916 > threshold 50.0
+main (pending,current,complete)=(50346207,158,49653636) 49.65%
+main (pending,current,complete)=(50042728,160,49957113) 49.96%
+main (pending,current,complete)=(49706012,159,50293829) 50.29%
+main (pending,current,complete)=(49388326,160,50611514) 50.61%
+  731440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.570562826381284 > threshold 50.0
+main (pending,current,complete)=(49043671,159,50956171) 50.96%
+main (pending,current,complete)=(48716819,159,51283022) 51.28%
+main (pending,current,complete)=(48385902,159,51613939) 51.61%
+main (pending,current,complete)=(48058320,158,51941522) 51.94%
+  751439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.63732733697398 > threshold 50.0
+main (pending,current,complete)=(47742153,160,52257687) 52.26%
+main (pending,current,complete)=(47431872,159,52567969) 52.57%
+  761440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.07972825738641 > threshold 50.0
+main (pending,current,complete)=(47153249,159,52846592) 52.85%
+main (pending,current,complete)=(46850413,160,53149428) 53.15%
+  771439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.23717948717949 > threshold 50.0
+main (pending,current,complete)=(46529402,160,53470439) 53.47%
+main (pending,current,complete)=(46198998,158,53800844) 53.80%
+  781440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.37560192616372 > threshold 50.0
+main (pending,current,complete)=(45867183,160,54132657) 54.13%
+main (pending,current,complete)=(45544927,160,54454913) 54.46%
+  791439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.14608908027508 > threshold 50.0
+main (pending,current,complete)=(45229219,159,54770622) 54.77%
+main (pending,current,complete)=(44918506,160,55081334) 55.08%
+  801440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.90284101840569 > threshold 50.0
+main (pending,current,complete)=(44632394,159,55367448) 55.37%
+main (pending,current,complete)=(44313548,159,55686294) 55.69%
+  811439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.23175416133162 > threshold 50.0
+main (pending,current,complete)=(44012845,160,55986995) 55.99%
+main (pending,current,complete)=(43725649,159,56274192) 56.27%
+  821440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.159653067780276 > threshold 50.0
+main (pending,current,complete)=(43389498,160,56610342) 56.61%
+main (pending,current,complete)=(43064757,158,56935086) 56.94%
+main (pending,current,complete)=(42742720,160,57257120) 57.26%
+main (pending,current,complete)=(42434926,159,57564915) 57.57%
+  841440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.21794459798188 > threshold 50.0
+main (pending,current,complete)=(42138026,159,57861815) 57.86%
+main (pending,current,complete)=(41829088,160,58170752) 58.17%
+  851439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.39561285356936 > threshold 50.0
+main (pending,current,complete)=(41517201,158,58482643) 58.48%
+main (pending,current,complete)=(41212702,159,58787139) 58.79%
+  861439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.95332862553765 > threshold 50.0
+main (pending,current,complete)=(40901520,160,59098322) 59.10%
+main (pending,current,complete)=(40587912,160,59411928) 59.41%
+main (pending,current,complete)=(40278055,160,59721785) 59.72%
+main (pending,current,complete)=(39964853,160,60034987) 60.04%
+  881439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.505245542897605 > threshold 50.0
+main (pending,current,complete)=(39630856,159,60368985) 60.37%
+main (pending,current,complete)=(39333159,159,60666683) 60.67%
+  891440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.677809205451275 > threshold 50.0
+main (pending,current,complete)=(39012607,160,60987235) 60.99%
+main (pending,current,complete)=(38696570,160,61303271) 61.30%
+  901442 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.147833911813855 > threshold 50.0
+main (pending,current,complete)=(38364138,155,61635707) 61.64%
+main (pending,current,complete)=(38059906,159,61939935) 61.94%
+  911441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.979255250612034 > threshold 50.0
+main (pending,current,complete)=(37732697,160,62267148) 62.27%
+main (pending,current,complete)=(37402378,160,62597462) 62.60%
+  921439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.003221441917404 > threshold 50.0
+main (pending,current,complete)=(37085751,157,62914093) 62.91%
+main (pending,current,complete)=(36772357,159,63227485) 63.23%
+  931439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.63624678663239 > threshold 50.0
+main (pending,current,complete)=(36470803,160,63529037) 63.53%
+main (pending,current,complete)=(36165195,160,63834645) 63.83%
+main (pending,current,complete)=(35862103,160,64137737) 64.14%
+main (pending,current,complete)=(35580042,160,64419798) 64.42%
+  951439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.27055363764225 > threshold 50.0
+main (pending,current,complete)=(35290661,160,64709179) 64.71%
+main (pending,current,complete)=(34989392,160,65010449) 65.01%
+  961439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.180002560491616 > threshold 50.0
+main (pending,current,complete)=(34721743,160,65278097) 65.28%
+main (pending,current,complete)=(34429554,160,65570286) 65.57%
+main (pending,current,complete)=(34120677,160,65879163) 65.88%
+main (pending,current,complete)=(33794600,159,66205241) 66.21%
+  981440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.01343570057582 > threshold 50.0
+main (pending,current,complete)=(33468323,160,66531517) 66.53%
+main (pending,current,complete)=(33131630,158,66868212) 66.87%
+main (pending,current,complete)=(32816755,159,67183087) 67.18%
+main (pending,current,complete)=(32513227,160,67486613) 67.49%
+ 1001439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.226088072923346 > threshold 50.0
+main (pending,current,complete)=(32185601,159,67814240) 67.81%
+main (pending,current,complete)=(31874558,159,68125283) 68.13%
+main (pending,current,complete)=(31560876,160,68438965) 68.44%
+main (pending,current,complete)=(31257645,160,68742196) 68.74%
+main (pending,current,complete)=(30998252,159,69001592) 69.00%
+main (pending,current,complete)=(30693516,158,69306326) 69.31%
+main (pending,current,complete)=(30407103,159,69592738) 69.59%
+main (pending,current,complete)=(30123406,160,69876434) 69.88%
+ 1041440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.86536123376207 > threshold 50.0
+main (pending,current,complete)=(29813353,159,70186488) 70.19%
+main (pending,current,complete)=(29503580,160,70496260) 70.50%
+ 1051439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.50326629947483 > threshold 50.0
+main (pending,current,complete)=(29174131,160,70825709) 70.83%
+main (pending,current,complete)=(28838577,160,71161264) 71.16%
+ 1061439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.47753530166881 > threshold 50.0
+main (pending,current,complete)=(28523281,160,71476559) 71.48%
+main (pending,current,complete)=(28219712,160,71780128) 71.78%
+ 1071440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.3674448353054 > threshold 50.0
+main (pending,current,complete)=(27892367,159,72107476) 72.11%
+main (pending,current,complete)=(27569547,158,72430295) 72.43%
+ 1081439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.76296106884868 > threshold 50.0
+main (pending,current,complete)=(27266643,160,72733197) 72.73%
+main (pending,current,complete)=(26972021,158,73027821) 73.03%
+ 1091440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.38538333546653 > threshold 50.0
+main (pending,current,complete)=(26652099,158,73347743) 73.35%
+main (pending,current,complete)=(26331872,160,73667968) 73.67%
+ 1101439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.15143753601844 > threshold 50.0
+main (pending,current,complete)=(26029515,160,73970325) 73.97%
+main (pending,current,complete)=(25750291,160,74249549) 74.25%
+ 1111439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.18277781331968 > threshold 50.0
+main (pending,current,complete)=(25455794,158,74544048) 74.54%
+main (pending,current,complete)=(25154742,158,74845100) 74.85%
+main (pending,current,complete)=(24839990,160,75159850) 75.16%
+main (pending,current,complete)=(24519688,160,75480152) 75.48%
+ 1131439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.24492280094817 > threshold 50.0
+main (pending,current,complete)=(24212324,160,75787516) 75.79%
+main (pending,current,complete)=(23904385,158,76095457) 76.10%
+ 1141440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.228377252035656 > threshold 50.0
+main (pending,current,complete)=(23601369,160,76398471) 76.40%
+main (pending,current,complete)=(23300132,159,76699709) 76.70%
+ 1151440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.22235037805972 > threshold 50.0
+main (pending,current,complete)=(23004861,160,76994979) 77.00%
+main (pending,current,complete)=(22706832,159,77293009) 77.29%
+ 1161439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.86151472290086 > threshold 50.0
+main (pending,current,complete)=(22426790,160,77573050) 77.57%
+main (pending,current,complete)=(22128603,160,77871237) 77.87%
+ 1171440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.9856 > threshold 50.0
+main (pending,current,complete)=(21824634,157,78175209) 78.18%
+main (pending,current,complete)=(21541276,160,78458564) 78.46%
+ 1181439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.35542593423498 > threshold 50.0
+main (pending,current,complete)=(21237534,159,78762307) 78.76%
+main (pending,current,complete)=(20938784,160,79061056) 79.06%
+ 1191440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.144812587949346 > threshold 50.0
+main (pending,current,complete)=(20621606,160,79378234) 79.38%
+main (pending,current,complete)=(20305948,160,79693892) 79.69%
+ 1201440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.32753771413961 > threshold 50.0
+main (pending,current,complete)=(20009052,160,79990789) 79.99%
+main (pending,current,complete)=(19683742,160,80316098) 80.32%
+ 1211439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.92455858747993 > threshold 50.0
+main (pending,current,complete)=(19411395,160,80588445) 80.59%
+main (pending,current,complete)=(19120516,159,80879325) 80.88%
+ 1221440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.18058401639344 > threshold 50.0
+main (pending,current,complete)=(18843232,160,81156608) 81.16%
+main (pending,current,complete)=(18554824,159,81445018) 81.45%
+ 1231439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.586745138178095 > threshold 50.0
+main (pending,current,complete)=(18252528,158,81747314) 81.75%
+main (pending,current,complete)=(17955379,158,82044463) 82.04%
+ 1241441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 55.02686108979279 > threshold 50.0
+main (pending,current,complete)=(17661084,160,82338756) 82.34%
+main (pending,current,complete)=(17369374,160,82630466) 82.63%
+ 1251439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.059774243201645 > threshold 50.0
+main (pending,current,complete)=(17084575,160,82915266) 82.92%
+main (pending,current,complete)=(16784654,159,83215187) 83.22%
+ 1261439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.790068009752346 > threshold 50.0
+main (pending,current,complete)=(16491260,160,83508580) 83.51%
+main (pending,current,complete)=(16215135,160,83784705) 83.78%
+ 1271439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.04041051956382 > threshold 50.0
+main (pending,current,complete)=(15914065,159,84085776) 84.09%
+main (pending,current,complete)=(15618679,160,84381161) 84.38%
+ 1281441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.535999999999994 > threshold 50.0
+main (pending,current,complete)=(15314278,160,84685562) 84.69%
+main (pending,current,complete)=(15016310,160,84983530) 84.98%
+ 1291439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.60189877477709 > threshold 50.0
+main (pending,current,complete)=(14705548,157,85294295) 85.29%
+main (pending,current,complete)=(14397438,160,85602402) 85.60%
+ 1301440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.321502057613166 > threshold 50.0
+main (pending,current,complete)=(14094701,160,85905139) 85.91%
+main (pending,current,complete)=(13808528,160,86191312) 86.19%
+main (pending,current,complete)=(13506356,160,86493484) 86.49%
+main (pending,current,complete)=(13237209,159,86762632) 86.76%
+ 1321441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.631918046517626 > threshold 50.0
+main (pending,current,complete)=(12958652,160,87041188) 87.04%
+main (pending,current,complete)=(12652973,160,87346867) 87.35%
+ 1331440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.80525304292121 > threshold 50.0
+main (pending,current,complete)=(12351681,159,87648160) 87.65%
+main (pending,current,complete)=(12036545,160,87963295) 87.96%
+ 1341440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 54.22904670505439 > threshold 50.0
+main (pending,current,complete)=(11741054,160,88258786) 88.26%
+main (pending,current,complete)=(11426759,160,88573081) 88.57%
+ 1351439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.59815242494227 > threshold 50.0
+main (pending,current,complete)=(11111976,160,88887864) 88.89%
+main (pending,current,complete)=(10813021,159,89186820) 89.19%
+ 1361440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.23842503526998 > threshold 50.0
+main (pending,current,complete)=(10523378,160,89476462) 89.48%
+main (pending,current,complete)=(10230435,160,89769405) 89.77%
+ 1371441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.55429010173396 > threshold 50.0
+main (pending,current,complete)=(9923523,160,90076317) 90.08%
+main (pending,current,complete)=(9635834,157,90364009) 90.36%
+ 1381439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.07009435778933 > threshold 50.0
+main (pending,current,complete)=(9331510,160,90668330) 90.67%
+main (pending,current,complete)=(9039132,160,90960708) 90.96%
+ 1391440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.742240215924426 > threshold 50.0
+main (pending,current,complete)=(8724448,160,91275392) 91.28%
+main (pending,current,complete)=(8420976,160,91578864) 91.58%
+main (pending,current,complete)=(8106537,160,91893303) 91.89%
+main (pending,current,complete)=(7832175,157,92167668) 92.17%
+main (pending,current,complete)=(7534524,160,92465316) 92.47%
+main (pending,current,complete)=(7254387,160,92745453) 92.75%
+main (pending,current,complete)=(6953620,160,93046220) 93.05%
+main (pending,current,complete)=(6642344,159,93357497) 93.36%
+ 1431439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.588689442192624 > threshold 50.0
+main (pending,current,complete)=(6353103,160,93646737) 93.65%
+main (pending,current,complete)=(6051665,159,93948176) 93.95%
+ 1441441 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.26696687037633 > threshold 50.0
+main (pending,current,complete)=(5734967,159,94264874) 94.27%
+main (pending,current,complete)=(5426238,160,94573603) 94.57%
+main (pending,current,complete)=(5114266,160,94885574) 94.89%
+main (pending,current,complete)=(4847048,160,95152792) 95.15%
+ 1461440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.32788993185032 > threshold 50.0
+main (pending,current,complete)=(4576346,158,95423496) 95.42%
+main (pending,current,complete)=(4290542,159,95709300) 95.71%
+main (pending,current,complete)=(4010656,160,95989184) 95.99%
+main (pending,current,complete)=(3712886,160,96286954) 96.29%
+ 1481439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 50.97749196141479 > threshold 50.0
+main (pending,current,complete)=(3439435,160,96560405) 96.56%
+main (pending,current,complete)=(3164896,160,96834944) 96.84%
+ 1491440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.081599999999995 > threshold 50.0
+main (pending,current,complete)=(2865635,160,97134205) 97.13%
+main (pending,current,complete)=(2557099,160,97442741) 97.44%
+ 1501439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 52.19565356753638 > threshold 50.0
+main (pending,current,complete)=(2245705,160,97754135) 97.75%
+main (pending,current,complete)=(1921574,160,98078266) 98.08%
+ 1511440 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 53.334187431939014 > threshold 50.0
+main (pending,current,complete)=(1608667,159,98391174) 98.39%
+main (pending,current,complete)=(1305346,160,98694494) 98.69%
+main (pending,current,complete)=(991643,160,99008197) 99.01%
+main (pending,current,complete)=(707004,159,99292837) 99.29%
+ 1531439 WARN  [pool-2-thread-1] ClientMetric {instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"} value = 51.9160408241864 > threshold 50.0
+main (pending,current,complete)=(398589,160,99601251) 99.60%
+main (pending,current,complete)=(81537,156,99918307) 99.92%
+main (pending,current,complete)=(0,0,100000000) 100.00% (last report)
+10/21/25, 12:05:46 PM ==========================================================
+
+-- Gauges ----------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="errors_total",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_15m",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="ops_pending",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_1m",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_5m",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="ops_complete",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             value = 3.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="threads",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             value = 1.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="ops_active",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_total",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="ops_active",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_5m",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="errors_total",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="threads",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             value = 160.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_15m",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="ops_complete",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             value = 100000.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_total",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_1m",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="ops_pending",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="ops_pending",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_5m",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             value = -2.2134227298016426E-6
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_total",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="threads",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             value = 160.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_1m",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             value = -5.97811294152122E-6
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_15m",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             value = -3.7856305426353166E-5
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="ops_active",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="ops_complete",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             value = 1.0E8
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="errors_total",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             value = 0.0
+
+-- Counters --------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="pending_ops",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="pending_ops",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             count = 0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="pending_ops",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 0
+
+-- Histograms ------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="tries",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 3
+               min = 1
+               max = 1
+              mean = 1.00
+            stddev = 0.00
+            median = 1.00
+              75% <= 1.00
+              95% <= 1.00
+              98% <= 1.00
+              99% <= 1.00
+            99.9% <= 1.00
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="tries",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000
+               min = 1
+               max = 1
+              mean = 1.00
+            stddev = 0.00
+            median = 1.00
+              75% <= 1.00
+              95% <= 1.00
+              98% <= 1.00
+              99% <= 1.00
+            99.9% <= 1.00
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="tries",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000000
+               min = 1
+               max = 1
+              mean = 1.00
+            stddev = 0.00
+            median = 1.00
+              75% <= 1.00
+              95% <= 1.00
+              98% <= 1.00
+              99% <= 1.00
+            99.9% <= 1.00
+
+-- Timers ----------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="verifier",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 17344.00 nanoseconds
+               max = 63761.00 nanoseconds
+              mean = 32845.67 nanoseconds
+            stddev = 21860.47 nanoseconds
+            median = 17432.00 nanoseconds
+              75% <= 63761.00 nanoseconds
+              95% <= 63761.00 nanoseconds
+              98% <= 63761.00 nanoseconds
+              99% <= 63761.00 nanoseconds
+            99.9% <= 63761.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="read_input",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 2
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 162816.00 nanoseconds
+               max = 1393727.00 nanoseconds
+              mean = 778258.00 nanoseconds
+            stddev = 615438.00 nanoseconds
+            median = 162823.00 nanoseconds
+              75% <= 1393727.00 nanoseconds
+              95% <= 1393727.00 nanoseconds
+              98% <= 1393727.00 nanoseconds
+              99% <= 1393727.00 nanoseconds
+            99.9% <= 1393727.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="cycles_servicetime",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1446445056.00 nanoseconds
+               max = 2100494335.00 nanoseconds
+              mean = 1669780821.33 nanoseconds
+            stddev = 304606667.19 nanoseconds
+            median = 1462435839.00 nanoseconds
+              75% <= 2100494335.00 nanoseconds
+              95% <= 2100494335.00 nanoseconds
+              98% <= 2100494335.00 nanoseconds
+              99% <= 2100494335.00 nanoseconds
+            99.9% <= 2100494335.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="result",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1144520704.00 nanoseconds
+               max = 1448607743.00 nanoseconds
+              mean = 1340484266.67 nanoseconds
+            stddev = 138790439.55 nanoseconds
+            median = 1428357119.00 nanoseconds
+              75% <= 1448607743.00 nanoseconds
+              95% <= 1448607743.00 nanoseconds
+              98% <= 1448607743.00 nanoseconds
+              99% <= 1448607743.00 nanoseconds
+            99.9% <= 1448607743.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="bind",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 13771776.00 nanoseconds
+               max = 947847167.00 nanoseconds
+              mean = 326559317.33 nanoseconds
+            stddev = 439308779.52 nanoseconds
+            median = 18075647.00 nanoseconds
+              75% <= 947847167.00 nanoseconds
+              95% <= 947847167.00 nanoseconds
+              98% <= 947847167.00 nanoseconds
+              99% <= 947847167.00 nanoseconds
+            99.9% <= 947847167.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="result_success",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1144520704.00 nanoseconds
+               max = 1448607743.00 nanoseconds
+              mean = 1340484266.67 nanoseconds
+            stddev = 138790439.55 nanoseconds
+            median = 1428357119.00 nanoseconds
+              75% <= 1448607743.00 nanoseconds
+              95% <= 1448607743.00 nanoseconds
+              98% <= 1448607743.00 nanoseconds
+              99% <= 1448607743.00 nanoseconds
+            99.9% <= 1448607743.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="strides",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 1
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 5012193280.00 nanoseconds
+               max = 5012455423.00 nanoseconds
+              mean = 5012324352.00 nanoseconds
+            stddev = 0.00 nanoseconds
+            median = 5012455423.00 nanoseconds
+              75% <= 5012455423.00 nanoseconds
+              95% <= 5012455423.00 nanoseconds
+              98% <= 5012455423.00 nanoseconds
+              99% <= 5012455423.00 nanoseconds
+            99.9% <= 5012455423.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="execute",node="10.100.9.65",scenario="default.schema",session="oD6zqt9",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1139015680.00 nanoseconds
+               max = 1448411135.00 nanoseconds
+              mean = 1338561877.33 nanoseconds
+            stddev = 141316206.80 nanoseconds
+            median = 1428291583.00 nanoseconds
+              75% <= 1448411135.00 nanoseconds
+              95% <= 1448411135.00 nanoseconds
+              98% <= 1448411135.00 nanoseconds
+              99% <= 1448411135.00 nanoseconds
+            99.9% <= 1448411135.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="verifier",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 241.00 nanoseconds
+               max = 5320191.00 nanoseconds
+              mean = 1832.79 nanoseconds
+            stddev = 27126.38 nanoseconds
+            median = 1142.00 nanoseconds
+              75% <= 1425.00 nanoseconds
+              95% <= 2444.00 nanoseconds
+              98% <= 3472.00 nanoseconds
+              99% <= 7172.00 nanoseconds
+            99.9% <= 85999.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="cycles_servicetime",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 858144.00 nanoseconds
+               max = 305709055.00 nanoseconds
+              mean = 4786161.58 nanoseconds
+            stddev = 13403261.31 nanoseconds
+            median = 2861951.00 nanoseconds
+              75% <= 4029567.00 nanoseconds
+              95% <= 9064447.00 nanoseconds
+              98% <= 21136383.00 nanoseconds
+              99% <= 38318079.00 nanoseconds
+            99.9% <= 241672191.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="execute",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 818496.00 nanoseconds
+               max = 294666239.00 nanoseconds
+              mean = 4309095.74 nanoseconds
+            stddev = 9155874.37 nanoseconds
+            median = 2818047.00 nanoseconds
+              75% <= 3974527.00 nanoseconds
+              95% <= 8739327.00 nanoseconds
+              98% <= 17619967.00 nanoseconds
+              99% <= 32350207.00 nanoseconds
+            99.9% <= 160579583.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="result",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 837824.00 nanoseconds
+               max = 294666239.00 nanoseconds
+              mean = 4319888.65 nanoseconds
+            stddev = 9180105.20 nanoseconds
+            median = 2823807.00 nanoseconds
+              75% <= 3980287.00 nanoseconds
+              95% <= 8772607.00 nanoseconds
+              98% <= 17846271.00 nanoseconds
+              99% <= 32354303.00 nanoseconds
+            99.9% <= 160579583.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="strides",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             count = 50000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1966720.00 nanoseconds
+               max = 315555839.00 nanoseconds
+              mean = 9582866.83 nanoseconds
+            stddev = 20145092.29 nanoseconds
+            median = 5952511.00 nanoseconds
+              75% <= 8199167.00 nanoseconds
+              95% <= 20707327.00 nanoseconds
+              98% <= 44261375.00 nanoseconds
+              99% <= 81076223.00 nanoseconds
+            99.9% <= 276086783.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="bind",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+10/21/25, 12:05:47 PM ==========================================================
+
+-- Gauges ----------------------------------------------------------------------
+{instance="default",jobname="nosqlbench",name="off_heap_memory_committed",node="10.100.9.65",session="oD6zqt9"}
+             value = 7.471104E7
+{instance="default",jobname="nosqlbench",name="on_heap_memory_committed",node="10.100.9.65",session="oD6zqt9"}
+             value = 1.3828620288E10
+{instance="default",jobname="nosqlbench",name="off_heap_memory_max",node="10.100.9.65",session="oD6zqt9"}
+             value = -1.0
+{instance="default",jobname="nosqlbench",name="session_time",node="10.100.9.65",session="oD6zqt9"}
+             value = 8.8419501093292E13
+{instance="default",jobname="nosqlbench",name="open_file_descriptors",node="10.100.9.65",session="oD6zqt9"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 3775.00 nanoseconds
+               max = 226893823.00 nanoseconds
+             value = 12.0
+{instance="default",jobname="nosqlbench",name="on_heap_memory_used",node="10.100.9.65",session="oD6zqt9"}
+             value = 3.2505856E8
+{instance="default",jobname="nosqlbench",name="on_heap_memory_max",node="10.100.9.65",session="oD6zqt9"}
+             value = 1.610612736E10
+{instance="default",jobname="nosqlbench",name="off_heap_memory_used",node="10.100.9.65",session="oD6zqt9"}
+             value = 6.01826E7
+{instance="default",jobname="nosqlbench",name="cpu_system",node="10.100.9.65",session="oD6zqt9"}
+             value = 1094890.0
+{instance="default",jobname="nosqlbench",name="cpu_idle",node="10.100.9.65",session="oD6zqt9"}
+             value = 1.36153176E8
+{instance="default",jobname="nosqlbench",name="cpu_total",node="10.100.9.65",session="oD6zqt9"}
+             value = 1.41074617E8
+{instance="default",jobname="nosqlbench",name="mem_cache",node="10.100.9.65",session="oD6zqt9"}
+             value = 2.6018028E7
+{instance="default",jobname="nosqlbench",name="mem_used",node="10.100.9.65",session="oD6zqt9"}
+             value = 1.8915868E7
+{instance="default",jobname="nosqlbench",name="eth0_tx_packets",node="10.100.9.65",session="oD6zqt9"}
+             value = 5.4181081E7
+{instance="default",jobname="nosqlbench",name="loadavg_15min",node="10.100.9.65",session="oD6zqt9"}
+             value = 22.03
+{instance="default",jobname="nosqlbench",name="eth0_tx_bytes",node="10.100.9.65",session="oD6zqt9"}
+             value = 1.8970796311E10
+{instance="default",jobname="nosqlbench",name="mem_buffered",node="10.100.9.65",session="oD6zqt9"}
+             value = 195228.0
+{instance="default",jobname="nosqlbench",name="mem_available",node="10.100.9.65",session="oD6zqt9"}
+             value = 4.6935656E7
+{instance="default",jobname="nosqlbench",name="mem_total",node="10.100.9.65",session="oD6zqt9"}
+             value = 6.5851524E7
+{instance="default",jobname="nosqlbench",name="eth0_rx_packets",node="10.100.9.65",session="oD6zqt9"}
+             value = 6.3816604E7
+{instance="default",jobname="nosqlbench",name="cpu_iowait",node="10.100.9.65",session="oD6zqt9"}
+             value = 160549.0
+{instance="default",jobname="nosqlbench",name="lo_tx_packets",node="10.100.9.65",session="oD6zqt9"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="swap_used",node="10.100.9.65",session="oD6zqt9"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="loadavg_5min",node="10.100.9.65",session="oD6zqt9"}
+             value = 25.74
+{instance="default",jobname="nosqlbench",name="lo_rx_bytes",node="10.100.9.65",session="oD6zqt9"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="lo_tx_bytes",node="10.100.9.65",session="oD6zqt9"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="swap_free",node="10.100.9.65",session="oD6zqt9"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="lo_rx_packets",node="10.100.9.65",session="oD6zqt9"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="mem_free",node="10.100.9.65",session="oD6zqt9"}
+             value = 3.4526596E7
+{instance="default",jobname="nosqlbench",name="eth0_rx_bytes",node="10.100.9.65",session="oD6zqt9"}
+             value = 2.2775809559E10
+{instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.65",session="oD6zqt9"}
+             value = 2942236.0
+{instance="default",jobname="nosqlbench",name="swap_total",node="10.100.9.65",session="oD6zqt9"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="loadavg_1min",node="10.100.9.65",session="oD6zqt9"}
+             value = 23.57
+
+
+              mean = 418522.78 nanoseconds
+            stddev = 8540955.28 nanoseconds
+            median = 19937.00 nanoseconds
+              75% <= 29100.00 nanoseconds
+              95% <= 69359.00 nanoseconds
+              98% <= 198967.00 nanoseconds
+              99% <= 583807.00 nanoseconds
+            99.9% <= 210690047.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="result_success",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 837824.00 nanoseconds
+               max = 294666239.00 nanoseconds
+              mean = 4319888.65 nanoseconds
+            stddev = 9180105.20 nanoseconds
+            median = 2823807.00 nanoseconds
+              75% <= 3980287.00 nanoseconds
+              95% <= 8772607.00 nanoseconds
+              98% <= 17846271.00 nanoseconds
+              99% <= 32354303.00 nanoseconds
+            99.9% <= 160579583.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="read_input",node="10.100.9.65",scenario="default.rampup",session="oD6zqt9",workload="fraud_detection"}
+             count = 50160
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 70.00 nanoseconds
+               max = 12038143.00 nanoseconds
+              mean = 1799.22 nanoseconds
+            stddev = 62003.00 nanoseconds
+            median = 840.00 nanoseconds
+              75% <= 1089.00 nanoseconds
+              95% <= 1452.00 nanoseconds
+              98% <= 3701.00 nanoseconds
+              99% <= 6406.00 nanoseconds
+            99.9% <= 80183.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="result",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 536320.00 nanoseconds
+               max = 284196863.00 nanoseconds
+              mean = 2425066.27 nanoseconds
+            stddev = 6439110.10 nanoseconds
+            median = 1503167.00 nanoseconds
+              75% <= 1890687.00 nanoseconds
+              95% <= 3609215.00 nanoseconds
+              98% <= 6615551.00 nanoseconds
+              99% <= 40185855.00 nanoseconds
+            99.9% <= 77971455.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="strides",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 500000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 243179520.00 nanoseconds
+               max = 1427570687.00 nanoseconds
+              mean = 488222858.46 nanoseconds
+            stddev = 113576675.39 nanoseconds
+            median = 471318527.00 nanoseconds
+              75% <= 556007423.00 nanoseconds
+              95% <= 698286079.00 nanoseconds
+              98% <= 765526015.00 nanoseconds
+              99% <= 811925503.00 nanoseconds
+            99.9% <= 955056127.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="verifier",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 53.00 nanoseconds
+               max = 6506751.00 nanoseconds
+              mean = 680.17 nanoseconds
+            stddev = 3890.73 nanoseconds
+            median = 492.00 nanoseconds
+              75% <= 677.00 nanoseconds
+              95% <= 961.00 nanoseconds
+              98% <= 1120.00 nanoseconds
+              99% <= 1298.00 nanoseconds
+            99.9% <= 33139.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="bind",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 675.00 nanoseconds
+               max = 226279423.00 nanoseconds
+              mean = 10701.27 nanoseconds
+            stddev = 270189.31 nanoseconds
+            median = 5875.00 nanoseconds
+              75% <= 12223.00 nanoseconds
+              95% <= 24230.00 nanoseconds
+              98% <= 40871.00 nanoseconds
+              99% <= 61049.00 nanoseconds
+            99.9% <= 320095.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="execute",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 520512.00 nanoseconds
+               max = 284196863.00 nanoseconds
+              mean = 2422214.98 nanoseconds
+            stddev = 6438958.41 nanoseconds
+            median = 1500415.00 nanoseconds
+              75% <= 1887871.00 nanoseconds
+              95% <= 3606015.00 nanoseconds
+              98% <= 6610431.00 nanoseconds
+              99% <= 40181759.00 nanoseconds
+            99.9% <= 77967359.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="cycles_servicetime",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 552128.00 nanoseconds
+               max = 284213247.00 nanoseconds
+              mean = 2439643.38 nanoseconds
+            stddev = 6446323.91 nanoseconds
+            median = 1517375.00 nanoseconds
+              75% <= 1904767.00 nanoseconds
+              95% <= 3624063.00 nanoseconds
+              98% <= 6631679.00 nanoseconds
+              99% <= 40204287.00 nanoseconds
+            99.9% <= 78020607.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="result_success",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 536320.00 nanoseconds
+               max = 284196863.00 nanoseconds
+              mean = 2425066.27 nanoseconds
+            stddev = 6439110.10 nanoseconds
+            median = 1503167.00 nanoseconds
+              75% <= 1890687.00 nanoseconds
+              95% <= 3609215.00 nanoseconds
+              98% <= 6615551.00 nanoseconds
+              99% <= 40185855.00 nanoseconds
+            99.9% <= 77971455.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="read_input",node="10.100.9.65",scenario="default.main",session="oD6zqt9",workload="fraud_detection"}
+             count = 500160
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 39.00 nanoseconds
+               max = 769663.00 nanoseconds
+              mean = 292.36 nanoseconds
+            stddev = 2707.39 nanoseconds
+            median = 182.00 nanoseconds
+              75% <= 246.00 nanoseconds
+              95% <= 480.00 nanoseconds
+              98% <= 677.00 nanoseconds
+              99% <= 1176.00 nanoseconds
+            99.9% <= 16100.00 nanoseconds
+
+
+10/21/25, 12:05:48 PM ==========================================================
+
+-- Gauges ----------------------------------------------------------------------
+{instance="default",jobname="nosqlbench",name="off_heap_memory_committed",node="10.100.9.65",session="oD6zqt9"}
+             value = 7.4776576E7
+{instance="default",jobname="nosqlbench",name="on_heap_memory_committed",node="10.100.9.65",session="oD6zqt9"}
+             value = 1.3828620288E10
+{instance="default",jobname="nosqlbench",name="off_heap_memory_max",node="10.100.9.65",session="oD6zqt9"}
+             value = -1.0
+{instance="default",jobname="nosqlbench",name="session_time",node="10.100.9.65",session="oD6zqt9"}
+             value = 8.8420267397629E13
+{instance="default",jobname="nosqlbench",name="open_file_descriptors",node="10.100.9.65",session="oD6zqt9"}
+             value = 12.0
+{instance="default",jobname="nosqlbench",name="on_heap_memory_used",node="10.100.9.65",session="oD6zqt9"}
+             value = 3.64904448E8
+{instance="default",jobname="nosqlbench",name="on_heap_memory_max",node="10.100.9.65",session="oD6zqt9"}
+             value = 1.610612736E10
+{instance="default",jobname="nosqlbench",name="off_heap_memory_used",node="10.100.9.65",session="oD6zqt9"}
+             value = 6.1073096E7
+
+

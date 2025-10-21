@@ -1,0 +1,4 @@
+Changed the chunk-length to be bigger in kb
+Changed to Universal compaction strategy T4 as the documentation suggests
+fraud-detection-nb-h7t65
+16 min 27 seconds   

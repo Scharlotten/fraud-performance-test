@@ -1,0 +1,5 @@
+job name: fraud-detection-nb-f4lsz
+kubectl get events -n applications --sort-by='.lastTimestamp' | grep -E
+      '(fraud-detection-nb-f4lsz|fraud-detection-nb-h7t65)')
+      
+Took around ~ 19 minutes

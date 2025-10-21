@@ -1,0 +1,127 @@
+apiVersion: missioncontrol.datastax.com/v1beta2
+kind: MissionControlCluster
+metadata:
+  annotations:
+    missioncontrol.datastax.com/is-simple: enabled
+  creationTimestamp: "2025-10-21T11:21:16Z"
+  finalizers:
+  - missioncontrol.datastax.com/finalizer
+  generation: 1
+  name: cass4
+  namespace: perf-hq5ru64r
+  resourceVersion: "1761045694255327019"
+  uid: b4a612a4-90ea-45b2-b925-7f504caaf2b4
+spec:
+  createIssuer: true
+  dataApi:
+    port: 8181
+  encryption:
+    caIssuer:
+      certs:
+        certTemplate:
+          issuerRef:
+            name: ""
+          secretName: ""
+        createCerts: true
+      enabled: true
+    internodeEncryption:
+      certs:
+        certTemplate:
+          issuerRef:
+            name: ""
+          secretName: ""
+        createCerts: true
+      enabled: true
+    managementApiAuthEncryption:
+      certs:
+        certTemplate:
+          issuerRef:
+            name: ""
+          secretName: ""
+        createCerts: true
+      enabled: true
+  k8ssandra:
+    auth: true
+    cassandra:
+      config:
+        jvmOptions:
+          gc: G1GC
+          heapSize: 2Gi
+      datacenters:
+      - config:
+          jvmOptions:
+            gc: G1GC
+        datacenterName: dc-1
+        dseWorkloads: {}
+        metadata:
+          name: cass4-dc-1
+          pods: {}
+          services:
+            additionalSeedService: {}
+            allPodsService: {}
+            dcService: {}
+            nodePortService: {}
+            seedService: {}
+        networking: {}
+        perNodeConfigMapRef:
+          name: ""
+        racks:
+        - name: rc-1
+          nodeAffinityLabels:
+            topology.kubernetes.io/zone: us-east1-d
+        - name: rc-2
+          nodeAffinityLabels:
+            topology.kubernetes.io/zone: us-east1-b
+        - name: rc-3
+          nodeAffinityLabels:
+            topology.kubernetes.io/zone: us-east1-c
+        size: 6
+        stopped: false
+      metadata:
+        pods: {}
+        services:
+          additionalSeedService: {}
+          allPodsService: {}
+          dcService: {}
+          nodePortService: {}
+          seedService: {}
+      resources:
+        requests:
+          cpu: "1"
+          memory: 8Gi
+      serverType: cassandra
+      serverVersion: 4.0.4
+      storageConfig:
+        cassandraDataVolumeClaimSpec:
+          accessModes:
+          - ReadWriteOnce
+          resources:
+            requests:
+              storage: 20Gi
+          storageClassName: premium-rwo
+      superuserSecretRef:
+        name: cass4-superuser
+    secretsProvider: internal
+  metadata: {}
+status:
+  conditions:
+  - lastTransitionTime: "2025-10-21T11:21:34Z"
+    message: ""
+    reason: UpdatingIssuers
+    status: "False"
+    type: UpdatingIssuers
+  - lastTransitionTime: "2025-10-21T11:21:34Z"
+    message: ""
+    reason: UpdatingCertificates
+    status: "False"
+    type: UpdatingCertificates
+  - lastTransitionTime: "2025-10-21T11:21:34Z"
+    message: ""
+    reason: UpdatingReplicatedSecrets
+    status: "False"
+    type: UpdatingReplicatedSecrets
+  - lastTransitionTime: "2025-10-21T11:21:34Z"
+    message: UpdatingCluster
+    reason: UpdatingCluster
+    status: "True"
+    type: UpdatingCluster

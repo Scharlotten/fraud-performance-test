@@ -1,0 +1,75 @@
+Name:             fraud-detection-nb
+Namespace:        applications
+Selector:         batch.kubernetes.io/controller-uid=f6f47bdf-7c52-4544-b587-8d46b34217ac
+Labels:           batch.kubernetes.io/controller-uid=f6f47bdf-7c52-4544-b587-8d46b34217ac
+                  batch.kubernetes.io/job-name=fraud-detection-nb
+                  controller-uid=f6f47bdf-7c52-4544-b587-8d46b34217ac
+                  job-name=fraud-detection-nb
+Annotations:      <none>
+Parallelism:      1
+Completions:      1
+Completion Mode:  NonIndexed
+Suspend:          false
+Backoff Limit:    2
+Start Time:       Tue, 21 Oct 2025 12:40:02 +0100
+Completed At:     Tue, 21 Oct 2025 13:05:52 +0100
+Duration:         25m
+Pods Statuses:    0 Active (0 Ready) / 1 Succeeded / 0 Failed
+Pod Template:
+  Labels:  batch.kubernetes.io/controller-uid=f6f47bdf-7c52-4544-b587-8d46b34217ac
+           batch.kubernetes.io/job-name=fraud-detection-nb
+           controller-uid=f6f47bdf-7c52-4544-b587-8d46b34217ac
+           job-name=fraud-detection-nb
+  Containers:
+   nb:
+    Image:      nosqlbench/nosqlbench:latest
+    Port:       <none>
+    Host Port:  <none>
+    Args:
+      workloads/fraud_detection
+      default.schema
+      default.rampup
+      default.main
+      host=cass4-cass4-dc-1-service.perf-hq5ru64r.svc.cluster.local
+      username=cass4-superuser
+      password=yourPassword
+      localdc=dc-1
+      --progress
+      console:5s
+      --report-summary-to
+      stdout:20
+      errors=counter,warn
+      --report-interval
+      60
+    Limits:
+      cpu:     16
+      memory:  60Gi
+    Requests:
+      cpu:     12
+      memory:  32Gi
+    Environment:
+      JAVA_OPTS:  --enable-preview --enable-native-access=ALL-UNNAMED
+    Mounts:
+      /.nosqlbench from state (rw)
+      /logs from logs (rw)
+      /workloads from workload (rw)
+  Volumes:
+   workload:
+    Type:      ConfigMap (a volume populated by a ConfigMap)
+    Name:      fraud-detection-nb
+    Optional:  false
+   logs:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:     
+    SizeLimit:  <unset>
+   state:
+    Type:          EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:        
+    SizeLimit:     <unset>
+  Node-Selectors:  mission-control.datastax.com/role=application
+  Tolerations:     <none>
+Events:
+  Type    Reason            Age    From            Message
+  ----    ------            ----   ----            -------
+  Normal  SuccessfulCreate  30m    job-controller  Created pod: fraud-detection-nb-fbph9
+  Normal  Completed         4m29s  job-controller  Job completed

@@ -1,0 +1,242 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fraud-detection-nb
+  namespace: applications
+data:
+  fraud_detection.yaml: |
+    min_version: "5.17.1"
+    description: Fraud Detection Workload for HCD Cassandra with 5000 reads/sec and 5000 writes/sec
+
+    scenarios:
+      default:
+        schema: run driver=cql tags==block:schema threads==1 cycles==UNDEF
+        rampup: run driver=cql tags==block:rampup cycles==100000 threads=auto
+        main: run driver=cql tags==block:main-*.* cycles==TEMPLATE(main-cycles,100000000) threads=auto
+
+    bindings:
+      # Transaction identifiers
+      transaction_id: Hash(); ToString() -> String
+      user_id: Uniform(1,1000000); ToString() -> String
+      merchant_id: Uniform(1,50000); ToString() -> String
+      
+      # Transaction details
+      amount: Uniform(1.00,10000.00) -> double
+      currency: WeightedStrings('USD:50,EUR:30,GBP:15,CAD:5') -> String
+      transaction_type: WeightedStrings('PURCHASE:60,WITHDRAWAL:20,TRANSFER:15,PAYMENT:5') -> String
+      
+      # Location data
+      country_code: WeightedStrings('US:40,GB:20,CA:15,DE:10,FR:8,AU:4,JP:3') -> String
+      city: WeightedStrings('London:15,New York:12,Toronto:8,Berlin:6,Paris:5,Sydney:4,Tokyo:3,Other:47') -> String
+      ip_address: Template('192.168.{}.{}',Uniform(1,254),Uniform(1,254)) -> String
+      
+      # Device and channel
+      device_type: WeightedStrings('MOBILE:45,WEB:35,ATM:15,POS:5') -> String
+      device_id: Hash(); Mod(100000); ToString() -> String
+      channel: WeightedStrings('ONLINE:60,BRANCH:25,ATM:15') -> String
+      
+      # Risk scores and flags
+      risk_score: Uniform(0,1000) -> int
+      ml_fraud_score: Uniform(0.0,1.0) -> double
+      is_fraud: WeightedStrings('false:95,true:5')
+      fraud_type: WeightedStrings('NONE:90,CARD_FRAUD:4,ACCOUNT_TAKEOVER:3,SYNTHETIC:2,MONEY_LAUNDERING:1') -> String
+      
+      # Timestamps
+      transaction_timestamp: StartingEpochMillis('2024-01-01 00:00:00'); ToJavaInstant()
+      created_at: StartingEpochMillis('2024-01-01 00:00:00'); ToJavaInstant()
+      
+      # Additional fraud indicators
+      velocity_1h: Uniform(0,50) -> int
+      velocity_24h: Uniform(0,500) -> int
+      merchant_category: WeightedStrings('RETAIL:25,RESTAURANT:20,GAS:15,GROCERY:15,ONLINE:12,OTHER:13') -> String
+      
+      # Read operations - for selecting existing records
+      read_user_id: Uniform(1,1000000); ToString() -> String
+      read_transaction_id: Hash(); ToString() -> String
+
+    blocks:
+      schema:
+        params:
+          prepared: false
+        ops:
+          create_keyspace: |
+            CREATE KEYSPACE IF NOT EXISTS fraud_detection
+            WITH replication = {'class': 'NetworkTopologyStrategy', 'dc-1': '3'}
+            AND durable_writes = true;
+          
+          create_transactions_table: |
+            CREATE TABLE IF NOT EXISTS fraud_detection.transactions (
+              transaction_id text,
+              user_id text,
+              merchant_id text,
+              amount double,
+              currency text,
+              transaction_type text,
+              country_code text,
+              city text,
+              ip_address text,
+              device_type text,
+              device_id text,
+              channel text,
+              risk_score int,
+              ml_fraud_score double,
+              is_fraud text,
+              fraud_type text,
+              transaction_timestamp timestamp,
+              created_at timestamp,
+              velocity_1h int,
+              velocity_24h int,
+              merchant_category text,
+              PRIMARY KEY (transaction_id)
+            ) WITH bloom_filter_fp_chance = 0.01
+              AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
+              AND comment = 'Main transactions table for fraud detection'
+              AND compaction = {'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32', 'min_threshold': '4'}
+              AND compression = {'chunk_length_in_kb': '4', 'class': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+              AND default_time_to_live = 7776000
+              AND gc_grace_seconds = 864000
+              AND read_repair = 'BLOCKING'
+              AND speculative_retry = '99PERCENTILE';
+
+          create_user_transactions_table: |
+            CREATE TABLE IF NOT EXISTS fraud_detection.user_transactions (
+              user_id text,
+              transaction_timestamp timestamp,
+              transaction_id text,
+              amount double,
+              merchant_id text,
+              risk_score int,
+              is_fraud text,
+              PRIMARY KEY (user_id, transaction_timestamp, transaction_id)
+            ) WITH CLUSTERING ORDER BY (transaction_timestamp DESC, transaction_id ASC)
+              AND bloom_filter_fp_chance = 0.01
+              AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
+              AND comment = 'User transactions ordered by timestamp for fraud pattern analysis'
+              AND compaction = {'class': 'org.apache.cassandra.db.compaction.TimeWindowCompactionStrategy', 'max_threshold': '32', 'min_threshold': '4'}
+              AND compression = {'chunk_length_in_kb': '4', 'class': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+              AND default_time_to_live = 7776000
+              AND gc_grace_seconds = 864000;
+
+      rampup:
+        params:
+          cl: LOCAL_QUORUM
+        ops:
+          rampup_insert_transaction: |
+            INSERT INTO fraud_detection.transactions (
+              transaction_id, user_id, merchant_id, amount, currency, transaction_type,
+              country_code, city, ip_address, device_type, device_id, channel,
+              risk_score, ml_fraud_score, is_fraud, fraud_type, transaction_timestamp,
+              created_at, velocity_1h, velocity_24h, merchant_category
+            ) VALUES (
+              {transaction_id}, {user_id}, {merchant_id}, {amount}, {currency}, {transaction_type},
+              {country_code}, {city}, {ip_address}, {device_type}, {device_id}, {channel},
+              {risk_score}, {ml_fraud_score}, {is_fraud}, {fraud_type}, {transaction_timestamp},
+              {created_at}, {velocity_1h}, {velocity_24h}, {merchant_category}
+            );
+
+          rampup_insert_user_transaction: |
+            INSERT INTO fraud_detection.user_transactions (
+              user_id, transaction_timestamp, transaction_id, amount, merchant_id, risk_score, is_fraud
+            ) VALUES (
+              {user_id}, {transaction_timestamp}, {transaction_id}, {amount}, {merchant_id}, {risk_score}, {is_fraud}
+            );
+
+      main_read:
+        params:
+          ratio: 50
+          cl: LOCAL_QUORUM
+        ops:
+          read_transaction_by_id: |
+            SELECT * FROM fraud_detection.transactions WHERE transaction_id = {read_transaction_id};
+          
+          read_user_transactions: |
+            SELECT * FROM fraud_detection.user_transactions WHERE user_id = {read_user_id} LIMIT 10;
+
+      main_write:
+        params:
+          ratio: 50
+          cl: LOCAL_QUORUM
+        ops:
+          write_new_transaction: |
+            INSERT INTO fraud_detection.transactions (
+              transaction_id, user_id, merchant_id, amount, currency, transaction_type,
+              country_code, city, ip_address, device_type, device_id, channel,
+              risk_score, ml_fraud_score, is_fraud, fraud_type, transaction_timestamp,
+              created_at, velocity_1h, velocity_24h, merchant_category
+            ) VALUES (
+              {transaction_id}, {user_id}, {merchant_id}, {amount}, {currency}, {transaction_type},
+              {country_code}, {city}, {ip_address}, {device_type}, {device_id}, {channel},
+              {risk_score}, {ml_fraud_score}, {is_fraud}, {fraud_type}, {transaction_timestamp},
+              {created_at}, {velocity_1h}, {velocity_24h}, {merchant_category}
+            );
+
+          write_user_transaction: |
+            INSERT INTO fraud_detection.user_transactions (
+              user_id, transaction_timestamp, transaction_id, amount, merchant_id, risk_score, is_fraud
+            ) VALUES (
+              {user_id}, {transaction_timestamp}, {transaction_id}, {amount}, {merchant_id}, {risk_score}, {is_fraud}
+            );
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: fraud-detection-nb
+  namespace: applications
+spec:
+  template:
+    spec:
+      nodeSelector:
+        mission-control.datastax.com/role: application
+      containers:
+        - name: nb
+          image: nosqlbench/nosqlbench:latest
+          env:
+            - name: JAVA_OPTS
+              value: --enable-preview --enable-native-access=ALL-UNNAMED
+          args:
+            - workloads/fraud_detection
+            - default.schema
+            - default.rampup
+            - default.main
+            # Removed cyclerate for maximum throughput - runs as fast as possible
+            # Using threads=auto for optimal client connections
+            - host=cass4-cass4-dc-1-service.perf-hq5ru64r.svc.cluster.local
+            - username=cass4-superuser
+            - password=yourPassword
+            - localdc=dc-1
+            - --progress
+            - console:5s
+            - --report-summary-to
+            - stdout:20
+            - errors=counter,warn
+            - --report-interval
+            - "60"
+          resources:
+            requests:
+              cpu: "12"
+              memory: "32Gi"
+            limits:
+              cpu: "16"
+              memory: "60Gi"
+          volumeMounts:
+            - name: workload
+              mountPath: /workloads
+            - name: logs
+              mountPath: /logs
+            - name: state
+              mountPath: /.nosqlbench
+          imagePullPolicy: Always
+      volumes:
+        - name: workload
+          configMap:
+            name: fraud-detection-nb
+        - name: logs
+          emptyDir: {}
+        - name: state
+          emptyDir: {}
+      restartPolicy: Never
+  completions: 1
+  parallelism: 1
+  backoffLimit: 2

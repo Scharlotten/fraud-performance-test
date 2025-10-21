@@ -38,6 +38,92 @@ All clusters were deployed using **MissionControl Operator v1.15** on identical 
 
 ---
 
+## Database Schema Design
+
+### Table Architecture
+
+#### 1. Main Transactions Table (`fraud_detection.transactions`)
+**Purpose**: Primary transaction storage with comprehensive fraud detection attributes
+
+**Schema Highlights**:
+- **Primary Key**: `transaction_id` (partition key)
+- **Data Types**: 20 columns spanning text, double, int, timestamp types
+- **Compaction Strategy**: SizeTieredCompactionStrategy for high write throughput
+- **TTL**: 7,776,000 seconds (90 days)
+- **Compression**: LZ4Compressor with 4KB chunks
+
+**Estimated Row Size**: ~350 bytes per row
+- Text fields (transaction_id, user_id, merchant_id, etc.): ~180 bytes
+- Numeric fields (amount, risk_score, ml_fraud_score, etc.): ~60 bytes  
+- Timestamp fields: ~16 bytes
+- Categorical fields (currency, transaction_type, etc.): ~94 bytes
+
+**Sample Data:**
+```
+transaction_id      | amount     | currency | transaction_type | country_code | city   | device_type | is_fraud | risk_score
+--------------------+------------+----------+------------------+--------------+--------+-------------+----------+------------
+7667067912213249559 |  8304.5086 |      GBP |         TRANSFER |           DE |  Other |         ATM |    false |        830
+9001040773479899721 | 9749.21409 |      CAD |          PAYMENT |           JP |  Other |         POS |     true |        974
+1168386195310972831 | 1266.37353 |      USD |         PURCHASE |           US | London |      MOBILE |    false |        126
+```
+
+#### 2. User Transactions Table (`fraud_detection.user_transactions`)
+**Purpose**: Time-ordered transaction history per user for pattern analysis
+
+**Schema Highlights**:
+- **Primary Key**: `user_id` (partition key), `transaction_timestamp, transaction_id` (clustering keys)
+- **Clustering Order**: `transaction_timestamp DESC, transaction_id ASC`
+- **Compaction Strategy**: TimeWindowCompactionStrategy for time-series data
+- **Data Types**: 7 columns optimized for temporal queries
+
+**Estimated Row Size**: ~120 bytes per row
+- Primary/clustering keys: ~60 bytes
+- Transaction metadata: ~60 bytes
+
+**Sample Data:**
+```
+user_id | transaction_timestamp           | transaction_id      | amount     | is_fraud | merchant_id | risk_score
+--------+---------------------------------+---------------------+------------+----------+-------------+------------
+ 544844 | 2024-01-02 02:14:34.623000+0000 | 5030335829473577234 | 5448.90229 |    false |       27242 |        544
+ 544844 | 2024-01-02 01:45:37.883000+0000 | 5030332423006334831 |  5448.8986 |    false |       27242 |        544
+ 544844 | 2024-01-02 00:56:10.207000+0000 | 5030332372637010955 | 5448.89855 |    false |       27242 |        544
+```
+
+### Data Diversity & Testing Scope
+The workload incorporated **13 distinct data types** across both tables:
+- **Text**: UUIDs, user IDs, categorical values
+- **Numeric**: Doubles (amounts, ML scores), integers (risk scores, velocities)  
+- **Temporal**: Timestamp fields for transaction timing
+- **Geographic**: Country codes, city names, IP addresses
+- **Categorical**: Weighted distributions for realistic data patterns
+
+---
+
+## Workload Configuration
+
+### NoSQLBench Workload Design
+```yaml
+Test Phases:
+1. Schema Creation: 3 DDL operations
+2. Rampup Phase: 100,000 insert operations 
+3. Main Phase: 100,000,000 mixed read/write operations
+
+Operation Mix:
+- 50% Read Operations (transaction lookups, user history queries)
+- 50% Write Operations (dual table inserts per transaction)
+
+Threading: threads=auto (optimal client connection scaling)
+Rate Limiting: Uncapped for maximum throughput testing
+```
+
+### Test Execution Parameters
+- **Target Operations**: 100 million operations
+- **Actual Records Inserted**: 200 million (100M per table)
+- **Consistency Level**: LOCAL_QUORUM
+- **Client Auto-scaling**: Leveraged NoSQLBench's automatic thread optimization
+
+---
+
 ## Performance Test Results
 
 ### Latency Performance Comparison (100M Operations)

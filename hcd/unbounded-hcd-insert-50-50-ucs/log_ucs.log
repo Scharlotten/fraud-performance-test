@@ -1,0 +1,788 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/nb5.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.datastax.oss.driver.shaded.guava.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/nb5.jar)
+WARNING: Please consider reporting this to the maintainers of class com.datastax.oss.driver.shaded.guava.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+schema (pending,current,complete)=(0,1,2) 100.00% (last report)
+rampup (pending,current,complete)=(0,0,100000) 100.00% (last report)
+main (pending,current,complete)=(99508819,159,491023) 0.49%
+main (pending,current,complete)=(98891918,160,1107923) 1.11%
+main (pending,current,complete)=(98291936,159,1707905) 1.71%
+main (pending,current,complete)=(97699751,160,2300089) 2.30%
+main (pending,current,complete)=(97116003,159,2883838) 2.88%
+main (pending,current,complete)=(96521352,158,3478490) 3.48%
+main (pending,current,complete)=(95938024,157,4061819) 4.06%
+main (pending,current,complete)=(95360643,159,4639198) 4.64%
+main (pending,current,complete)=(94772423,160,5227417) 5.23%
+main (pending,current,complete)=(94189925,159,5809916) 5.81%
+main (pending,current,complete)=(93634165,157,6365678) 6.37%
+main (pending,current,complete)=(93085980,158,6913862) 6.91%
+main (pending,current,complete)=(92545543,159,7454298) 7.45%
+main (pending,current,complete)=(91987746,158,8012096) 8.01%
+main (pending,current,complete)=(91417074,160,8582768) 8.58%
+main (pending,current,complete)=(90851263,160,9148577) 9.15%
+main (pending,current,complete)=(90294339,160,9705501) 9.71%
+main (pending,current,complete)=(89730577,160,10269263) 10.27%
+main (pending,current,complete)=(89176061,157,10823782) 10.82%
+main (pending,current,complete)=(88608237,160,11391603) 11.39%
+main (pending,current,complete)=(88051541,160,11948300) 11.95%
+main (pending,current,complete)=(87499663,160,12500177) 12.50%
+main (pending,current,complete)=(86976364,160,13023476) 13.02%
+main (pending,current,complete)=(86459005,157,13540838) 13.54%
+main (pending,current,complete)=(85941932,157,14057911) 14.06%
+main (pending,current,complete)=(85401002,159,14598839) 14.60%
+main (pending,current,complete)=(84850755,159,15149087) 15.15%
+main (pending,current,complete)=(84284819,160,15715021) 15.72%
+main (pending,current,complete)=(83737591,158,16262251) 16.26%
+main (pending,current,complete)=(83182373,160,16817467) 16.82%
+main (pending,current,complete)=(82624650,160,17375190) 17.38%
+main (pending,current,complete)=(82075039,160,17924801) 17.92%
+main (pending,current,complete)=(81521175,157,18478668) 18.48%
+main (pending,current,complete)=(80977092,160,19022748) 19.02%
+main (pending,current,complete)=(80443515,160,19556325) 19.56%
+main (pending,current,complete)=(79912804,159,20087037) 20.09%
+main (pending,current,complete)=(79369511,157,20630332) 20.63%
+main (pending,current,complete)=(78831651,159,21168190) 21.17%
+main (pending,current,complete)=(78276540,158,21723302) 21.72%
+main (pending,current,complete)=(77734311,160,22265529) 22.27%
+main (pending,current,complete)=(77192537,159,22807304) 22.81%
+main (pending,current,complete)=(76647653,160,23352187) 23.35%
+main (pending,current,complete)=(76101751,159,23898090) 23.90%
+main (pending,current,complete)=(75569149,160,24430691) 24.43%
+main (pending,current,complete)=(75031510,158,24968332) 24.97%
+main (pending,current,complete)=(74505749,160,25494093) 25.49%
+main (pending,current,complete)=(74004859,160,25994981) 26.00%
+main (pending,current,complete)=(73486454,160,26513386) 26.51%
+main (pending,current,complete)=(72971025,160,27028815) 27.03%
+main (pending,current,complete)=(72467327,160,27532513) 27.53%
+main (pending,current,complete)=(71957943,160,28041897) 28.04%
+main (pending,current,complete)=(71440061,159,28559780) 28.56%
+main (pending,current,complete)=(70930398,159,29069444) 29.07%
+main (pending,current,complete)=(70398559,160,29601281) 29.60%
+main (pending,current,complete)=(69875154,159,30124688) 30.12%
+main (pending,current,complete)=(69365811,157,30634032) 30.63%
+main (pending,current,complete)=(68860237,160,31139603) 31.14%
+main (pending,current,complete)=(68354573,160,31645267) 31.65%
+main (pending,current,complete)=(67851538,160,32148302) 32.15%
+main (pending,current,complete)=(67331398,160,32668442) 32.67%
+main (pending,current,complete)=(66814517,160,33185324) 33.19%
+main (pending,current,complete)=(66301867,160,33697973) 33.70%
+main (pending,current,complete)=(65783332,159,34216509) 34.22%
+main (pending,current,complete)=(65246012,160,34753829) 34.75%
+main (pending,current,complete)=(64725284,160,35274558) 35.27%
+main (pending,current,complete)=(64181612,158,35818230) 35.82%
+main (pending,current,complete)=(63652291,160,36347550) 36.35%
+main (pending,current,complete)=(63127155,160,36872687) 36.87%
+main (pending,current,complete)=(62621204,158,37378638) 37.38%
+main (pending,current,complete)=(62109373,158,37890472) 37.89%
+main (pending,current,complete)=(61607633,158,38392209) 38.39%
+main (pending,current,complete)=(61092165,158,38907678) 38.91%
+main (pending,current,complete)=(60573008,159,39426834) 39.43%
+main (pending,current,complete)=(60064658,156,39935187) 39.94%
+main (pending,current,complete)=(59559761,158,40440081) 40.44%
+main (pending,current,complete)=(59048121,159,40951721) 40.95%
+main (pending,current,complete)=(58531466,158,41468376) 41.47%
+main (pending,current,complete)=(58005004,158,41994839) 41.99%
+main (pending,current,complete)=(57475114,160,42524726) 42.52%
+main (pending,current,complete)=(56961162,159,43038680) 43.04%
+main (pending,current,complete)=(56451235,156,43548609) 43.55%
+main (pending,current,complete)=(55945127,160,44054713) 44.05%
+main (pending,current,complete)=(55427079,160,44572764) 44.57%
+main (pending,current,complete)=(54900613,160,45099228) 45.10%
+main (pending,current,complete)=(54386031,160,45613809) 45.61%
+main (pending,current,complete)=(53873089,157,46126754) 46.13%
+main (pending,current,complete)=(53363420,159,46636422) 46.64%
+main (pending,current,complete)=(52854145,159,47145697) 47.15%
+main (pending,current,complete)=(52336938,158,47662904) 47.66%
+main (pending,current,complete)=(51807365,159,48192476) 48.19%
+main (pending,current,complete)=(51293918,159,48705923) 48.71%
+main (pending,current,complete)=(50779192,157,49220652) 49.22%
+main (pending,current,complete)=(50280853,159,49718989) 49.72%
+main (pending,current,complete)=(49787389,160,50212451) 50.21%
+main (pending,current,complete)=(49306432,160,50693408) 50.69%
+main (pending,current,complete)=(48798275,159,51201567) 51.20%
+main (pending,current,complete)=(48302192,159,51697651) 51.70%
+main (pending,current,complete)=(47813796,159,52186047) 52.19%
+main (pending,current,complete)=(47332211,160,52667629) 52.67%
+main (pending,current,complete)=(46856330,160,53143510) 53.14%
+main (pending,current,complete)=(46399702,160,53600138) 53.60%
+main (pending,current,complete)=(45919540,159,54080301) 54.08%
+main (pending,current,complete)=(45427808,160,54572032) 54.57%
+main (pending,current,complete)=(44954315,159,55045526) 55.05%
+main (pending,current,complete)=(44470843,160,55528997) 55.53%
+main (pending,current,complete)=(44000071,158,55999772) 56.00%
+main (pending,current,complete)=(43529220,159,56470621) 56.47%
+main (pending,current,complete)=(43044384,160,56955456) 56.96%
+main (pending,current,complete)=(42539828,160,57460012) 57.46%
+main (pending,current,complete)=(42026270,157,57973574) 57.97%
+main (pending,current,complete)=(41521171,158,58478671) 58.48%
+main (pending,current,complete)=(41018074,160,58981766) 58.98%
+main (pending,current,complete)=(40532316,159,59467525) 59.47%
+main (pending,current,complete)=(40023755,160,59976085) 59.98%
+main (pending,current,complete)=(39506209,159,60493632) 60.49%
+main (pending,current,complete)=(38986057,159,61013787) 61.01%
+main (pending,current,complete)=(38472369,160,61527472) 61.53%
+main (pending,current,complete)=(37969101,159,62030742) 62.03%
+main (pending,current,complete)=(37475339,159,62524502) 62.52%
+main (pending,current,complete)=(36963470,160,63036372) 63.04%
+main (pending,current,complete)=(36441218,159,63558625) 63.56%
+main (pending,current,complete)=(35916657,159,64083184) 64.08%
+main (pending,current,complete)=(35382951,158,64616892) 64.62%
+main (pending,current,complete)=(34867557,158,65132286) 65.13%
+main (pending,current,complete)=(34364745,160,65635096) 65.64%
+main (pending,current,complete)=(33850345,158,66149499) 66.15%
+main (pending,current,complete)=(33344762,160,66655078) 66.66%
+main (pending,current,complete)=(32826067,160,67173773) 67.17%
+main (pending,current,complete)=(32301909,160,67697931) 67.70%
+main (pending,current,complete)=(31797165,158,68202680) 68.20%
+main (pending,current,complete)=(31286153,160,68713688) 68.71%
+main (pending,current,complete)=(30765958,159,69233883) 69.23%
+main (pending,current,complete)=(30238734,159,69761108) 69.76%
+main (pending,current,complete)=(29723896,160,70275947) 70.28%
+main (pending,current,complete)=(29200803,160,70799037) 70.80%
+main (pending,current,complete)=(28692348,157,71307495) 71.31%
+main (pending,current,complete)=(28188029,157,71811814) 71.81%
+main (pending,current,complete)=(27685406,159,72314436) 72.31%
+main (pending,current,complete)=(27182020,158,72817822) 72.82%
+main (pending,current,complete)=(26678894,158,73320950) 73.32%
+main (pending,current,complete)=(26169234,160,73830606) 73.83%
+main (pending,current,complete)=(25663175,158,74336668) 74.34%
+main (pending,current,complete)=(25180878,160,74818966) 74.82%
+main (pending,current,complete)=(24692932,156,75306912) 75.31%
+main (pending,current,complete)=(24198090,159,75801752) 75.80%
+main (pending,current,complete)=(23712443,158,76287402) 76.29%
+main (pending,current,complete)=(23219277,160,76780565) 76.78%
+main (pending,current,complete)=(22735801,159,77264040) 77.26%
+main (pending,current,complete)=(22254661,160,77745179) 77.75%
+main (pending,current,complete)=(21769670,159,78230174) 78.23%
+main (pending,current,complete)=(21269284,159,78730557) 78.73%
+main (pending,current,complete)=(20780511,160,79219329) 79.22%
+main (pending,current,complete)=(20300946,160,79698896) 79.70%
+main (pending,current,complete)=(19823793,160,80176047) 80.18%
+main (pending,current,complete)=(19340530,160,80659310) 80.66%
+main (pending,current,complete)=(18856932,159,81142911) 81.14%
+main (pending,current,complete)=(18352411,159,81647433) 81.65%
+main (pending,current,complete)=(17857419,160,82142421) 82.14%
+main (pending,current,complete)=(17352543,160,82647299) 82.65%
+main (pending,current,complete)=(16852122,160,83147718) 83.15%
+main (pending,current,complete)=(16332406,158,83667436) 83.67%
+main (pending,current,complete)=(15819883,159,84179962) 84.18%
+main (pending,current,complete)=(15312358,160,84687482) 84.69%
+main (pending,current,complete)=(14802841,158,85197003) 85.20%
+main (pending,current,complete)=(14305957,159,85693884) 85.69%
+main (pending,current,complete)=(13815853,159,86183988) 86.18%
+main (pending,current,complete)=(13321563,159,86678278) 86.68%
+main (pending,current,complete)=(12830569,160,87169271) 87.17%
+main (pending,current,complete)=(12323370,160,87676470) 87.68%
+main (pending,current,complete)=(11794663,160,88205177) 88.21%
+main (pending,current,complete)=(11292866,159,88706976) 88.71%
+main (pending,current,complete)=(10780609,160,89219231) 89.22%
+main (pending,current,complete)=(10276404,160,89723437) 89.72%
+main (pending,current,complete)=(9763273,159,90236568) 90.24%
+main (pending,current,complete)=(9264034,158,90735808) 90.74%
+main (pending,current,complete)=(8765030,160,91234810) 91.23%
+main (pending,current,complete)=(8277342,158,91722500) 91.72%
+main (pending,current,complete)=(7795158,160,92204684) 92.20%
+main (pending,current,complete)=(7301727,158,92698115) 92.70%
+main (pending,current,complete)=(6793510,160,93206331) 93.21%
+main (pending,current,complete)=(6283052,159,93716790) 93.72%
+main (pending,current,complete)=(5776004,157,94223839) 94.22%
+main (pending,current,complete)=(5269687,158,94730155) 94.73%
+main (pending,current,complete)=(4752014,160,95247826) 95.25%
+main (pending,current,complete)=(4247393,159,95752450) 95.75%
+main (pending,current,complete)=(3741039,158,96258804) 96.26%
+main (pending,current,complete)=(3242287,160,96757554) 96.76%
+main (pending,current,complete)=(2750414,159,97249427) 97.25%
+main (pending,current,complete)=(2263938,160,97735906) 97.74%
+main (pending,current,complete)=(1771368,160,98228473) 98.23%
+main (pending,current,complete)=(1278310,160,98721530) 98.72%
+main (pending,current,complete)=(781185,160,99218656) 99.22%
+main (pending,current,complete)=(289895,159,99709946) 99.71%
+main (pending,current,complete)=(0,0,100000000) 100.00% (last report)
+10/21/25, 10:39:57 AM ==========================================================
+
+-- Gauges ----------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_total",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_5m",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_15m",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="ops_active",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_1m",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="errors_total",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="ops_complete",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             value = 3.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="ops_pending",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="threads",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             value = 1.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="ops_complete",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             value = 100000.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_1m",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_total",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="threads",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             value = 160.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="ops_pending",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="ops_active",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="errors_total",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_5m",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_15m",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="ops_pending",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="ops_complete",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             value = 1.0E8
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_total",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_15m",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             value = -5.196206457872833E-5
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="ops_active",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="threads",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             value = 160.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_5m",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             value = -5.476651648662023E-6
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="errors_total",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_1m",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             value = 4.206560052344566E-6
+
+-- Counters --------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="pending_ops",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="pending_ops",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="pending_ops",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 0
+
+-- Histograms ------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="tries",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 3
+               min = 1
+               max = 1
+              mean = 1.00
+            stddev = 0.00
+            median = 1.00
+              75% <= 1.00
+              95% <= 1.00
+              98% <= 1.00
+              99% <= 1.00
+            99.9% <= 1.00
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="tries",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000
+               min = 1
+               max = 1
+              mean = 1.00
+            stddev = 0.00
+            median = 1.00
+              75% <= 1.00
+              95% <= 1.00
+              98% <= 1.00
+              99% <= 1.00
+            99.9% <= 1.00
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="tries",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000000
+               min = 1
+               max = 1
+              mean = 1.00
+            stddev = 0.00
+            median = 1.00
+              75% <= 1.00
+              95% <= 1.00
+              98% <= 1.00
+              99% <= 1.00
+            99.9% <= 1.00
+
+-- Timers ----------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="strides",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 1
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 5255462912.00 nanoseconds
+               max = 5255725055.00 nanoseconds
+              mean = 5255593984.00 nanoseconds
+            stddev = 0.00 nanoseconds
+            median = 5255725055.00 nanoseconds
+              75% <= 5255725055.00 nanoseconds
+              95% <= 5255725055.00 nanoseconds
+              98% <= 5255725055.00 nanoseconds
+              99% <= 5255725055.00 nanoseconds
+            99.9% <= 5255725055.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="execute",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1113194496.00 nanoseconds
+               max = 1918107647.00 nanoseconds
+              mean = 1427166549.33 nanoseconds
+            stddev = 351599633.58 nanoseconds
+            median = 1250230271.00 nanoseconds
+              75% <= 1918107647.00 nanoseconds
+              95% <= 1918107647.00 nanoseconds
+              98% <= 1918107647.00 nanoseconds
+              99% <= 1918107647.00 nanoseconds
+            99.9% <= 1918107647.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="read_input",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 2
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 159488.00 nanoseconds
+               max = 1160191.00 nanoseconds
+              mean = 659826.00 nanoseconds
+            stddev = 500334.00 nanoseconds
+            median = 159495.00 nanoseconds
+              75% <= 1160191.00 nanoseconds
+              95% <= 1160191.00 nanoseconds
+              98% <= 1160191.00 nanoseconds
+              99% <= 1160191.00 nanoseconds
+            99.9% <= 1160191.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="cycles_servicetime",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1257242624.00 nanoseconds
+               max = 2065170431.00 nanoseconds
+              mean = 1750979925.33 nanoseconds
+            stddev = 353400765.17 nanoseconds
+            median = 1930559487.00 nanoseconds
+              75% <= 2065170431.00 nanoseconds
+              95% <= 2065170431.00 nanoseconds
+              98% <= 2065170431.00 nanoseconds
+              99% <= 2065170431.00 nanoseconds
+            99.9% <= 2065170431.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="bind",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 6873600.00 nanoseconds
+               max = 940736511.00 nanoseconds
+              mean = 319973504.00 nanoseconds
+            stddev = 438939792.39 nanoseconds
+            median = 12326911.00 nanoseconds
+              75% <= 940736511.00 nanoseconds
+              95% <= 940736511.00 nanoseconds
+              98% <= 940736511.00 nanoseconds
+              99% <= 940736511.00 nanoseconds
+            99.9% <= 940736511.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="result",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1117257728.00 nanoseconds
+               max = 1918173183.00 nanoseconds
+              mean = 1428586496.00 nanoseconds
+            stddev = 350401734.32 nanoseconds
+            median = 1250361343.00 nanoseconds
+              75% <= 1918173183.00 nanoseconds
+              95% <= 1918173183.00 nanoseconds
+              98% <= 1918173183.00 nanoseconds
+              99% <= 1918173183.00 nanoseconds
+            99.9% <= 1918173183.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="verifier",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 13045.00 nanoseconds
+               max = 71431.00 nanoseconds
+              mean = 34713.00 nanoseconds
+            stddev = 26103.08 nanoseconds
+            median = 19664.00 nanoseconds
+              75% <= 71431.00 nanoseconds
+              95% <= 71431.00 nanoseconds
+              98% <= 71431.00 nanoseconds
+              99% <= 71431.00 nanoseconds
+            99.9% <= 71431.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="result_success",node="10.100.9.50",scenario="default.schema",session="oD6hVXi",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1117257728.00 nanoseconds
+               max = 1918173183.00 nanoseconds
+              mean = 1428586496.00 nanoseconds
+            stddev = 350401734.32 nanoseconds
+            median = 1250361343.00 nanoseconds
+              75% <= 1918173183.00 nanoseconds
+              95% <= 1918173183.00 nanoseconds
+              98% <= 1918173183.00 nanoseconds
+              99% <= 1918173183.00 nanoseconds
+            99.9% <= 1918173183.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="strides",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 50000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1856960.00 nanoseconds
+               max = 317439999.00 nanoseconds
+              mean = 6115003.06 nanoseconds
+            stddev = 17193523.54 nanoseconds
+            median = 4097919.00 nanoseconds
+              75% <= 5285119.00 nanoseconds
+              95% <= 11001855.00 nanoseconds
+              98% <= 14869503.00 nanoseconds
+              99% <= 22932479.00 nanoseconds
+            99.9% <= 299696127.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="bind",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 2832.00 nanoseconds
+               max = 273088511.00 nanoseconds
+              mean = 467266.49 nanoseconds
+            stddev = 10367307.85 nanoseconds
+            median = 17072.00 nanoseconds
+              75% <= 25420.00 nanoseconds
+              95% <= 74083.00 nanoseconds
+              98% <= 189959.00 nanoseconds
+              99% <= 416975.00 nanoseconds
+            99.9% <= 255623167.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="result_success",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 775456.00 nanoseconds
+               max = 77094911.00 nanoseconds
+              mean = 2542273.57 nanoseconds
+            stddev = 3086930.51 nanoseconds
+            median = 1971455.00 nanoseconds
+              75% <= 2631167.00 nanoseconds
+              95% <= 5209087.00 nanoseconds
+              98% <= 7557119.00 nanoseconds
+              99% <= 10303999.00 nanoseconds
+            99.9% <= 59686911.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="read_input",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 50160
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 64.00 nanoseconds
+               max = 869727.00 nanoseconds
+              mean = 1100.07 nanoseconds
+            stddev = 8785.24 nanoseconds
+            median = 710.00 nanoseconds
+              75% <= 1005.00 nanoseconds
+              95% <= 1372.00 nanoseconds
+              98% <= 3314.00 nanoseconds
+              99% <= 5082.00 nanoseconds
+            99.9% <= 62753.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="execute",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 772672.00 nanoseconds
+               max = 72429567.00 nanoseconds
+              mean = 2530643.21 nanoseconds
+            stddev = 2971078.19 nanoseconds
+            median = 1966911.00 nanoseconds
+              75% <= 2626303.00 nanoseconds
+              95% <= 5196031.00 nanoseconds
+              98% <= 7545087.00 nanoseconds
+              99% <= 10263551.00 nanoseconds
+            99.9% <= 59684863.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="result",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 775456.00 nanoseconds
+               max = 77094911.00 nanoseconds
+              mean = 2542273.57 nanoseconds
+10/21/25, 10:39:58 AM ==========================================================
+
+-- Gauges ----------------------------------------------------------------------
+{instance="default",jobname="nosqlbench",name="on_heap_memory_committed",node="10.100.9.50",session="oD6hVXi"}
+             value = 1.3839106048E10
+{instance="default",jobname="nosqlbench",name="session_time",node="10.100.9.50",session="oD6hVXi"}
+             value = 8.3270650858029E13
+{instance="default",jobname="nosqlbench",name="off_heap_memory_max",node="10.100.9.50",session="oD6hVXi"}
+             value = -1.0
+{instance="default",jobname="nosqlbench",name="open_file_descriptors",node="10.100.9.50",session="oD6hVXi"}
+             value = 12.0
+{instance="default",jobname="nosqlbench",name="on_heap_memory_max",node="10.100.9.50",session="oD6hVXi"}
+             value = 1.610612736E10
+{instance="default",jobname="nosqlbench",name="off_heap_memory_used",node="10.100.9.50",session="oD6hVXi"}
+             value = 6.0159168E7
+{instance="default",jobname="nosqlbench",name="on_heap_memory_used",node="10.100.9.50",session="oD6hVXi"}
+             value = 3.326083072E9
+{instance="default",jobname="nosqlbench",name="off_heap_memory_committed",node="10.100.9.50",session="oD6hVXi"}
+             value = 7.4186752E7
+{instance="default",jobname="nosqlbench",name="swap_used",node="10.100.9.50",session="oD6hVXi"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="lo_tx_packets",node="10.100.9.50",session="oD6hVXi"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="loadavg_1min",node="10.100.9.50",session="oD6hVXi"}
+             value = 9.49
+{instance="default",jobname="nosqlbench",name="loadavg_5min",node="10.100.9.50",session="oD6hVXi"}
+             value = 9.01
+{instance="default",jobname="nosqlbench",name="eth0_rx_bytes",node="10.100.9.50",session="oD6hVXi"}
+             value = 2.3020341795E10
+{instance="default",jobname="nosqlbench",name="lo_rx_bytes",node="10.100.9.50",session="oD6hVXi"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="lo_rx_packets",node="10.100.9.50",session="oD6hVXi"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="loadavg_15min",node="10.100.9.50",session="oD6hVXi"}
+             value = 6.19
+{instance="default",jobname="nosqlbench",name="swap_free",node="10.100.9.50",session="oD6hVXi"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="lo_tx_bytes",node="10.100.9.50",session="oD6hVXi"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="mem_free",node="10.100.9.50",session="oD6hVXi"}
+             value = 4.7573204E7
+{instance="default",jobname="nosqlbench",name="swap_total",node="10.100.9.50",session="oD6hVXi"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="cpu_system",node="10.100.9.50",session="oD6hVXi"}
+             value = 737697.0
+{instance="default",jobname="nosqlbench",name="cpu_iowait",node="10.100.9.50",session="oD6hVXi"}
+             value = 147421.0
+{instance="default",jobname="nosqlbench",name="cpu_idle",node="10.100.9.50",session="oD6hVXi"}
+             value = 1.29872523E8
+{instance="default",jobname="nosqlbench",name="eth0_rx_packets",node="10.100.9.50",session="oD6hVXi"}
+             value = 6.7233996E7
+{instance="default",jobname="nosqlbench",name="cpu_total",node="10.100.9.50",session="oD6hVXi"}
+             value = 1.3291144E8
+{instance="default",jobname="nosqlbench",name="mem_total",node="10.100.9.50",session="oD6hVXi"}
+             value = 6.5851524E7
+{instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.50",session="oD6hVXi"}
+             value = 1639083.0
+{instance="default",jobname="nosqlbench",name="mem_cache",node="10.100.9.50",session="oD6hVXi"}
+             value = 1.6594224E7
+{instance="default",jobname="nosqlbench",name="mem_used",node="10.100.9.50",session="oD6hVXi"}
+             value = 1.5646416E7
+{instance="default",jobname="nosqlbench",name="eth0_tx_bytes",node="10.100.9.50",session="oD6hVXi"}
+             value = 2.001333798E10
+{instance="default",jobname="nosqlbench",name="eth0_tx_packets",node="10.100.9.50",session="oD6hVXi"}
+             value = 6.8156294E7
+{instance="default",jobname="nosqlbench",name="mem_available",node="10.100.9.50",session="oD6hVXi"}
+             value = 5.0205108E7
+{instance="default",jobname="nosqlbench",name="mem_buffered",node="10.100.9.50",session="oD6hVXi"}
+             value = 108224.0
+
+
+            stddev = 3086930.51 nanoseconds
+            median = 1971455.00 nanoseconds
+              75% <= 2631167.00 nanoseconds
+              95% <= 5209087.00 nanoseconds
+              98% <= 7557119.00 nanoseconds
+              99% <= 10303999.00 nanoseconds
+            99.9% <= 59686911.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="cycles_servicetime",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 787264.00 nanoseconds
+               max = 291651583.00 nanoseconds
+              mean = 3051749.65 nanoseconds
+            stddev = 11467676.93 nanoseconds
+            median = 2004095.00 nanoseconds
+              75% <= 2672383.00 nanoseconds
+              95% <= 5307903.00 nanoseconds
+              98% <= 7962623.00 nanoseconds
+              99% <= 11318783.00 nanoseconds
+            99.9% <= 271007743.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="verifier",node="10.100.9.50",scenario="default.rampup",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 252.00 nanoseconds
+               max = 2360447.00 nanoseconds
+              mean = 1270.23 nanoseconds
+            stddev = 12321.77 nanoseconds
+            median = 863.00 nanoseconds
+              75% <= 1021.00 nanoseconds
+              95% <= 1397.00 nanoseconds
+              98% <= 1836.00 nanoseconds
+              99% <= 5667.00 nanoseconds
+            99.9% <= 82767.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="cycles_servicetime",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 585696.00 nanoseconds
+               max = 219398143.00 nanoseconds
+              mean = 1546687.28 nanoseconds
+            stddev = 1185312.59 nanoseconds
+            median = 1380415.00 nanoseconds
+              75% <= 1615103.00 nanoseconds
+              95% <= 2144127.00 nanoseconds
+              98% <= 2594943.00 nanoseconds
+              99% <= 4641279.00 nanoseconds
+            99.9% <= 17078271.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="result_success",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 581600.00 nanoseconds
+               max = 123969535.00 nanoseconds
+              mean = 1536637.29 nanoseconds
+            stddev = 1156561.21 nanoseconds
+            median = 1370431.00 nanoseconds
+              75% <= 1606463.00 nanoseconds
+              95% <= 2136703.00 nanoseconds
+              98% <= 2587135.00 nanoseconds
+              99% <= 4604415.00 nanoseconds
+            99.9% <= 17060863.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="verifier",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 41.00 nanoseconds
+               max = 885759.00 nanoseconds
+              mean = 333.18 nanoseconds
+            stddev = 726.15 nanoseconds
+            median = 278.00 nanoseconds
+              75% <= 368.00 nanoseconds
+              95% <= 574.00 nanoseconds
+              98% <= 692.00 nanoseconds
+              99% <= 790.00 nanoseconds
+            99.9% <= 10992.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="read_input",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 500160
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 37.00 nanoseconds
+               max = 1068735.00 nanoseconds
+              mean = 209.74 nanoseconds
+            stddev = 1632.34 nanoseconds
+            median = 150.00 nanoseconds
+              75% <= 205.00 nanoseconds
+              95% <= 448.00 nanoseconds
+              98% <= 624.00 nanoseconds
+              99% <= 856.00 nanoseconds
+            99.9% <= 8543.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="result",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 581600.00 nanoseconds
+               max = 123969535.00 nanoseconds
+              mean = 1536637.29 nanoseconds
+            stddev = 1156561.21 nanoseconds
+            median = 1370431.00 nanoseconds
+              75% <= 1606463.00 nanoseconds
+              95% <= 2136703.00 nanoseconds
+              98% <= 2587135.00 nanoseconds
+              99% <= 4604415.00 nanoseconds
+            99.9% <= 17060863.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="strides",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 500000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 233824256.00 nanoseconds
+               max = 655065087.00 nanoseconds
+              mean = 309584216.65 nanoseconds
+            stddev = 25366200.26 nanoseconds
+            median = 308133887.00 nanoseconds
+              75% <= 324714495.00 nanoseconds
+              95% <= 352452607.00 nanoseconds
+              98% <= 365494271.00 nanoseconds
+              99% <= 374734847.00 nanoseconds
+            99.9% <= 408027135.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="bind",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 652.00 nanoseconds
+               max = 206872575.00 nanoseconds
+              mean = 6999.87 nanoseconds
+            stddev = 247085.78 nanoseconds
+            median = 4543.00 nanoseconds
+              75% <= 9803.00 nanoseconds
+              95% <= 16764.00 nanoseconds
+              98% <= 22213.00 nanoseconds
+              99% <= 27704.00 nanoseconds
+            99.9% <= 49533.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="execute",node="10.100.9.50",scenario="default.main",session="oD6hVXi",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 565952.00 nanoseconds
+               max = 123965439.00 nanoseconds
+              mean = 1534509.10 nanoseconds
+            stddev = 1156233.96 nanoseconds
+            median = 1368383.00 nanoseconds
+              75% <= 1604415.00 nanoseconds
+              95% <= 2134527.00 nanoseconds
+              98% <= 2584447.00 nanoseconds
+              99% <= 4586751.00 nanoseconds
+            99.9% <= 17058815.00 nanoseconds
+
+
+10/21/25, 10:39:59 AM ==========================================================
+
+-- Gauges ----------------------------------------------------------------------
+{instance="default",jobname="nosqlbench",name="on_heap_memory_committed",node="10.100.9.50",session="oD6hVXi"}
+             value = 1.3839106048E10
+{instance="default",jobname="nosqlbench",name="session_time",node="10.100.9.50",session="oD6hVXi"}
+             value = 8.3271309540877E13
+{instance="default",jobname="nosqlbench",name="off_heap_memory_max",node="10.100.9.50",session="oD6hVXi"}
+             value = -1.0
+{instance="default",jobname="nosqlbench",name="open_file_descriptors",node="10.100.9.50",session="oD6hVXi"}
+             value = 12.0
+{instance="default",jobname="nosqlbench",name="on_heap_memory_max",node="10.100.9.50",session="oD6hVXi"}
+             value = 1.610612736E10
+{instance="default",jobname="nosqlbench",name="off_heap_memory_used",node="10.100.9.50",session="oD6hVXi"}
+             value = 6.0273432E7
+{instance="default",jobname="nosqlbench",name="on_heap_memory_used",node="10.100.9.50",session="oD6hVXi"}
+             value = 4.17333248E8
+{instance="default",jobname="nosqlbench",name="off_heap_memory_committed",node="10.100.9.50",session="oD6hVXi"}
+             value = 7.4252288E7
+
+

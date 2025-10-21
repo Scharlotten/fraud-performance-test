@@ -1,0 +1,2063 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/nb5.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.datastax.oss.driver.shaded.guava.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/nb5.jar)
+WARNING: Please consider reporting this to the maintainers of class com.datastax.oss.driver.shaded.guava.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+    2477 WARN  [s0-io-3] DefaultTopologyMonitor [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    2479 WARN  [s0-io-3] DefaultTopologyMonitor [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    2480 WARN  [s0-io-3] DefaultTopologyMonitor [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    2481 WARN  [s0-io-3] DefaultTopologyMonitor [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    2481 WARN  [s0-io-3] DefaultTopologyMonitor [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    2482 WARN  [s0-io-3] DefaultTopologyMonitor [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    4859 WARN  [schema:001] ERRORS       error with cycle 0 errmsg: Error in space '0': Query timed out after PT2S
+schema (pending,current,complete)=(0,1,2) 100.00% (last report)
+    9927 WARN  [s1-io-3] DefaultTopologyMonitor [s1] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    9927 WARN  [s1-io-3] DefaultTopologyMonitor [s1] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    9928 WARN  [s1-io-3] DefaultTopologyMonitor [s1] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    9928 WARN  [s1-io-3] DefaultTopologyMonitor [s1] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    9929 WARN  [s1-io-3] DefaultTopologyMonitor [s1] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+    9929 WARN  [s1-io-3] DefaultTopologyMonitor [s1] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+rampup (pending,current,complete)=(0,0,100000) 100.00% (last report)
+   16330 WARN  [s2-io-3] DefaultTopologyMonitor [s2] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+   16331 WARN  [s2-io-3] DefaultTopologyMonitor [s2] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+   16331 WARN  [s2-io-3] DefaultTopologyMonitor [s2] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+   16332 WARN  [s2-io-3] DefaultTopologyMonitor [s2] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+   16332 WARN  [s2-io-3] DefaultTopologyMonitor [s2] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+   16333 WARN  [s2-io-3] DefaultTopologyMonitor [s2] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+main (pending,current,complete)=(99798454,156,201390) 0.20%
+main (pending,current,complete)=(99555722,158,444120) 0.44%
+main (pending,current,complete)=(99393273,160,606567) 0.61%
+main (pending,current,complete)=(99275706,160,724134) 0.72%
+main (pending,current,complete)=(99071999,160,927841) 0.93%
+main (pending,current,complete)=(98788970,159,1210873) 1.21%
+main (pending,current,complete)=(98460239,159,1539602) 1.54%
+main (pending,current,complete)=(98247973,160,1751867) 1.75%
+main (pending,current,complete)=(98061595,160,1938245) 1.94%
+main (pending,current,complete)=(97787596,159,2212245) 2.21%
+main (pending,current,complete)=(97522904,160,2476936) 2.48%
+main (pending,current,complete)=(97230671,160,2769169) 2.77%
+main (pending,current,complete)=(96974224,160,3025616) 3.03%
+main (pending,current,complete)=(96801233,160,3198607) 3.20%
+main (pending,current,complete)=(96550599,160,3449241) 3.45%
+main (pending,current,complete)=(96296163,160,3703677) 3.70%
+main (pending,current,complete)=(96072733,160,3927108) 3.93%
+main (pending,current,complete)=(95877951,160,4121889) 4.12%
+main (pending,current,complete)=(95646536,160,4353304) 4.35%
+main (pending,current,complete)=(95420646,159,4579195) 4.58%
+main (pending,current,complete)=(95176306,159,4823535) 4.82%
+main (pending,current,complete)=(95005281,157,4994562) 4.99%
+main (pending,current,complete)=(94764699,160,5235141) 5.24%
+main (pending,current,complete)=(94512281,157,5487564) 5.49%
+main (pending,current,complete)=(94270298,160,5729542) 5.73%
+main (pending,current,complete)=(94082181,160,5917659) 5.92%
+main (pending,current,complete)=(93908456,160,6091384) 6.09%
+main (pending,current,complete)=(93625645,157,6374199) 6.37%
+main (pending,current,complete)=(93421730,160,6578110) 6.58%
+main (pending,current,complete)=(93227296,160,6772544) 6.77%
+main (pending,current,complete)=(93069017,160,6930823) 6.93%
+main (pending,current,complete)=(92954637,160,7045203) 7.05%
+main (pending,current,complete)=(92808587,160,7191253) 7.19%
+main (pending,current,complete)=(92612148,160,7387692) 7.39%
+main (pending,current,complete)=(92414039,160,7585801) 7.59%
+main (pending,current,complete)=(92156279,160,7843561) 7.84%
+main (pending,current,complete)=(91991442,160,8008398) 8.01%
+main (pending,current,complete)=(91807626,160,8192214) 8.19%
+main (pending,current,complete)=(91611164,159,8388679) 8.39%
+main (pending,current,complete)=(91368782,157,8631062) 8.63%
+main (pending,current,complete)=(91114509,160,8885331) 8.89%
+main (pending,current,complete)=(90897991,160,9101849) 9.10%
+main (pending,current,complete)=(90729749,160,9270091) 9.27%
+main (pending,current,complete)=(90550861,160,9448979) 9.45%
+main (pending,current,complete)=(90413613,160,9586227) 9.59%
+main (pending,current,complete)=(90259314,160,9740526) 9.74%
+main (pending,current,complete)=(90101357,160,9898483) 9.90%
+main (pending,current,complete)=(89925666,159,10074175) 10.07%
+main (pending,current,complete)=(89824014,160,10175826) 10.18%
+main (pending,current,complete)=(89695138,160,10304702) 10.30%
+main (pending,current,complete)=(89547578,160,10452262) 10.45%
+main (pending,current,complete)=(89271474,160,10728367) 10.73%
+main (pending,current,complete)=(89054845,160,10944995) 10.95%
+main (pending,current,complete)=(88828390,160,11171450) 11.17%
+main (pending,current,complete)=(88693388,160,11306452) 11.31%
+main (pending,current,complete)=(88595586,160,11404254) 11.40%
+main (pending,current,complete)=(88396942,160,11602898) 11.60%
+main (pending,current,complete)=(88193826,160,11806014) 11.81%
+main (pending,current,complete)=(87988882,160,12010958) 12.01%
+main (pending,current,complete)=(87769921,160,12229919) 12.23%
+main (pending,current,complete)=(87589927,160,12409913) 12.41%
+main (pending,current,complete)=(87472369,160,12527471) 12.53%
+main (pending,current,complete)=(87332890,160,12666950) 12.67%
+main (pending,current,complete)=(87172514,160,12827326) 12.83%
+main (pending,current,complete)=(86946909,160,13052931) 13.05%
+main (pending,current,complete)=(86728423,157,13271421) 13.27%
+main (pending,current,complete)=(86493505,158,13506337) 13.51%
+main (pending,current,complete)=(86384604,160,13615236) 13.62%
+main (pending,current,complete)=(86206173,160,13793667) 13.79%
+main (pending,current,complete)=(86025655,160,13974185) 13.97%
+main (pending,current,complete)=(85896877,159,14102965) 14.10%
+main (pending,current,complete)=(85708884,160,14290958) 14.29%
+main (pending,current,complete)=(85500340,158,14499502) 14.50%
+main (pending,current,complete)=(85348690,160,14651150) 14.65%
+main (pending,current,complete)=(85146850,160,14852990) 14.85%
+main (pending,current,complete)=(84951214,160,15048626) 15.05%
+main (pending,current,complete)=(84834043,160,15165797) 15.17%
+main (pending,current,complete)=(84714992,160,15284848) 15.28%
+main (pending,current,complete)=(84542177,160,15457663) 15.46%
+main (pending,current,complete)=(84342712,160,15657128) 15.66%
+main (pending,current,complete)=(84212737,160,15787103) 15.79%
+main (pending,current,complete)=(84064043,160,15935797) 15.94%
+main (pending,current,complete)=(83853369,160,16146471) 16.15%
+main (pending,current,complete)=(83724416,160,16275424) 16.28%
+main (pending,current,complete)=(83627940,160,16371900) 16.37%
+main (pending,current,complete)=(83566960,160,16432880) 16.43%
+main (pending,current,complete)=(83389040,159,16610801) 16.61%
+main (pending,current,complete)=(83170592,160,16829248) 16.83%
+main (pending,current,complete)=(83014568,160,16985272) 16.99%
+main (pending,current,complete)=(82851041,160,17148799) 17.15%
+main (pending,current,complete)=(82740948,160,17258892) 17.26%
+main (pending,current,complete)=(82655812,160,17344028) 17.34%
+main (pending,current,complete)=(82479230,160,17520610) 17.52%
+main (pending,current,complete)=(82284961,160,17714879) 17.71%
+main (pending,current,complete)=(82137288,160,17862552) 17.86%
+main (pending,current,complete)=(81963571,160,18036269) 18.04%
+main (pending,current,complete)=(81810393,160,18189447) 18.19%
+main (pending,current,complete)=(81719088,160,18280752) 18.28%
+main (pending,current,complete)=(81629660,160,18370180) 18.37%
+main (pending,current,complete)=(81396193,160,18603649) 18.60%
+main (pending,current,complete)=(81196999,160,18802841) 18.80%
+main (pending,current,complete)=(81048932,160,18950908) 18.95%
+main (pending,current,complete)=(80916232,160,19083608) 19.08%
+main (pending,current,complete)=(80789097,160,19210743) 19.21%
+main (pending,current,complete)=(80731284,160,19268556) 19.27%
+main (pending,current,complete)=(80608525,157,19391318) 19.39%
+main (pending,current,complete)=(80409612,160,19590228) 19.59%
+main (pending,current,complete)=(80215910,158,19783933) 19.78%
+main (pending,current,complete)=(80072751,160,19927089) 19.93%
+main (pending,current,complete)=(79990947,160,20008893) 20.01%
+main (pending,current,complete)=(79917319,160,20082521) 20.08%
+main (pending,current,complete)=(79747195,160,20252645) 20.25%
+main (pending,current,complete)=(79615933,159,20383908) 20.38%
+main (pending,current,complete)=(79415085,160,20584755) 20.58%
+main (pending,current,complete)=(79238269,160,20761571) 20.76%
+main (pending,current,complete)=(79140396,160,20859444) 20.86%
+main (pending,current,complete)=(79052690,160,20947150) 20.95%
+main (pending,current,complete)=(78982747,160,21017093) 21.02%
+main (pending,current,complete)=(78818416,160,21181424) 21.18%
+main (pending,current,complete)=(78579506,160,21420334) 21.42%
+main (pending,current,complete)=(78361680,160,21638160) 21.64%
+main (pending,current,complete)=(78212106,157,21787738) 21.79%
+main (pending,current,complete)=(78087236,160,21912604) 21.91%
+main (pending,current,complete)=(77996502,160,22003338) 22.00%
+main (pending,current,complete)=(77868633,158,22131209) 22.13%
+main (pending,current,complete)=(77721903,160,22277937) 22.28%
+main (pending,current,complete)=(77526472,160,22473368) 22.47%
+main (pending,current,complete)=(77355233,160,22644607) 22.64%
+main (pending,current,complete)=(77205840,160,22794000) 22.79%
+main (pending,current,complete)=(77038245,160,22961595) 22.96%
+main (pending,current,complete)=(76908105,160,23091735) 23.09%
+main (pending,current,complete)=(76788479,160,23211361) 23.21%
+main (pending,current,complete)=(76679313,160,23320527) 23.32%
+main (pending,current,complete)=(76450015,160,23549825) 23.55%
+main (pending,current,complete)=(76320361,160,23679481) 23.68%
+main (pending,current,complete)=(76205972,160,23793868) 23.79%
+main (pending,current,complete)=(76072590,160,23927251) 23.93%
+main (pending,current,complete)=(75931623,160,24068217) 24.07%
+main (pending,current,complete)=(75825662,160,24174178) 24.17%
+main (pending,current,complete)=(75654785,160,24345055) 24.35%
+main (pending,current,complete)=(75473037,160,24526803) 24.53%
+main (pending,current,complete)=(75362342,160,24637498) 24.64%
+main (pending,current,complete)=(75262674,160,24737166) 24.74%
+main (pending,current,complete)=(75116470,160,24883370) 24.88%
+main (pending,current,complete)=(75006514,159,24993328) 24.99%
+main (pending,current,complete)=(74875391,160,25124449) 25.12%
+main (pending,current,complete)=(74672402,160,25327438) 25.33%
+main (pending,current,complete)=(74462406,160,25537434) 25.54%
+main (pending,current,complete)=(74368536,158,25631306) 25.63%
+main (pending,current,complete)=(74259651,160,25740189) 25.74%
+main (pending,current,complete)=(74108547,160,25891293) 25.89%
+main (pending,current,complete)=(74004338,160,25995502) 26.00%
+main (pending,current,complete)=(73930288,160,26069552) 26.07%
+main (pending,current,complete)=(73843443,160,26156397) 26.16%
+main (pending,current,complete)=(73639024,160,26360816) 26.36%
+main (pending,current,complete)=(73405792,160,26594051) 26.59%
+main (pending,current,complete)=(73252808,160,26747032) 26.75%
+main (pending,current,complete)=(73108921,160,26890919) 26.89%
+main (pending,current,complete)=(73016678,160,26983162) 26.98%
+main (pending,current,complete)=(72944436,160,27055404) 27.06%
+main (pending,current,complete)=(72808864,160,27190976) 27.19%
+main (pending,current,complete)=(72632960,160,27366880) 27.37%
+main (pending,current,complete)=(72493640,160,27506200) 27.51%
+main (pending,current,complete)=(72412736,160,27587104) 27.59%
+main (pending,current,complete)=(72255019,160,27744821) 27.74%
+main (pending,current,complete)=(72170958,160,27828882) 27.83%
+main (pending,current,complete)=(71980641,160,28019199) 28.02%
+main (pending,current,complete)=(71832733,160,28167107) 28.17%
+main (pending,current,complete)=(71656842,160,28342998) 28.34%
+main (pending,current,complete)=(71550254,160,28449586) 28.45%
+main (pending,current,complete)=(71396736,160,28603104) 28.60%
+main (pending,current,complete)=(71336290,160,28663550) 28.66%
+main (pending,current,complete)=(71160386,160,28839454) 28.84%
+main (pending,current,complete)=(71083862,160,28915978) 28.92%
+main (pending,current,complete)=(70963021,160,29036819) 29.04%
+main (pending,current,complete)=(70815078,160,29184762) 29.18%
+main (pending,current,complete)=(70670695,160,29329145) 29.33%
+main (pending,current,complete)=(70557166,160,29442674) 29.44%
+main (pending,current,complete)=(70369302,160,29630538) 29.63%
+main (pending,current,complete)=(70281214,160,29718626) 29.72%
+main (pending,current,complete)=(70156559,160,29843281) 29.84%
+main (pending,current,complete)=(69978558,160,30021282) 30.02%
+main (pending,current,complete)=(69851893,160,30147947) 30.15%
+main (pending,current,complete)=(69813493,160,30186347) 30.19%
+main (pending,current,complete)=(69654469,160,30345371) 30.35%
+main (pending,current,complete)=(69495330,160,30504510) 30.50%
+main (pending,current,complete)=(69439746,160,30560094) 30.56%
+main (pending,current,complete)=(69253635,160,30746205) 30.75%
+main (pending,current,complete)=(69108907,160,30890933) 30.89%
+main (pending,current,complete)=(69034044,160,30965796) 30.97%
+main (pending,current,complete)=(68897734,160,31102106) 31.10%
+main (pending,current,complete)=(68836451,160,31163389) 31.16%
+main (pending,current,complete)=(68700949,160,31298891) 31.30%
+main (pending,current,complete)=(68536322,160,31463518) 31.46%
+main (pending,current,complete)=(68385398,159,31614443) 31.61%
+main (pending,current,complete)=(68187482,159,31812360) 31.81%
+main (pending,current,complete)=(68071876,160,31927964) 31.93%
+main (pending,current,complete)=(68016871,160,31982969) 31.98%
+main (pending,current,complete)=(67913591,160,32086249) 32.09%
+main (pending,current,complete)=(67761665,160,32238175) 32.24%
+main (pending,current,complete)=(67663218,158,32336626) 32.34%
+main (pending,current,complete)=(67543820,160,32456020) 32.46%
+main (pending,current,complete)=(67379331,159,32620510) 32.62%
+main (pending,current,complete)=(67226736,159,32773105) 32.77%
+main (pending,current,complete)=(67120753,160,32879087) 32.88%
+main (pending,current,complete)=(67043866,160,32955974) 32.96%
+main (pending,current,complete)=(66925098,160,33074742) 33.07%
+main (pending,current,complete)=(66798935,158,33200907) 33.20%
+main (pending,current,complete)=(66584643,159,33415199) 33.42%
+main (pending,current,complete)=(66400818,160,33599022) 33.60%
+main (pending,current,complete)=(66268240,160,33731600) 33.73%
+main (pending,current,complete)=(66187376,160,33812465) 33.81%
+main (pending,current,complete)=(66078577,160,33921263) 33.92%
+main (pending,current,complete)=(65982169,160,34017671) 34.02%
+main (pending,current,complete)=(65791121,160,34208719) 34.21%
+main (pending,current,complete)=(65611100,160,34388740) 34.39%
+main (pending,current,complete)=(65509453,160,34490387) 34.49%
+main (pending,current,complete)=(65414970,159,34584871) 34.58%
+main (pending,current,complete)=(65277157,160,34722683) 34.72%
+main (pending,current,complete)=(65163132,160,34836708) 34.84%
+main (pending,current,complete)=(65075637,160,34924203) 34.92%
+main (pending,current,complete)=(64951552,160,35048288) 35.05%
+main (pending,current,complete)=(64800807,160,35199033) 35.20%
+main (pending,current,complete)=(64649912,160,35349928) 35.35%
+main (pending,current,complete)=(64586195,160,35413645) 35.41%
+main (pending,current,complete)=(64546225,160,35453615) 35.45%
+main (pending,current,complete)=(64489460,158,35510382) 35.51%
+main (pending,current,complete)=(64325146,160,35674694) 35.67%
+main (pending,current,complete)=(64233587,160,35766253) 35.77%
+main (pending,current,complete)=(64177888,160,35821952) 35.82%
+ 1169228 WARN  [main:117] ERRORS       error with cycle 35844216 errmsg: Error in space '35844216': Query timed out after PT2S
+ 1169722 WARN  [main:087] ERRORS       error with cycle 35844653 errmsg: Error in space '35844653': Query timed out after PT2S
+ 1169722 WARN  [main:015] ERRORS       error with cycle 35848808 errmsg: Error in space '35848808': Query timed out after PT2S
+ 1169722 WARN  [main:080] ERRORS       error with cycle 35848604 errmsg: Error in space '35848604': Query timed out after PT2S
+ 1169722 WARN  [main:005] ERRORS       error with cycle 35839257 errmsg: Error in space '35839257': Query timed out after PT2S
+main (pending,current,complete)=(64147186,160,35852654) 35.85%
+main (pending,current,complete)=(64006133,160,35993707) 35.99%
+main (pending,current,complete)=(63899611,160,36100229) 36.10%
+main (pending,current,complete)=(63832237,160,36167603) 36.17%
+main (pending,current,complete)=(63757358,160,36242482) 36.24%
+main (pending,current,complete)=(63596846,160,36402994) 36.40%
+main (pending,current,complete)=(63480990,160,36518850) 36.52%
+main (pending,current,complete)=(63391258,160,36608582) 36.61%
+main (pending,current,complete)=(63208779,160,36791061) 36.79%
+main (pending,current,complete)=(63020977,160,36978863) 36.98%
+main (pending,current,complete)=(62920195,160,37079645) 37.08%
+main (pending,current,complete)=(62831945,160,37167895) 37.17%
+ 1227222 WARN  [main:018] ERRORS       error with cycle 37154180 errmsg: Error in space '37154180': Query timed out after PT2S
+main (pending,current,complete)=(62705493,160,37294347) 37.29%
+main (pending,current,complete)=(62612812,160,37387028) 37.39%
+main (pending,current,complete)=(62557706,160,37442134) 37.44%
+main (pending,current,complete)=(62515280,159,37484561) 37.48%
+main (pending,current,complete)=(62426091,160,37573749) 37.57%
+main (pending,current,complete)=(62315849,160,37683991) 37.68%
+main (pending,current,complete)=(62246781,160,37753059) 37.75%
+main (pending,current,complete)=(62083980,160,37915860) 37.92%
+main (pending,current,complete)=(61987430,160,38012410) 38.01%
+main (pending,current,complete)=(61871805,160,38128035) 38.13%
+main (pending,current,complete)=(61788993,160,38210847) 38.21%
+main (pending,current,complete)=(61632886,160,38366954) 38.37%
+main (pending,current,complete)=(61489662,160,38510178) 38.51%
+main (pending,current,complete)=(61302727,159,38697114) 38.70%
+main (pending,current,complete)=(61195333,159,38804508) 38.80%
+main (pending,current,complete)=(61011074,159,38988767) 38.99%
+main (pending,current,complete)=(60873168,160,39126672) 39.13%
+main (pending,current,complete)=(60742490,160,39257350) 39.26%
+main (pending,current,complete)=(60569713,160,39430127) 39.43%
+main (pending,current,complete)=(60403240,160,39596600) 39.60%
+main (pending,current,complete)=(60284532,160,39715308) 39.72%
+main (pending,current,complete)=(60075914,160,39923926) 39.92%
+main (pending,current,complete)=(59931436,160,40068404) 40.07%
+main (pending,current,complete)=(59741246,160,40258594) 40.26%
+main (pending,current,complete)=(59605724,160,40394116) 40.39%
+main (pending,current,complete)=(59453374,159,40546467) 40.55%
+main (pending,current,complete)=(59272226,160,40727614) 40.73%
+main (pending,current,complete)=(59150178,160,40849662) 40.85%
+main (pending,current,complete)=(58985606,160,41014234) 41.01%
+main (pending,current,complete)=(58806705,160,41193135) 41.19%
+main (pending,current,complete)=(58625634,160,41374206) 41.37%
+main (pending,current,complete)=(58494211,160,41505629) 41.51%
+main (pending,current,complete)=(58345170,159,41654671) 41.65%
+main (pending,current,complete)=(58233390,159,41766451) 41.77%
+main (pending,current,complete)=(58021899,160,41977941) 41.98%
+main (pending,current,complete)=(57902954,160,42096886) 42.10%
+main (pending,current,complete)=(57781097,160,42218743) 42.22%
+main (pending,current,complete)=(57597552,160,42402288) 42.40%
+main (pending,current,complete)=(57415542,160,42584298) 42.58%
+main (pending,current,complete)=(57294996,160,42704844) 42.70%
+main (pending,current,complete)=(57202289,160,42797551) 42.80%
+main (pending,current,complete)=(57012453,160,42987387) 42.99%
+main (pending,current,complete)=(56876178,160,43123662) 43.12%
+main (pending,current,complete)=(56745150,160,43254690) 43.25%
+main (pending,current,complete)=(56543796,160,43456044) 43.46%
+main (pending,current,complete)=(56398588,160,43601252) 43.60%
+main (pending,current,complete)=(56301142,160,43698698) 43.70%
+main (pending,current,complete)=(56179146,160,43820694) 43.82%
+main (pending,current,complete)=(56085355,160,43914485) 43.91%
+main (pending,current,complete)=(55899256,160,44100584) 44.10%
+main (pending,current,complete)=(55742344,159,44257497) 44.26%
+main (pending,current,complete)=(55620827,160,44379013) 44.38%
+main (pending,current,complete)=(55530405,160,44469435) 44.47%
+main (pending,current,complete)=(55375016,160,44624824) 44.62%
+main (pending,current,complete)=(55254110,159,44745731) 44.75%
+main (pending,current,complete)=(55151629,159,44848212) 44.85%
+main (pending,current,complete)=(54997651,160,45002189) 45.00%
+main (pending,current,complete)=(54881422,160,45118418) 45.12%
+main (pending,current,complete)=(54792071,160,45207769) 45.21%
+main (pending,current,complete)=(54610048,160,45389792) 45.39%
+main (pending,current,complete)=(54480404,160,45519436) 45.52%
+main (pending,current,complete)=(54328408,160,45671432) 45.67%
+main (pending,current,complete)=(54122581,159,45877260) 45.88%
+main (pending,current,complete)=(53986049,160,46013791) 46.01%
+main (pending,current,complete)=(53893448,160,46106392) 46.11%
+main (pending,current,complete)=(53767804,158,46232038) 46.23%
+main (pending,current,complete)=(53611155,160,46388685) 46.39%
+main (pending,current,complete)=(53460776,160,46539064) 46.54%
+main (pending,current,complete)=(53270836,159,46729005) 46.73%
+main (pending,current,complete)=(53150031,160,46849809) 46.85%
+main (pending,current,complete)=(53054488,159,46945353) 46.95%
+main (pending,current,complete)=(52933795,160,47066045) 47.07%
+main (pending,current,complete)=(52814359,160,47185481) 47.19%
+main (pending,current,complete)=(52665332,160,47334508) 47.33%
+main (pending,current,complete)=(52534517,160,47465323) 47.47%
+main (pending,current,complete)=(52472435,160,47527405) 47.53%
+main (pending,current,complete)=(52302480,160,47697360) 47.70%
+main (pending,current,complete)=(52117065,160,47882775) 47.88%
+main (pending,current,complete)=(51985200,158,48014642) 48.01%
+main (pending,current,complete)=(51771678,158,48228164) 48.23%
+main (pending,current,complete)=(51648178,160,48351662) 48.35%
+main (pending,current,complete)=(51497033,160,48502807) 48.50%
+main (pending,current,complete)=(51420287,160,48579553) 48.58%
+main (pending,current,complete)=(51306566,159,48693275) 48.69%
+main (pending,current,complete)=(51217207,160,48782633) 48.78%
+main (pending,current,complete)=(51061592,160,48938248) 48.94%
+main (pending,current,complete)=(50910113,160,49089727) 49.09%
+main (pending,current,complete)=(50772398,160,49227442) 49.23%
+main (pending,current,complete)=(50632078,160,49367762) 49.37%
+main (pending,current,complete)=(50495182,160,49504658) 49.50%
+main (pending,current,complete)=(50395041,160,49604799) 49.60%
+main (pending,current,complete)=(50226530,159,49773311) 49.77%
+main (pending,current,complete)=(50034839,159,49965002) 49.97%
+main (pending,current,complete)=(49910184,160,50089656) 50.09%
+main (pending,current,complete)=(49819002,159,50180839) 50.18%
+main (pending,current,complete)=(49620117,160,50379723) 50.38%
+main (pending,current,complete)=(49522647,160,50477193) 50.48%
+main (pending,current,complete)=(49401221,160,50598619) 50.60%
+main (pending,current,complete)=(49210140,160,50789700) 50.79%
+main (pending,current,complete)=(49051045,160,50948795) 50.95%
+main (pending,current,complete)=(48962867,160,51036974) 51.04%
+main (pending,current,complete)=(48852589,160,51147251) 51.15%
+main (pending,current,complete)=(48684125,160,51315715) 51.32%
+main (pending,current,complete)=(48561745,156,51438099) 51.44%
+main (pending,current,complete)=(48406082,158,51593760) 51.59%
+main (pending,current,complete)=(48305750,159,51694092) 51.69%
+main (pending,current,complete)=(48185149,160,51814691) 51.81%
+main (pending,current,complete)=(48060906,160,51938934) 51.94%
+main (pending,current,complete)=(47874792,160,52125048) 52.13%
+main (pending,current,complete)=(47728136,160,52271704) 52.27%
+main (pending,current,complete)=(47640244,160,52359596) 52.36%
+main (pending,current,complete)=(47488612,160,52511228) 52.51%
+main (pending,current,complete)=(47303571,158,52696271) 52.70%
+main (pending,current,complete)=(47163857,159,52835984) 52.84%
+main (pending,current,complete)=(47034235,157,52965608) 52.97%
+main (pending,current,complete)=(46840212,158,53159630) 53.16%
+main (pending,current,complete)=(46754919,159,53244922) 53.25%
+main (pending,current,complete)=(46624134,160,53375706) 53.38%
+main (pending,current,complete)=(46495184,160,53504656) 53.50%
+main (pending,current,complete)=(46293977,160,53705863) 53.71%
+main (pending,current,complete)=(46131998,160,53867842) 53.87%
+main (pending,current,complete)=(46048735,160,53951105) 53.95%
+main (pending,current,complete)=(45971079,160,54028761) 54.03%
+main (pending,current,complete)=(45833252,160,54166588) 54.17%
+main (pending,current,complete)=(45733945,160,54265895) 54.27%
+main (pending,current,complete)=(45586854,160,54412986) 54.41%
+main (pending,current,complete)=(45508274,159,54491567) 54.49%
+main (pending,current,complete)=(45434596,160,54565244) 54.57%
+main (pending,current,complete)=(45318669,160,54681171) 54.68%
+main (pending,current,complete)=(45204968,160,54794872) 54.79%
+main (pending,current,complete)=(45071166,160,54928674) 54.93%
+main (pending,current,complete)=(44916743,160,55083097) 55.08%
+main (pending,current,complete)=(44804115,160,55195725) 55.20%
+main (pending,current,complete)=(44610869,160,55388971) 55.39%
+main (pending,current,complete)=(44502040,160,55497800) 55.50%
+main (pending,current,complete)=(44366610,160,55633230) 55.63%
+main (pending,current,complete)=(44298162,160,55701678) 55.70%
+main (pending,current,complete)=(44118235,158,55881607) 55.88%
+main (pending,current,complete)=(43936693,157,56063150) 56.06%
+main (pending,current,complete)=(43809570,160,56190270) 56.19%
+main (pending,current,complete)=(43686591,160,56313249) 56.31%
+main (pending,current,complete)=(43596107,160,56403733) 56.40%
+main (pending,current,complete)=(43485660,160,56514180) 56.51%
+main (pending,current,complete)=(43342907,160,56656933) 56.66%
+main (pending,current,complete)=(43206482,160,56793358) 56.79%
+main (pending,current,complete)=(43092853,160,56906987) 56.91%
+main (pending,current,complete)=(42986422,160,57013418) 57.01%
+main (pending,current,complete)=(42825167,160,57174673) 57.17%
+main (pending,current,complete)=(42757840,160,57242000) 57.24%
+main (pending,current,complete)=(42697594,160,57302246) 57.30%
+main (pending,current,complete)=(42569380,160,57430460) 57.43%
+main (pending,current,complete)=(42433072,160,57566768) 57.57%
+main (pending,current,complete)=(42299846,159,57699995) 57.70%
+main (pending,current,complete)=(42181456,160,57818384) 57.82%
+main (pending,current,complete)=(42017751,160,57982089) 57.98%
+main (pending,current,complete)=(41884594,160,58115246) 58.12%
+main (pending,current,complete)=(41778171,160,58221669) 58.22%
+main (pending,current,complete)=(41685688,160,58314152) 58.31%
+main (pending,current,complete)=(41511415,160,58488425) 58.49%
+main (pending,current,complete)=(41314216,160,58685624) 58.69%
+main (pending,current,complete)=(41198434,160,58801406) 58.80%
+main (pending,current,complete)=(41097036,160,58902804) 58.90%
+main (pending,current,complete)=(40983612,160,59016228) 59.02%
+main (pending,current,complete)=(40894358,160,59105482) 59.11%
+main (pending,current,complete)=(40686206,160,59313634) 59.31%
+main (pending,current,complete)=(40552893,160,59446947) 59.45%
+main (pending,current,complete)=(40412348,160,59587492) 59.59%
+main (pending,current,complete)=(40312857,160,59686983) 59.69%
+main (pending,current,complete)=(40194512,160,59805328) 59.81%
+main (pending,current,complete)=(40037097,160,59962743) 59.96%
+main (pending,current,complete)=(39874385,160,60125455) 60.13%
+main (pending,current,complete)=(39765289,160,60234551) 60.23%
+main (pending,current,complete)=(39630385,160,60369455) 60.37%
+main (pending,current,complete)=(39542714,160,60457126) 60.46%
+ 2097424 WARN  [main:037] ERRORS       error with cycle 60421366 errmsg: Error in space '60421366': Query timed out after PT2S
+ 2097424 WARN  [main:020] ERRORS       error with cycle 60429916 errmsg: Error in space '60429916': Query timed out after PT2S
+main (pending,current,complete)=(39376992,160,60622848) 60.62%
+main (pending,current,complete)=(39249400,160,60750440) 60.75%
+main (pending,current,complete)=(39175860,159,60823981) 60.82%
+main (pending,current,complete)=(39045205,160,60954635) 60.95%
+main (pending,current,complete)=(38961292,160,61038548) 61.04%
+main (pending,current,complete)=(38908434,160,61091406) 61.09%
+main (pending,current,complete)=(38729116,160,61270724) 61.27%
+main (pending,current,complete)=(38594836,160,61405004) 61.41%
+main (pending,current,complete)=(38520375,160,61479465) 61.48%
+main (pending,current,complete)=(38361637,160,61638203) 61.64%
+main (pending,current,complete)=(38280735,160,61719105) 61.72%
+main (pending,current,complete)=(38219593,160,61780247) 61.78%
+main (pending,current,complete)=(38092113,157,61907730) 61.91%
+main (pending,current,complete)=(37907527,160,62092313) 62.09%
+main (pending,current,complete)=(37812101,160,62187739) 62.19%
+main (pending,current,complete)=(37676537,160,62323303) 62.32%
+main (pending,current,complete)=(37606314,160,62393526) 62.39%
+main (pending,current,complete)=(37420050,160,62579790) 62.58%
+main (pending,current,complete)=(37378521,160,62621319) 62.62%
+main (pending,current,complete)=(37278904,160,62720936) 62.72%
+main (pending,current,complete)=(37134610,159,62865231) 62.87%
+main (pending,current,complete)=(36999511,160,63000329) 63.00%
+main (pending,current,complete)=(36969125,160,63030715) 63.03%
+main (pending,current,complete)=(36882379,160,63117461) 63.12%
+ 2217375 WARN  [main:122] ERRORS       error with cycle 63102274 errmsg: Error in space '63102274': Cassandra timeout during SIMPLE write query at consistency LOCAL_QUORUM (2 replica were required but only 1 acknowledged the write)
+ 2217375 WARN  [main:095] ERRORS       error with cycle 63092523 errmsg: Error in space '63092523': Cassandra timeout during SIMPLE write query at consistency LOCAL_QUORUM (2 replica were required but only 1 acknowledged the write)
+ 2217375 WARN  [main:139] ERRORS       error with cycle 63118210 errmsg: Error in space '63118210': Cassandra timeout during SIMPLE write query at consistency LOCAL_QUORUM (2 replica were required but only 1 acknowledged the write)
+ 2217375 WARN  [main:019] ERRORS       error with cycle 63121707 errmsg: Error in space '63121707': Cassandra timeout during SIMPLE write query at consistency LOCAL_QUORUM (2 replica were required but only 1 acknowledged the write)
+main (pending,current,complete)=(36808459,160,63191381) 63.19%
+main (pending,current,complete)=(36681083,159,63318758) 63.32%
+main (pending,current,complete)=(36549758,160,63450082) 63.45%
+main (pending,current,complete)=(36448840,160,63551000) 63.55%
+main (pending,current,complete)=(36364039,160,63635801) 63.64%
+main (pending,current,complete)=(36298462,160,63701378) 63.70%
+main (pending,current,complete)=(36269876,159,63729966) 63.73%
+main (pending,current,complete)=(36185352,160,63814488) 63.81%
+main (pending,current,complete)=(36085901,160,63913939) 63.91%
+main (pending,current,complete)=(36049068,160,63950772) 63.95%
+main (pending,current,complete)=(35895597,160,64104243) 64.10%
+main (pending,current,complete)=(35744398,160,64255442) 64.26%
+main (pending,current,complete)=(35662160,160,64337680) 64.34%
+ 2281323 WARN  [main:005] ERRORS       error with cycle 64340636 errmsg: Error in space '64340636': Query timed out after PT2S
+ 2281323 WARN  [main:090] ERRORS       error with cycle 64342213 errmsg: Error in space '64342213': Query timed out after PT2S
+ 2281323 WARN  [main:056] ERRORS       error with cycle 64345204 errmsg: Error in space '64345204': Query timed out after PT2S
+ 2281323 WARN  [main:004] ERRORS       error with cycle 64343012 errmsg: Error in space '64343012': Query timed out after PT2S
+ 2283124 WARN  [main:123] ERRORS       error with cycle 64359400 errmsg: Error in space '64359400': Query timed out after PT2S
+ 2283124 WARN  [main:010] ERRORS       error with cycle 64354437 errmsg: Error in space '64354437': Query timed out after PT2S
+main (pending,current,complete)=(35626348,159,64373493) 64.37%
+main (pending,current,complete)=(35558079,160,64441761) 64.44%
+ 2293722 WARN  [main:053] ERRORS       error with cycle 64462875 errmsg: Error in space '64462875': Query timed out after PT2S
+ 2293722 WARN  [main:131] ERRORS       error with cycle 64466636 errmsg: Error in space '64466636': Query timed out after PT2S
+ 2293722 WARN  [main:023] ERRORS       error with cycle 64447178 errmsg: Error in space '64447178': Query timed out after PT2S
+ 2293722 WARN  [main:126] ERRORS       error with cycle 64474509 errmsg: Error in space '64474509': Query timed out after PT2S
+ 2293722 WARN  [main:068] ERRORS       error with cycle 64457705 errmsg: Error in space '64457705': Query timed out after PT2S
+ 2293722 WARN  [main:140] ERRORS       error with cycle 64434585 errmsg: Error in space '64434585': Query timed out after PT2S
+ 2293824 WARN  [main:029] ERRORS       error with cycle 64491602 errmsg: Error in space '64491602': Query timed out after PT2S
+ 2293824 WARN  [main:128] ERRORS       error with cycle 64477717 errmsg: Error in space '64477717': Query timed out after PT2S
+ 2293824 WARN  [main:007] ERRORS       error with cycle 64472188 errmsg: Error in space '64472188': Query timed out after PT2S
+ 2293824 WARN  [main:096] ERRORS       error with cycle 64451554 errmsg: Error in space '64451554': Query timed out after PT2S
+main (pending,current,complete)=(35429358,160,64570482) 64.57%
+main (pending,current,complete)=(35327009,160,64672831) 64.67%
+main (pending,current,complete)=(35169925,160,64829916) 64.83%
+main (pending,current,complete)=(35045859,160,64953981) 64.95%
+main (pending,current,complete)=(34958614,160,65041226) 65.04%
+main (pending,current,complete)=(34834110,158,65165732) 65.17%
+main (pending,current,complete)=(34700193,160,65299647) 65.30%
+main (pending,current,complete)=(34630980,160,65368860) 65.37%
+main (pending,current,complete)=(34529879,160,65469961) 65.47%
+main (pending,current,complete)=(34410056,160,65589784) 65.59%
+ 2341623 WARN  [main:115] ERRORS       error with cycle 65554377 errmsg: Error in space '65554377': Query timed out after PT2S
+ 2341623 WARN  [main:033] ERRORS       error with cycle 65567289 errmsg: Error in space '65567289': Query timed out after PT2S
+ 2341623 WARN  [main:053] ERRORS       error with cycle 65570093 errmsg: Error in space '65570093': Query timed out after PT2S
+ 2341623 WARN  [main:012] ERRORS       error with cycle 65557925 errmsg: Error in space '65557925': Query timed out after PT2S
+ 2341623 WARN  [main:002] ERRORS       error with cycle 65579020 errmsg: Error in space '65579020': Query timed out after PT2S
+ 2341623 WARN  [main:106] ERRORS       error with cycle 65553180 errmsg: Error in space '65553180': Query timed out after PT2S
+ 2341623 WARN  [main:004] ERRORS       error with cycle 65563920 errmsg: Error in space '65563920': Query timed out after PT2S
+ 2341623 WARN  [main:038] ERRORS       error with cycle 65552781 errmsg: Error in space '65552781': Query timed out after PT2S
+ 2341623 WARN  [main:117] ERRORS       error with cycle 65569903 errmsg: Error in space '65569903': Query timed out after PT2S
+ 2341623 WARN  [main:119] ERRORS       error with cycle 65552385 errmsg: Error in space '65552385': Query timed out after PT2S
+ 2341623 WARN  [main:158] ERRORS       error with cycle 65576023 errmsg: Error in space '65576023': Query timed out after PT2S
+ 2341623 WARN  [main:159] ERRORS       error with cycle 65562494 errmsg: Error in space '65562494': Query timed out after PT2S
+ 2341623 WARN  [main:096] ERRORS       error with cycle 65578603 errmsg: Error in space '65578603': Query timed out after PT2S
+ 2341623 WARN  [main:121] ERRORS       error with cycle 65568492 errmsg: Error in space '65568492': Query timed out after PT2S
+ 2341623 WARN  [main:103] ERRORS       error with cycle 65561518 errmsg: Error in space '65561518': Query timed out after PT2S
+ 2341623 WARN  [main:138] ERRORS       error with cycle 65545587 errmsg: Error in space '65545587': Query timed out after PT2S
+ 2341623 WARN  [main:041] ERRORS       error with cycle 65550969 errmsg: Error in space '65550969': Query timed out after PT2S
+ 2341623 WARN  [main:069] ERRORS       error with cycle 65577424 errmsg: Error in space '65577424': Query timed out after PT2S
+ 2341723 WARN  [main:132] ERRORS       error with cycle 65567493 errmsg: Error in space '65567493': Query timed out after PT2S
+ 2341723 WARN  [main:150] ERRORS       error with cycle 65566101 errmsg: Error in space '65566101': Query timed out after PT2S
+ 2341723 WARN  [main:030] ERRORS       error with cycle 65569280 errmsg: Error in space '65569280': Query timed out after PT2S
+ 2341723 WARN  [main:037] ERRORS       error with cycle 65573684 errmsg: Error in space '65573684': Query timed out after PT2S
+ 2341723 WARN  [main:111] ERRORS       error with cycle 65558780 errmsg: Error in space '65558780': Query timed out after PT2S
+ 2341723 WARN  [main:047] ERRORS       error with cycle 65575693 errmsg: Error in space '65575693': Query timed out after PT2S
+main (pending,current,complete)=(34256938,160,65742903) 65.74%
+main (pending,current,complete)=(34152486,160,65847354) 65.85%
+main (pending,current,complete)=(34063392,160,65936448) 65.94%
+main (pending,current,complete)=(33988416,160,66011424) 66.01%
+main (pending,current,complete)=(33892119,160,66107721) 66.11%
+ 2369322 WARN  [main:062] ERRORS       error with cycle 66117765 errmsg: Error in space '66117765': Query timed out after PT2S
+ 2369322 WARN  [main:155] ERRORS       error with cycle 66131685 errmsg: Error in space '66131685': Query timed out after PT2S
+main (pending,current,complete)=(33810500,160,66189340) 66.19%
+main (pending,current,complete)=(33639424,160,66360416) 66.36%
+main (pending,current,complete)=(33508319,160,66491521) 66.49%
+main (pending,current,complete)=(33484017,160,66515823) 66.52%
+main (pending,current,complete)=(33404640,160,66595200) 66.60%
+ 2392922 WARN  [main:115] ERRORS       error with cycle 66610424 errmsg: Error in space '66610424': Query timed out after PT2S
+ 2392923 WARN  [main:070] ERRORS       error with cycle 66593545 errmsg: Error in space '66593545': Query timed out after PT2S
+ 2392922 WARN  [main:080] ERRORS       error with cycle 66591537 errmsg: Error in space '66591537': Query timed out after PT2S
+ 2392923 WARN  [main:047] ERRORS       error with cycle 66588189 errmsg: Error in space '66588189': Query timed out after PT2S
+ 2392923 WARN  [main:031] ERRORS       error with cycle 66591141 errmsg: Error in space '66591141': Query timed out after PT2S
+ 2392923 WARN  [main:076] ERRORS       error with cycle 66599298 errmsg: Error in space '66599298': Query timed out after PT2S
+ 2392922 WARN  [main:154] ERRORS       error with cycle 66605633 errmsg: Error in space '66605633': Query timed out after PT2S
+ 2392922 WARN  [main:050] ERRORS       error with cycle 66608018 errmsg: Error in space '66608018': Query timed out after PT2S
+ 2392923 WARN  [main:039] ERRORS       error with cycle 66609426 errmsg: Error in space '66609426': Query timed out after PT2S
+ 2392923 WARN  [main:029] ERRORS       error with cycle 66589557 errmsg: Error in space '66589557': Query timed out after PT2S
+ 2392922 WARN  [main:024] ERRORS       error with cycle 66604247 errmsg: Error in space '66604247': Query timed out after PT2S
+ 2392922 WARN  [main:088] ERRORS       error with cycle 66602859 errmsg: Error in space '66602859': Query timed out after PT2S
+ 2392923 WARN  [main:057] ERRORS       error with cycle 66594150 errmsg: Error in space '66594150': Query timed out after PT2S
+main (pending,current,complete)=(33317755,160,66682085) 66.68%
+main (pending,current,complete)=(33273850,159,66725991) 66.73%
+ 2403323 WARN  [main:111] ERRORS       error with cycle 66741062 errmsg: Error in space '66741062': Query timed out after PT2S
+ 2403323 WARN  [main:136] ERRORS       error with cycle 66750014 errmsg: Error in space '66750014': Query timed out after PT2S
+ 2403323 WARN  [main:159] ERRORS       error with cycle 66735883 errmsg: Error in space '66735883': Query timed out after PT2S
+ 2403323 WARN  [main:018] ERRORS       error with cycle 66733125 errmsg: Error in space '66733125': Query timed out after PT2S
+ 2403323 WARN  [main:007] ERRORS       error with cycle 66743055 errmsg: Error in space '66743055': Query timed out after PT2S
+ 2403323 WARN  [main:048] ERRORS       error with cycle 66725925 errmsg: Error in space '66725925': Query timed out after PT2S
+ 2403323 WARN  [main:157] ERRORS       error with cycle 66746229 errmsg: Error in space '66746229': Query timed out after PT2S
+ 2403323 WARN  [main:032] ERRORS       error with cycle 66737347 errmsg: Error in space '66737347': Query timed out after PT2S
+ 2403323 WARN  [main:059] ERRORS       error with cycle 66722331 errmsg: Error in space '66722331': Query timed out after PT2S
+ 2403323 WARN  [main:128] ERRORS       error with cycle 66721779 errmsg: Error in space '66721779': Query timed out after PT2S
+ 2403323 WARN  [main:105] ERRORS       error with cycle 66749220 errmsg: Error in space '66749220': Query timed out after PT2S
+ 2403422 WARN  [main:028] ERRORS       error with cycle 66737937 errmsg: Error in space '66737937': Query timed out after PT2S
+ 2403422 WARN  [main:093] ERRORS       error with cycle 66739748 errmsg: Error in space '66739748': Query timed out after PT2S
+ 2403422 WARN  [main:114] ERRORS       error with cycle 66743909 errmsg: Error in space '66743909': Query timed out after PT2S
+ 2403422 WARN  [main:082] ERRORS       error with cycle 66752417 errmsg: Error in space '66752417': Query timed out after PT2S
+main (pending,current,complete)=(33185975,160,66813865) 66.81%
+main (pending,current,complete)=(33040454,160,66959386) 66.96%
+main (pending,current,complete)=(32961155,160,67038685) 67.04%
+main (pending,current,complete)=(32916058,160,67083783) 67.08%
+main (pending,current,complete)=(32832565,160,67167275) 67.17%
+ 2428423 WARN  [main:073] ERRORS       error with cycle 67164933 errmsg: Error in space '67164933': Query timed out after PT2S
+ 2428423 WARN  [main:045] ERRORS       error with cycle 67170117 errmsg: Error in space '67170117': Query timed out after PT2S
+ 2428423 WARN  [main:077] ERRORS       error with cycle 67186405 errmsg: Error in space '67186405': Query timed out after PT2S
+main (pending,current,complete)=(32798868,160,67200972) 67.20%
+main (pending,current,complete)=(32739549,160,67260291) 67.26%
+main (pending,current,complete)=(32573592,160,67426248) 67.43%
+main (pending,current,complete)=(32440735,160,67559105) 67.56%
+main (pending,current,complete)=(32325303,160,67674537) 67.67%
+main (pending,current,complete)=(32288980,160,67710860) 67.71%
+main (pending,current,complete)=(32170166,160,67829674) 67.83%
+main (pending,current,complete)=(32105876,160,67893964) 67.89%
+main (pending,current,complete)=(32061271,160,67938569) 67.94%
+main (pending,current,complete)=(31915847,160,68083993) 68.08%
+main (pending,current,complete)=(31775062,160,68224778) 68.22%
+main (pending,current,complete)=(31723594,160,68276246) 68.28%
+main (pending,current,complete)=(31567013,160,68432827) 68.43%
+main (pending,current,complete)=(31354551,160,68645289) 68.65%
+main (pending,current,complete)=(31232051,160,68767789) 68.77%
+main (pending,current,complete)=(31169391,157,68830452) 68.83%
+main (pending,current,complete)=(31055195,160,68944645) 68.94%
+main (pending,current,complete)=(30964625,160,69035215) 69.04%
+main (pending,current,complete)=(30921928,160,69077912) 69.08%
+main (pending,current,complete)=(30799338,160,69200502) 69.20%
+main (pending,current,complete)=(30658238,160,69341602) 69.34%
+main (pending,current,complete)=(30542877,160,69456963) 69.46%
+main (pending,current,complete)=(30380996,160,69618844) 69.62%
+main (pending,current,complete)=(30350356,160,69649484) 69.65%
+main (pending,current,complete)=(30277758,160,69722082) 69.72%
+main (pending,current,complete)=(30199117,160,69800723) 69.80%
+ 2558324 WARN  [main:011] ERRORS       error with cycle 69819437 errmsg: Error in space '69819437': Query timed out after PT2S
+ 2558324 WARN  [main:065] ERRORS       error with cycle 69796385 errmsg: Error in space '69796385': Query timed out after PT2S
+ 2558324 WARN  [main:145] ERRORS       error with cycle 69820632 errmsg: Error in space '69820632': Query timed out after PT2S
+ 2558324 WARN  [main:129] ERRORS       error with cycle 69809093 errmsg: Error in space '69809093': Query timed out after PT2S
+ 2558324 WARN  [main:078] ERRORS       error with cycle 69801562 errmsg: Error in space '69801562': Query timed out after PT2S
+ 2558324 WARN  [main:029] ERRORS       error with cycle 69818457 errmsg: Error in space '69818457': Query timed out after PT2S
+ 2558324 WARN  [main:044] ERRORS       error with cycle 69800941 errmsg: Error in space '69800941': Query timed out after PT2S
+ 2558324 WARN  [main:110] ERRORS       error with cycle 69821622 errmsg: Error in space '69821622': Query timed out after PT2S
+ 2558324 WARN  [main:081] ERRORS       error with cycle 69801969 errmsg: Error in space '69801969': Query timed out after PT2S
+ 2558324 WARN  [main:013] ERRORS       error with cycle 69821229 errmsg: Error in space '69821229': Query timed out after PT2S
+ 2558325 WARN  [main:037] ERRORS       error with cycle 69795177 errmsg: Error in space '69795177': Query timed out after PT2S
+ 2558325 WARN  [main:030] ERRORS       error with cycle 69813721 errmsg: Error in space '69813721': Query timed out after PT2S
+ 2558325 WARN  [main:079] ERRORS       error with cycle 69810478 errmsg: Error in space '69810478': Query timed out after PT2S
+ 2558325 WARN  [main:098] ERRORS       error with cycle 69822417 errmsg: Error in space '69822417': Query timed out after PT2S
+ 2558325 WARN  [main:148] ERRORS       error with cycle 69794565 errmsg: Error in space '69794565': Query timed out after PT2S
+ 2558325 WARN  [main:152] ERRORS       error with cycle 69793381 errmsg: Error in space '69793381': Query timed out after PT2S
+ 2558325 WARN  [main:099] ERRORS       error with cycle 69819638 errmsg: Error in space '69819638': Query timed out after PT2S
+ 2558325 WARN  [main:082] ERRORS       error with cycle 69823608 errmsg: Error in space '69823608': Query timed out after PT2S
+ 2558325 WARN  [main:132] ERRORS       error with cycle 69822017 errmsg: Error in space '69822017': Query timed out after PT2S
+ 2558324 WARN  [main:057] ERRORS       error with cycle 69815885 errmsg: Error in space '69815885': Query timed out after PT2S
+ 2558326 WARN  [main:083] ERRORS       error with cycle 69791181 errmsg: Error in space '69791181': Query timed out after PT2S
+ 2558325 WARN  [main:019] ERRORS       error with cycle 69804142 errmsg: Error in space '69804142': Query timed out after PT2S
+ 2558326 WARN  [main:117] ERRORS       error with cycle 69803537 errmsg: Error in space '69803537': Query timed out after PT2S
+ 2558325 WARN  [main:008] ERRORS       error with cycle 69800339 errmsg: Error in space '69800339': Query timed out after PT2S
+ 2558324 WARN  [main:139] ERRORS       error with cycle 69805317 errmsg: Error in space '69805317': Query timed out after PT2S
+ 2558324 WARN  [main:124] ERRORS       error with cycle 69806709 errmsg: Error in space '69806709': Query timed out after PT2S
+ 2558324 WARN  [main:136] ERRORS       error with cycle 69817873 errmsg: Error in space '69817873': Query timed out after PT2S
+ 2558325 WARN  [main:114] ERRORS       error with cycle 69814667 errmsg: Error in space '69814667': Query timed out after PT2S
+ 2558325 WARN  [main:028] ERRORS       error with cycle 69817109 errmsg: Error in space '69817109': Query timed out after PT2S
+ 2558325 WARN  [main:125] ERRORS       error with cycle 69813255 errmsg: Error in space '69813255': Query timed out after PT2S
+ 2558325 WARN  [main:113] ERRORS       error with cycle 69803133 errmsg: Error in space '69803133': Query timed out after PT2S
+main (pending,current,complete)=(30035792,158,69964050) 69.96%
+main (pending,current,complete)=(29885259,159,70114582) 70.11%
+ 2567922 WARN  [main:100] ERRORS       error with cycle 70111212 errmsg: Error in space '70111212': Query timed out after PT2S
+ 2567922 WARN  [main:043] ERRORS       error with cycle 70124701 errmsg: Error in space '70124701': Query timed out after PT2S
+ 2567922 WARN  [main:137] ERRORS       error with cycle 70127676 errmsg: Error in space '70127676': Query timed out after PT2S
+ 2568225 WARN  [main:078] ERRORS       error with cycle 70120149 errmsg: Error in space '70120149': Query timed out after PT2S
+ 2568225 WARN  [main:076] ERRORS       error with cycle 70134448 errmsg: Error in space '70134448': Query timed out after PT2S
+ 2568225 WARN  [main:146] ERRORS       error with cycle 70126709 errmsg: Error in space '70126709': Query timed out after PT2S
+ 2569623 WARN  [main:071] ERRORS       error with cycle 70140625 errmsg: Error in space '70140625': Query timed out after PT2S
+ 2569623 WARN  [main:058] ERRORS       error with cycle 70145508 errmsg: Error in space '70145508': Query timed out after PT2S
+ 2569623 WARN  [main:109] ERRORS       error with cycle 70155641 errmsg: Error in space '70155641': Query timed out after PT2S
+ 2569623 WARN  [main:015] ERRORS       error with cycle 70162610 errmsg: Error in space '70162610': Query timed out after PT2S
+ 2569623 WARN  [main:001] ERRORS       error with cycle 70089585 errmsg: Error in space '70089585': Query timed out after PT2S
+ 2569623 WARN  [main:037] ERRORS       error with cycle 70159820 errmsg: Error in space '70159820': Query timed out after PT2S
+ 2569623 WARN  [main:006] ERRORS       error with cycle 70130650 errmsg: Error in space '70130650': Query timed out after PT2S
+ 2569623 WARN  [main:091] ERRORS       error with cycle 70137797 errmsg: Error in space '70137797': Query timed out after PT2S
+ 2569623 WARN  [main:147] ERRORS       error with cycle 70151497 errmsg: Error in space '70151497': Query timed out after PT2S
+main (pending,current,complete)=(29753728,158,70246115) 70.25%
+main (pending,current,complete)=(29627688,159,70372154) 70.37%
+main (pending,current,complete)=(29580741,160,70419099) 70.42%
+ 2581022 WARN  [main:048] ERRORS       error with cycle 70411922 errmsg: Error in space '70411922': Query timed out after PT2S
+ 2583222 WARN  [main:034] ERRORS       error with cycle 70412141 errmsg: Error in space '70412141': Query timed out after PT2S
+ 2583222 WARN  [main:083] ERRORS       error with cycle 70417141 errmsg: Error in space '70417141': Query timed out after PT2S
+ 2584523 WARN  [main:099] ERRORS       error with cycle 70413961 errmsg: Error in space '70413961': Query timed out after PT2S
+ 2585322 WARN  [main:146] ERRORS       error with cycle 70437273 errmsg: Error in space '70437273': Query timed out after PT2S
+main (pending,current,complete)=(29570703,160,70429137) 70.43%
+ 2585722 WARN  [main:138] ERRORS       error with cycle 70426111 errmsg: Error in space '70426111': Query timed out after PT2S
+ 2585722 WARN  [main:017] ERRORS       error with cycle 70410784 errmsg: Error in space '70410784': Query timed out after PT2S
+main (pending,current,complete)=(29508019,160,70491821) 70.49%
+main (pending,current,complete)=(29369875,160,70629965) 70.63%
+main (pending,current,complete)=(29346603,160,70653237) 70.65%
+ 2602223 WARN  [main:123] ERRORS       error with cycle 70659056 errmsg: Error in space '70659056': Query timed out after PT2S
+ 2602223 WARN  [main:157] ERRORS       error with cycle 70656673 errmsg: Error in space '70656673': Query timed out after PT2S
+ 2602223 WARN  [main:112] ERRORS       error with cycle 70644312 errmsg: Error in space '70644312': Query timed out after PT2S
+ 2602223 WARN  [main:092] ERRORS       error with cycle 70666205 errmsg: Error in space '70666205': Query timed out after PT2S
+ 2602223 WARN  [main:038] ERRORS       error with cycle 70647192 errmsg: Error in space '70647192': Query timed out after PT2S
+ 2602223 WARN  [main:138] ERRORS       error with cycle 70662452 errmsg: Error in space '70662452': Query timed out after PT2S
+ 2602223 WARN  [main:124] ERRORS       error with cycle 70639941 errmsg: Error in space '70639941': Query timed out after PT2S
+ 2602223 WARN  [main:007] ERRORS       error with cycle 70665421 errmsg: Error in space '70665421': Query timed out after PT2S
+ 2602223 WARN  [main:150] ERRORS       error with cycle 70648897 errmsg: Error in space '70648897': Query timed out after PT2S
+ 2602322 WARN  [main:060] ERRORS       error with cycle 70655321 errmsg: Error in space '70655321': Query timed out after PT2S
+main (pending,current,complete)=(29295055,160,70704785) 70.70%
+main (pending,current,complete)=(29191210,160,70808630) 70.81%
+main (pending,current,complete)=(29071994,160,70927846) 70.93%
+main (pending,current,complete)=(29006915,160,70992925) 70.99%
+main (pending,current,complete)=(28857554,160,71142286) 71.14%
+main (pending,current,complete)=(28775346,160,71224494) 71.22%
+main (pending,current,complete)=(28753210,160,71246630) 71.25%
+main (pending,current,complete)=(28673658,160,71326182) 71.33%
+main (pending,current,complete)=(28586021,160,71413819) 71.41%
+main (pending,current,complete)=(28498381,160,71501459) 71.50%
+main (pending,current,complete)=(28345894,160,71653946) 71.65%
+main (pending,current,complete)=(28205216,160,71794624) 71.79%
+main (pending,current,complete)=(28027574,160,71972266) 71.97%
+main (pending,current,complete)=(27957865,160,72041975) 72.04%
+main (pending,current,complete)=(27909156,160,72090684) 72.09%
+main (pending,current,complete)=(27857864,159,72141977) 72.14%
+main (pending,current,complete)=(27761807,160,72238033) 72.24%
+main (pending,current,complete)=(27589627,159,72410214) 72.41%
+main (pending,current,complete)=(27480668,158,72519175) 72.52%
+main (pending,current,complete)=(27290038,160,72709802) 72.71%
+main (pending,current,complete)=(27225387,160,72774453) 72.77%
+main (pending,current,complete)=(27176271,160,72823569) 72.82%
+main (pending,current,complete)=(27074571,160,72925269) 72.93%
+main (pending,current,complete)=(26914385,159,73085456) 73.09%
+main (pending,current,complete)=(26796153,160,73203687) 73.20%
+main (pending,current,complete)=(26704106,160,73295734) 73.30%
+ 2735223 WARN  [main:138] ERRORS       error with cycle 73329349 errmsg: Error in space '73329349': Query timed out after PT2S
+main (pending,current,complete)=(26621343,160,73378498) 73.38%
+main (pending,current,complete)=(26556192,160,73443648) 73.44%
+ 2744323 WARN  [main:131] ERRORS       error with cycle 73439969 errmsg: Error in space '73439969': Query timed out after PT2S
+ 2744722 WARN  [main:099] ERRORS       error with cycle 73451309 errmsg: Error in space '73451309': Query timed out after PT2S
+ 2744722 WARN  [main:038] ERRORS       error with cycle 73446905 errmsg: Error in space '73446905': Query timed out after PT2S
+ 2744722 WARN  [main:017] ERRORS       error with cycle 73448981 errmsg: Error in space '73448981': Query timed out after PT2S
+ 2744722 WARN  [main:073] ERRORS       error with cycle 73459093 errmsg: Error in space '73459093': Query timed out after PT2S
+ 2744722 WARN  [main:044] ERRORS       error with cycle 73468405 errmsg: Error in space '73468405': Query timed out after PT2S
+ 2744722 WARN  [main:013] ERRORS       error with cycle 73456261 errmsg: Error in space '73456261': Query timed out after PT2S
+ 2744722 WARN  [main:101] ERRORS       error with cycle 73442165 errmsg: Error in space '73442165': Query timed out after PT2S
+ 2744722 WARN  [main:137] ERRORS       error with cycle 73467417 errmsg: Error in space '73467417': Query timed out after PT2S
+ 2744823 WARN  [main:146] ERRORS       error with cycle 73446532 errmsg: Error in space '73446532': Query timed out after PT2S
+ 2744823 WARN  [main:124] ERRORS       error with cycle 73459677 errmsg: Error in space '73459677': Query timed out after PT2S
+ 2744823 WARN  [main:087] ERRORS       error with cycle 73461844 errmsg: Error in space '73461844': Query timed out after PT2S
+ 2744823 WARN  [main:032] ERRORS       error with cycle 73468012 errmsg: Error in space '73468012': Query timed out after PT2S
+ 2744823 WARN  [main:115] ERRORS       error with cycle 73455897 errmsg: Error in space '73455897': Query timed out after PT2S
+ 2744823 WARN  [main:042] ERRORS       error with cycle 73457269 errmsg: Error in space '73457269': Query timed out after PT2S
+ 2744823 WARN  [main:028] ERRORS       error with cycle 73466825 errmsg: Error in space '73466825': Query timed out after PT2S
+ 2744823 WARN  [main:143] ERRORS       error with cycle 73460848 errmsg: Error in space '73460848': Query timed out after PT2S
+ 2744823 WARN  [main:113] ERRORS       error with cycle 73444556 errmsg: Error in space '73444556': Query timed out after PT2S
+ 2744823 WARN  [main:111] ERRORS       error with cycle 73450128 errmsg: Error in space '73450128': Query timed out after PT2S
+ 2744823 WARN  [main:094] ERRORS       error with cycle 73463448 errmsg: Error in space '73463448': Query timed out after PT2S
+ 2744823 WARN  [main:080] ERRORS       error with cycle 73464625 errmsg: Error in space '73464625': Query timed out after PT2S
+ 2744823 WARN  [main:136] ERRORS       error with cycle 73452697 errmsg: Error in space '73452697': Query timed out after PT2S
+ 2744823 WARN  [main:047] ERRORS       error with cycle 73454900 errmsg: Error in space '73454900': Query timed out after PT2S
+ 2744823 WARN  [main:051] ERRORS       error with cycle 73457685 errmsg: Error in space '73457685': Query timed out after PT2S
+ 2744823 WARN  [main:119] ERRORS       error with cycle 73457884 errmsg: Error in space '73457884': Query timed out after PT2S
+ 2744823 WARN  [main:160] ERRORS       error with cycle 73460065 errmsg: Error in space '73460065': Query timed out after PT2S
+ 2744823 WARN  [main:070] ERRORS       error with cycle 73441169 errmsg: Error in space '73441169': Query timed out after PT2S
+ 2744823 WARN  [main:114] ERRORS       error with cycle 73432380 errmsg: Error in space '73432380': Query timed out after PT2S
+ 2744823 WARN  [main:157] ERRORS       error with cycle 73441577 errmsg: Error in space '73441577': Query timed out after PT2S
+ 2744823 WARN  [main:097] ERRORS       error with cycle 73469605 errmsg: Error in space '73469605': Query timed out after PT2S
+ 2744823 WARN  [main:155] ERRORS       error with cycle 73452924 errmsg: Error in space '73452924': Query timed out after PT2S
+ 2744823 WARN  [main:036] ERRORS       error with cycle 73463060 errmsg: Error in space '73463060': Query timed out after PT2S
+ 2745023 WARN  [main:151] ERRORS       error with cycle 73449534 errmsg: Error in space '73449534': Query timed out after PT2S
+ 2745023 WARN  [main:023] ERRORS       error with cycle 73454670 errmsg: Error in space '73454670': Query timed out after PT2S
+ 2745023 WARN  [main:001] ERRORS       error with cycle 73440385 errmsg: Error in space '73440385': Query timed out after PT2S
+ 2745023 WARN  [main:138] ERRORS       error with cycle 73439794 errmsg: Error in space '73439794': Query timed out after PT2S
+main (pending,current,complete)=(26498137,160,73501703) 73.50%
+ 2746022 WARN  [main:008] ERRORS       error with cycle 73480712 errmsg: Error in space '73480712': Query timed out after PT2S
+ 2746824 WARN  [main:126] ERRORS       error with cycle 73488453 errmsg: Error in space '73488453': Query timed out after PT2S
+ 2746922 WARN  [main:100] ERRORS       error with cycle 73493579 errmsg: Error in space '73493579': Query timed out after PT2S
+ 2746922 WARN  [main:080] ERRORS       error with cycle 73464626 errmsg: Error in space '73464626': Query timed out after PT2S
+ 2746922 WARN  [main:042] ERRORS       error with cycle 73457273 errmsg: Error in space '73457273': Query timed out after PT2S
+ 2746922 WARN  [main:156] ERRORS       error with cycle 73504222 errmsg: Error in space '73504222': Query timed out after PT2S
+ 2746922 WARN  [main:028] ERRORS       error with cycle 73466826 errmsg: Error in space '73466826': Query timed out after PT2S
+ 2746922 WARN  [main:124] ERRORS       error with cycle 73459679 errmsg: Error in space '73459679': Query timed out after PT2S
+main (pending,current,complete)=(26376796,160,73623044) 73.62%
+main (pending,current,complete)=(26280771,160,73719069) 73.72%
+ 2756622 WARN  [main:096] ERRORS       error with cycle 73685572 errmsg: Error in space '73685572': Query timed out after PT2S
+ 2756622 WARN  [main:048] ERRORS       error with cycle 73713200 errmsg: Error in space '73713200': Query timed out after PT2S
+ 2756622 WARN  [main:153] ERRORS       error with cycle 73689169 errmsg: Error in space '73689169': Query timed out after PT2S
+ 2756622 WARN  [main:123] ERRORS       error with cycle 73683365 errmsg: Error in space '73683365': Query timed out after PT2S
+ 2756622 WARN  [main:160] ERRORS       error with cycle 73712808 errmsg: Error in space '73712808': Query timed out after PT2S
+ 2756622 WARN  [main:090] ERRORS       error with cycle 73705045 errmsg: Error in space '73705045': Query timed out after PT2S
+ 2756622 WARN  [main:135] ERRORS       error with cycle 73704632 errmsg: Error in space '73704632': Query timed out after PT2S
+ 2757722 WARN  [main:030] ERRORS       error with cycle 73706823 errmsg: Error in space '73706823': Query timed out after PT2S
+ 2757722 WARN  [main:011] ERRORS       error with cycle 73726718 errmsg: Error in space '73726718': Query timed out after PT2S
+ 2757722 WARN  [main:149] ERRORS       error with cycle 73712427 errmsg: Error in space '73712427': Query timed out after PT2S
+ 2757722 WARN  [main:045] ERRORS       error with cycle 73699898 errmsg: Error in space '73699898': Query timed out after PT2S
+ 2757722 WARN  [main:008] ERRORS       error with cycle 73695514 errmsg: Error in space '73695514': Query timed out after PT2S
+ 2757722 WARN  [main:027] ERRORS       error with cycle 73706377 errmsg: Error in space '73706377': Query timed out after PT2S
+ 2757722 WARN  [main:116] ERRORS       error with cycle 73735819 errmsg: Error in space '73735819': Query timed out after PT2S
+ 2757924 WARN  [main:109] ERRORS       error with cycle 73725341 errmsg: Error in space '73725341': Query timed out after PT2S
+ 2757924 WARN  [main:157] ERRORS       error with cycle 73731672 errmsg: Error in space '73731672': Query timed out after PT2S
+ 2757924 WARN  [main:014] ERRORS       error with cycle 73729097 errmsg: Error in space '73729097': Query timed out after PT2S
+ 2757924 WARN  [main:074] ERRORS       error with cycle 73704277 errmsg: Error in space '73704277': Query timed out after PT2S
+ 2757924 WARN  [main:141] ERRORS       error with cycle 73736609 errmsg: Error in space '73736609': Query timed out after PT2S
+ 2757924 WARN  [main:023] ERRORS       error with cycle 73727516 errmsg: Error in space '73727516': Query timed out after PT2S
+ 2757924 WARN  [main:115] ERRORS       error with cycle 73730889 errmsg: Error in space '73730889': Query timed out after PT2S
+ 2757924 WARN  [main:138] ERRORS       error with cycle 73701323 errmsg: Error in space '73701323': Query timed out after PT2S
+ 2757924 WARN  [main:050] ERRORS       error with cycle 73700516 errmsg: Error in space '73700516': Query timed out after PT2S
+ 2757924 WARN  [main:120] ERRORS       error with cycle 73699315 errmsg: Error in space '73699315': Query timed out after PT2S
+ 2757924 WARN  [main:041] ERRORS       error with cycle 73736217 errmsg: Error in space '73736217': Query timed out after PT2S
+ 2757924 WARN  [main:129] ERRORS       error with cycle 73736811 errmsg: Error in space '73736811': Query timed out after PT2S
+ 2757924 WARN  [main:136] ERRORS       error with cycle 73735019 errmsg: Error in space '73735019': Query timed out after PT2S
+ 2757925 WARN  [main:002] ERRORS       error with cycle 73693128 errmsg: Error in space '73693128': Query timed out after PT2S
+ 2757925 WARN  [main:019] ERRORS       error with cycle 73728913 errmsg: Error in space '73728913': Query timed out after PT2S
+ 2757925 WARN  [main:046] ERRORS       error with cycle 73736420 errmsg: Error in space '73736420': Query timed out after PT2S
+ 2757925 WARN  [main:089] ERRORS       error with cycle 73701088 errmsg: Error in space '73701088': Query timed out after PT2S
+ 2757925 WARN  [main:146] ERRORS       error with cycle 73706681 errmsg: Error in space '73706681': Query timed out after PT2S
+ 2757925 WARN  [main:110] ERRORS       error with cycle 73701462 errmsg: Error in space '73701462': Query timed out after PT2S
+ 2757925 WARN  [main:052] ERRORS       error with cycle 73737211 errmsg: Error in space '73737211': Query timed out after PT2S
+ 2757925 WARN  [main:108] ERRORS       error with cycle 73726358 errmsg: Error in space '73726358': Query timed out after PT2S
+ 2757925 WARN  [main:044] ERRORS       error with cycle 73722928 errmsg: Error in space '73722928': Query timed out after PT2S
+ 2757925 WARN  [main:073] ERRORS       error with cycle 73717911 errmsg: Error in space '73717911': Query timed out after PT2S
+ 2757925 WARN  [main:111] ERRORS       error with cycle 73698718 errmsg: Error in space '73698718': Query timed out after PT2S
+ 2757925 WARN  [main:118] ERRORS       error with cycle 73725848 errmsg: Error in space '73725848': Query timed out after PT2S
+ 2757925 WARN  [main:081] ERRORS       error with cycle 73709874 errmsg: Error in space '73709874': Query timed out after PT2S
+ 2757925 WARN  [main:150] ERRORS       error with cycle 73727235 errmsg: Error in space '73727235': Query timed out after PT2S
+ 2757925 WARN  [main:016] ERRORS       error with cycle 73722361 errmsg: Error in space '73722361': Query timed out after PT2S
+ 2757925 WARN  [main:087] ERRORS       error with cycle 73690378 errmsg: Error in space '73690378': Query timed out after PT2S
+ 2757925 WARN  [main:057] ERRORS       error with cycle 73709471 errmsg: Error in space '73709471': Query timed out after PT2S
+ 2757925 WARN  [main:121] ERRORS       error with cycle 73738405 errmsg: Error in space '73738405': Query timed out after PT2S
+ 2757925 WARN  [main:004] ERRORS       error with cycle 73724065 errmsg: Error in space '73724065': Query timed out after PT2S
+ 2757926 WARN  [main:154] ERRORS       error with cycle 73737645 errmsg: Error in space '73737645': Query timed out after PT2S
+ 2757925 WARN  [main:083] ERRORS       error with cycle 73691548 errmsg: Error in space '73691548': Query timed out after PT2S
+ 2757925 WARN  [main:061] ERRORS       error with cycle 73730491 errmsg: Error in space '73730491': Query timed out after PT2S
+ 2757925 WARN  [main:058] ERRORS       error with cycle 73688393 errmsg: Error in space '73688393': Query timed out after PT2S
+ 2757925 WARN  [main:142] ERRORS       error with cycle 73733287 errmsg: Error in space '73733287': Query timed out after PT2S
+ 2757925 WARN  [main:145] ERRORS       error with cycle 73728164 errmsg: Error in space '73728164': Query timed out after PT2S
+ 2757925 WARN  [main:127] ERRORS       error with cycle 73707688 errmsg: Error in space '73707688': Query timed out after PT2S
+ 2757925 WARN  [main:130] ERRORS       error with cycle 73731085 errmsg: Error in space '73731085': Query timed out after PT2S
+ 2757926 WARN  [main:035] ERRORS       error with cycle 73687787 errmsg: Error in space '73687787': Query timed out after PT2S
+ 2758122 WARN  [main:112] ERRORS       error with cycle 73740362 errmsg: Error in space '73740362': Query timed out after PT2S
+ 2758122 WARN  [main:026] ERRORS       error with cycle 73740744 errmsg: Error in space '73740744': Query timed out after PT2S
+main (pending,current,complete)=(26198760,160,73801080) 73.80%
+main (pending,current,complete)=(26131633,160,73868207) 73.87%
+main (pending,current,complete)=(26042951,160,73956889) 73.96%
+main (pending,current,complete)=(25965002,160,74034838) 74.03%
+main (pending,current,complete)=(25914125,159,74085716) 74.09%
+main (pending,current,complete)=(25856016,160,74143824) 74.14%
+main (pending,current,complete)=(25794031,160,74205809) 74.21%
+main (pending,current,complete)=(25648582,159,74351259) 74.35%
+main (pending,current,complete)=(25563965,159,74435876) 74.44%
+ 2803423 WARN  [main:154] ERRORS       error with cycle 74438525 errmsg: Error in space '74438525': Query timed out after PT2S
+ 2803423 WARN  [main:158] ERRORS       error with cycle 74442313 errmsg: Error in space '74442313': Query timed out after PT2S
+ 2803423 WARN  [main:046] ERRORS       error with cycle 74438717 errmsg: Error in space '74438717': Query timed out after PT2S
+ 2803423 WARN  [main:091] ERRORS       error with cycle 74456821 errmsg: Error in space '74456821': Query timed out after PT2S
+ 2803423 WARN  [main:027] ERRORS       error with cycle 74441556 errmsg: Error in space '74441556': Query timed out after PT2S
+ 2803423 WARN  [main:063] ERRORS       error with cycle 74451897 errmsg: Error in space '74451897': Query timed out after PT2S
+ 2803423 WARN  [main:102] ERRORS       error with cycle 74445130 errmsg: Error in space '74445130': Query timed out after PT2S
+ 2803423 WARN  [main:058] ERRORS       error with cycle 74435386 errmsg: Error in space '74435386': Query timed out after PT2S
+ 2803423 WARN  [main:124] ERRORS       error with cycle 74446469 errmsg: Error in space '74446469': Query timed out after PT2S
+ 2803423 WARN  [main:148] ERRORS       error with cycle 74428371 errmsg: Error in space '74428371': Query timed out after PT2S
+ 2803423 WARN  [main:016] ERRORS       error with cycle 74460202 errmsg: Error in space '74460202': Query timed out after PT2S
+ 2803423 WARN  [main:098] ERRORS       error with cycle 74446072 errmsg: Error in space '74446072': Query timed out after PT2S
+ 2803423 WARN  [main:065] ERRORS       error with cycle 74431753 errmsg: Error in space '74431753': Query timed out after PT2S
+ 2803423 WARN  [main:034] ERRORS       error with cycle 74448714 errmsg: Error in space '74448714': Query timed out after PT2S
+ 2803423 WARN  [main:079] ERRORS       error with cycle 74430765 errmsg: Error in space '74430765': Query timed out after PT2S
+ 2803423 WARN  [main:116] ERRORS       error with cycle 74446701 errmsg: Error in space '74446701': Query timed out after PT2S
+ 2803423 WARN  [main:047] ERRORS       error with cycle 74430980 errmsg: Error in space '74430980': Query timed out after PT2S
+ 2803423 WARN  [main:127] ERRORS       error with cycle 74445720 errmsg: Error in space '74445720': Query timed out after PT2S
+ 2803423 WARN  [main:054] ERRORS       error with cycle 74450486 errmsg: Error in space '74450486': Query timed out after PT2S
+ 2803423 WARN  [main:060] ERRORS       error with cycle 74437594 errmsg: Error in space '74437594': Query timed out after PT2S
+ 2803423 WARN  [main:061] ERRORS       error with cycle 74438950 errmsg: Error in space '74438950': Query timed out after PT2S
+ 2803424 WARN  [main:051] ERRORS       error with cycle 74444131 errmsg: Error in space '74444131': Query timed out after PT2S
+ 2803424 WARN  [main:114] ERRORS       error with cycle 74459222 errmsg: Error in space '74459222': Query timed out after PT2S
+ 2803424 WARN  [main:136] ERRORS       error with cycle 74453264 errmsg: Error in space '74453264': Query timed out after PT2S
+ 2803424 WARN  [main:002] ERRORS       error with cycle 74434749 errmsg: Error in space '74434749': Query timed out after PT2S
+ 2803523 WARN  [main:088] ERRORS       error with cycle 74448122 errmsg: Error in space '74448122': Query timed out after PT2S
+ 2803523 WARN  [main:110] ERRORS       error with cycle 74461033 errmsg: Error in space '74461033': Query timed out after PT2S
+ 2803523 WARN  [main:074] ERRORS       error with cycle 74457851 errmsg: Error in space '74457851': Query timed out after PT2S
+ 2804222 WARN  [main:131] ERRORS       error with cycle 74448292 errmsg: Error in space '74448292': Query timed out after PT2S
+ 2804223 WARN  [main:021] ERRORS       error with cycle 74459046 errmsg: Error in space '74459046': Query timed out after PT2S
+ 2804223 WARN  [main:144] ERRORS       error with cycle 74442530 errmsg: Error in space '74442530': Query timed out after PT2S
+ 2804322 WARN  [main:077] ERRORS       error with cycle 74461465 errmsg: Error in space '74461465': Query timed out after PT2S
+ 2804422 WARN  [main:032] ERRORS       error with cycle 74464718 errmsg: Error in space '74464718': Query timed out after PT2S
+ 2805523 WARN  [main:136] ERRORS       error with cycle 74453267 errmsg: Error in space '74453267': Query timed out after PT2S
+ 2805523 WARN  [main:114] ERRORS       error with cycle 74459224 errmsg: Error in space '74459224': Query timed out after PT2S
+ 2805523 WARN  [main:002] ERRORS       error with cycle 74434756 errmsg: Error in space '74434756': Query timed out after PT2S
+ 2805523 WARN  [main:079] ERRORS       error with cycle 74430766 errmsg: Error in space '74430766': Query timed out after PT2S
+ 2805523 WARN  [main:054] ERRORS       error with cycle 74450490 errmsg: Error in space '74450490': Query timed out after PT2S
+ 2805523 WARN  [main:058] ERRORS       error with cycle 74435388 errmsg: Error in space '74435388': Query timed out after PT2S
+main (pending,current,complete)=(25478983,160,74520857) 74.52%
+main (pending,current,complete)=(25367327,160,74632513) 74.63%
+main (pending,current,complete)=(25258703,160,74741137) 74.74%
+main (pending,current,complete)=(25204041,160,74795799) 74.80%
+ 2824923 WARN  [main:155] ERRORS       error with cycle 74795592 errmsg: Error in space '74795592': Query timed out after PT2S
+ 2824923 WARN  [main:016] ERRORS       error with cycle 74795999 errmsg: Error in space '74795999': Query timed out after PT2S
+ 2824923 WARN  [main:111] ERRORS       error with cycle 74822500 errmsg: Error in space '74822500': Query timed out after PT2S
+ 2824923 WARN  [main:036] ERRORS       error with cycle 74826266 errmsg: Error in space '74826266': Query timed out after PT2S
+ 2824923 WARN  [main:024] ERRORS       error with cycle 74823683 errmsg: Error in space '74823683': Query timed out after PT2S
+ 2824923 WARN  [main:017] ERRORS       error with cycle 74822085 errmsg: Error in space '74822085': Query timed out after PT2S
+ 2824923 WARN  [main:090] ERRORS       error with cycle 74832808 errmsg: Error in space '74832808': Query timed out after PT2S
+ 2824923 WARN  [main:064] ERRORS       error with cycle 74817892 errmsg: Error in space '74817892': Query timed out after PT2S
+ 2824923 WARN  [main:029] ERRORS       error with cycle 74803373 errmsg: Error in space '74803373': Query timed out after PT2S
+ 2824923 WARN  [main:131] ERRORS       error with cycle 74803974 errmsg: Error in space '74803974': Query timed out after PT2S
+ 2824923 WARN  [main:130] ERRORS       error with cycle 74811383 errmsg: Error in space '74811383': Query timed out after PT2S
+ 2825023 WARN  [main:160] ERRORS       error with cycle 74815741 errmsg: Error in space '74815741': Query timed out after PT2S
+ 2825023 WARN  [main:125] ERRORS       error with cycle 74810177 errmsg: Error in space '74810177': Query timed out after PT2S
+ 2825322 WARN  [main:091] ERRORS       error with cycle 74834144 errmsg: Error in space '74834144': Query timed out after PT2S
+main (pending,current,complete)=(25139809,160,74860031) 74.86%
+main (pending,current,complete)=(25013357,160,74986483) 74.99%
+main (pending,current,complete)=(24840923,160,75158917) 75.16%
+main (pending,current,complete)=(24775483,160,75224357) 75.22%
+main (pending,current,complete)=(24622345,160,75377495) 75.38%
+main (pending,current,complete)=(24510929,160,75488911) 75.49%
+main (pending,current,complete)=(24364980,160,75634860) 75.63%
+main (pending,current,complete)=(24319927,160,75679913) 75.68%
+main (pending,current,complete)=(24179345,160,75820495) 75.82%
+main (pending,current,complete)=(24024538,160,75975302) 75.98%
+main (pending,current,complete)=(23867249,160,76132591) 76.13%
+main (pending,current,complete)=(23748929,160,76250911) 76.25%
+main (pending,current,complete)=(23624681,160,76375159) 76.38%
+main (pending,current,complete)=(23518980,160,76480860) 76.48%
+main (pending,current,complete)=(23364665,160,76635175) 76.64%
+main (pending,current,complete)=(23218882,159,76780959) 76.78%
+main (pending,current,complete)=(23143140,160,76856700) 76.86%
+main (pending,current,complete)=(23075140,160,76924700) 76.92%
+main (pending,current,complete)=(22984451,159,77015390) 77.02%
+main (pending,current,complete)=(22800579,160,77199261) 77.20%
+main (pending,current,complete)=(22671894,160,77327946) 77.33%
+main (pending,current,complete)=(22548135,160,77451705) 77.45%
+main (pending,current,complete)=(22442105,160,77557735) 77.56%
+main (pending,current,complete)=(22278384,160,77721456) 77.72%
+main (pending,current,complete)=(22159124,160,77840716) 77.84%
+main (pending,current,complete)=(22048699,160,77951141) 77.95%
+main (pending,current,complete)=(21852860,157,78146984) 78.15%
+main (pending,current,complete)=(21785139,160,78214701) 78.21%
+main (pending,current,complete)=(21696535,160,78303305) 78.30%
+main (pending,current,complete)=(21554438,160,78445402) 78.45%
+main (pending,current,complete)=(21449988,160,78549852) 78.55%
+main (pending,current,complete)=(21340114,160,78659726) 78.66%
+main (pending,current,complete)=(21185561,160,78814279) 78.81%
+main (pending,current,complete)=(21107262,160,78892578) 78.89%
+main (pending,current,complete)=(20997097,159,79002744) 79.00%
+main (pending,current,complete)=(20916070,159,79083771) 79.08%
+main (pending,current,complete)=(20785525,160,79214315) 79.21%
+main (pending,current,complete)=(20653287,160,79346553) 79.35%
+main (pending,current,complete)=(20501282,160,79498558) 79.50%
+main (pending,current,complete)=(20445983,159,79553858) 79.55%
+main (pending,current,complete)=(20256621,160,79743219) 79.74%
+main (pending,current,complete)=(20167313,160,79832527) 79.83%
+main (pending,current,complete)=(20086694,160,79913146) 79.91%
+main (pending,current,complete)=(20031094,160,79968746) 79.97%
+main (pending,current,complete)=(19906281,160,80093559) 80.09%
+main (pending,current,complete)=(19836638,160,80163202) 80.16%
+main (pending,current,complete)=(19714658,160,80285182) 80.29%
+main (pending,current,complete)=(19659904,160,80339936) 80.34%
+main (pending,current,complete)=(19534878,160,80464962) 80.47%
+main (pending,current,complete)=(19383427,160,80616413) 80.62%
+main (pending,current,complete)=(19237856,160,80761984) 80.76%
+main (pending,current,complete)=(19155629,159,80844212) 80.84%
+main (pending,current,complete)=(19046767,160,80953073) 80.95%
+main (pending,current,complete)=(18939189,160,81060651) 81.06%
+main (pending,current,complete)=(18851556,160,81148284) 81.15%
+main (pending,current,complete)=(18743023,160,81256817) 81.26%
+main (pending,current,complete)=(18660821,160,81339019) 81.34%
+main (pending,current,complete)=(18481305,160,81518535) 81.52%
+main (pending,current,complete)=(18295361,160,81704479) 81.70%
+main (pending,current,complete)=(18210673,160,81789167) 81.79%
+main (pending,current,complete)=(18122739,160,81877101) 81.88%
+main (pending,current,complete)=(18009931,159,81989910) 81.99%
+main (pending,current,complete)=(17915619,160,82084221) 82.08%
+main (pending,current,complete)=(17788990,160,82210850) 82.21%
+main (pending,current,complete)=(17659287,160,82340553) 82.34%
+main (pending,current,complete)=(17525069,160,82474771) 82.47%
+main (pending,current,complete)=(17407763,160,82592077) 82.59%
+main (pending,current,complete)=(17250225,160,82749615) 82.75%
+main (pending,current,complete)=(17152238,160,82847602) 82.85%
+main (pending,current,complete)=(17002954,160,82996886) 83.00%
+main (pending,current,complete)=(16878867,160,83120973) 83.12%
+main (pending,current,complete)=(16771875,160,83227965) 83.23%
+main (pending,current,complete)=(16719847,160,83279993) 83.28%
+main (pending,current,complete)=(16630399,160,83369441) 83.37%
+main (pending,current,complete)=(16528284,160,83471556) 83.47%
+main (pending,current,complete)=(16422144,158,83577698) 83.58%
+main (pending,current,complete)=(16347508,160,83652332) 83.65%
+main (pending,current,complete)=(16185004,160,83814836) 83.81%
+main (pending,current,complete)=(16009369,160,83990471) 83.99%
+main (pending,current,complete)=(15888881,160,84110959) 84.11%
+main (pending,current,complete)=(15840599,160,84159241) 84.16%
+main (pending,current,complete)=(15769136,160,84230704) 84.23%
+main (pending,current,complete)=(15654517,160,84345323) 84.35%
+main (pending,current,complete)=(15609121,160,84390719) 84.39%
+main (pending,current,complete)=(15503234,160,84496606) 84.50%
+main (pending,current,complete)=(15339754,160,84660086) 84.66%
+main (pending,current,complete)=(15232378,158,84767464) 84.77%
+main (pending,current,complete)=(15051974,160,84947866) 84.95%
+main (pending,current,complete)=(14914873,160,85084967) 85.09%
+main (pending,current,complete)=(14857992,160,85141848) 85.14%
+main (pending,current,complete)=(14811174,159,85188667) 85.19%
+main (pending,current,complete)=(14733252,160,85266588) 85.27%
+main (pending,current,complete)=(14622875,160,85376965) 85.38%
+main (pending,current,complete)=(14493357,160,85506483) 85.51%
+main (pending,current,complete)=(14374418,160,85625422) 85.63%
+main (pending,current,complete)=(14315698,160,85684142) 85.68%
+main (pending,current,complete)=(14175404,160,85824436) 85.82%
+main (pending,current,complete)=(14087367,159,85912474) 85.91%
+main (pending,current,complete)=(14060700,160,85939140) 85.94%
+main (pending,current,complete)=(13941622,160,86058218) 86.06%
+main (pending,current,complete)=(13826563,160,86173277) 86.17%
+main (pending,current,complete)=(13656226,160,86343614) 86.34%
+main (pending,current,complete)=(13555338,160,86444502) 86.44%
+main (pending,current,complete)=(13484554,160,86515286) 86.52%
+main (pending,current,complete)=(13450219,160,86549621) 86.55%
+main (pending,current,complete)=(13360425,160,86639415) 86.64%
+main (pending,current,complete)=(13314740,160,86685100) 86.69%
+main (pending,current,complete)=(13208052,160,86791788) 86.79%
+main (pending,current,complete)=(13151525,160,86848315) 86.85%
+main (pending,current,complete)=(12957361,160,87042479) 87.04%
+main (pending,current,complete)=(12799278,160,87200562) 87.20%
+main (pending,current,complete)=(12670689,158,87329153) 87.33%
+main (pending,current,complete)=(12603616,160,87396224) 87.40%
+main (pending,current,complete)=(12489647,160,87510193) 87.51%
+main (pending,current,complete)=(12355183,160,87644657) 87.64%
+main (pending,current,complete)=(12286681,160,87713159) 87.71%
+main (pending,current,complete)=(12131626,160,87868214) 87.87%
+main (pending,current,complete)=(11982594,160,88017246) 88.02%
+main (pending,current,complete)=(11846639,160,88153201) 88.15%
+main (pending,current,complete)=(11763766,160,88236074) 88.24%
+main (pending,current,complete)=(11673389,160,88326451) 88.33%
+ 3430323 WARN  [main:113] ERRORS       error with cycle 88352577 errmsg: Error in space '88352577': Query timed out after PT2S
+ 3430323 WARN  [main:111] ERRORS       error with cycle 88368309 errmsg: Error in space '88368309': Query timed out after PT2S
+ 3430323 WARN  [main:101] ERRORS       error with cycle 88387201 errmsg: Error in space '88387201': Query timed out after PT2S
+main (pending,current,complete)=(11555238,159,88444603) 88.44%
+ 3431422 WARN  [main:034] ERRORS       error with cycle 88400181 errmsg: Error in space '88400181': Query timed out after PT2S
+ 3431422 WARN  [main:047] ERRORS       error with cycle 88411280 errmsg: Error in space '88411280': Query timed out after PT2S
+ 3431422 WARN  [main:105] ERRORS       error with cycle 88409296 errmsg: Error in space '88409296': Query timed out after PT2S
+ 3431422 WARN  [main:143] ERRORS       error with cycle 88363372 errmsg: Error in space '88363372': Query timed out after PT2S
+ 3431422 WARN  [main:151] ERRORS       error with cycle 88406725 errmsg: Error in space '88406725': Query timed out after PT2S
+ 3431422 WARN  [main:001] ERRORS       error with cycle 88419612 errmsg: Error in space '88419612': Query timed out after PT2S
+ 3431422 WARN  [main:119] ERRORS       error with cycle 88366959 errmsg: Error in space '88366959': Query timed out after PT2S
+ 3431523 WARN  [main:102] ERRORS       error with cycle 88408996 errmsg: Error in space '88408996': Query timed out after PT2S
+ 3431523 WARN  [main:133] ERRORS       error with cycle 88430235 errmsg: Error in space '88430235': Query timed out after PT2S
+ 3431523 WARN  [main:063] ERRORS       error with cycle 88419892 errmsg: Error in space '88419892': Query timed out after PT2S
+ 3431523 WARN  [main:159] ERRORS       error with cycle 88407798 errmsg: Error in space '88407798': Query timed out after PT2S
+ 3431523 WARN  [main:031] ERRORS       error with cycle 88419120 errmsg: Error in space '88419120': Query timed out after PT2S
+ 3431523 WARN  [main:025] ERRORS       error with cycle 88431614 errmsg: Error in space '88431614': Query timed out after PT2S
+ 3431523 WARN  [main:064] ERRORS       error with cycle 88428442 errmsg: Error in space '88428442': Query timed out after PT2S
+ 3431523 WARN  [main:057] ERRORS       error with cycle 88412579 errmsg: Error in space '88412579': Query timed out after PT2S
+ 3431523 WARN  [main:066] ERRORS       error with cycle 88413571 errmsg: Error in space '88413571': Query timed out after PT2S
+ 3431523 WARN  [main:048] ERRORS       error with cycle 88426861 errmsg: Error in space '88426861': Query timed out after PT2S
+main (pending,current,complete)=(11506779,160,88493061) 88.49%
+main (pending,current,complete)=(11354422,160,88645418) 88.65%
+ 3444522 WARN  [main:020] ERRORS       error with cycle 88646138 errmsg: Error in space '88646138': Query timed out after PT2S
+ 3444522 WARN  [main:071] ERRORS       error with cycle 88638797 errmsg: Error in space '88638797': Query timed out after PT2S
+ 3444623 WARN  [main:138] ERRORS       error with cycle 88636771 errmsg: Error in space '88636771': Query timed out after PT2S
+ 3444623 WARN  [main:049] ERRORS       error with cycle 88649565 errmsg: Error in space '88649565': Query timed out after PT2S
+ 3444623 WARN  [main:012] ERRORS       error with cycle 88647366 errmsg: Error in space '88647366': Query timed out after PT2S
+ 3444623 WARN  [main:149] ERRORS       error with cycle 88650730 errmsg: Error in space '88650730': Query timed out after PT2S
+ 3444623 WARN  [main:027] ERRORS       error with cycle 88671203 errmsg: Error in space '88671203': Query timed out after PT2S
+ 3444623 WARN  [main:088] ERRORS       error with cycle 88639951 errmsg: Error in space '88639951': Query timed out after PT2S
+ 3444623 WARN  [main:101] ERRORS       error with cycle 88654501 errmsg: Error in space '88654501': Query timed out after PT2S
+ 3444623 WARN  [main:056] ERRORS       error with cycle 88663895 errmsg: Error in space '88663895': Query timed out after PT2S
+ 3444623 WARN  [main:068] ERRORS       error with cycle 88666839 errmsg: Error in space '88666839': Query timed out after PT2S
+main (pending,current,complete)=(11259260,160,88740580) 88.74%
+main (pending,current,complete)=(11159687,160,88840153) 88.84%
+main (pending,current,complete)=(11080335,160,88919505) 88.92%
+main (pending,current,complete)=(10966410,160,89033430) 89.03%
+main (pending,current,complete)=(10902475,160,89097365) 89.10%
+main (pending,current,complete)=(10804442,160,89195398) 89.20%
+main (pending,current,complete)=(10660379,160,89339461) 89.34%
+main (pending,current,complete)=(10619663,160,89380177) 89.38%
+main (pending,current,complete)=(10586795,160,89413045) 89.41%
+main (pending,current,complete)=(10520511,160,89479329) 89.48%
+main (pending,current,complete)=(10391255,160,89608585) 89.61%
+main (pending,current,complete)=(10241548,160,89758292) 89.76%
+main (pending,current,complete)=(10087827,159,89912014) 89.91%
+main (pending,current,complete)=(9948772,160,90051068) 90.05%
+main (pending,current,complete)=(9837455,160,90162385) 90.16%
+main (pending,current,complete)=(9809782,160,90190058) 90.19%
+main (pending,current,complete)=(9776928,160,90222912) 90.22%
+main (pending,current,complete)=(9658211,160,90341629) 90.34%
+main (pending,current,complete)=(9568780,160,90431060) 90.43%
+main (pending,current,complete)=(9492268,160,90507572) 90.51%
+main (pending,current,complete)=(9360509,160,90639331) 90.64%
+main (pending,current,complete)=(9180198,160,90819642) 90.82%
+ 3555423 WARN  [main:159] ERRORS       error with cycle 90897857 errmsg: Error in space '90897857': Query timed out after PT2S
+ 3555423 WARN  [main:065] ERRORS       error with cycle 90903217 errmsg: Error in space '90903217': Query timed out after PT2S
+ 3555423 WARN  [main:124] ERRORS       error with cycle 90883733 errmsg: Error in space '90883733': Query timed out after PT2S
+ 3555423 WARN  [main:139] ERRORS       error with cycle 90896269 errmsg: Error in space '90896269': Query timed out after PT2S
+ 3555423 WARN  [main:066] ERRORS       error with cycle 90891682 errmsg: Error in space '90891682': Query timed out after PT2S
+ 3555522 WARN  [main:101] ERRORS       error with cycle 90897257 errmsg: Error in space '90897257': Query timed out after PT2S
+ 3555522 WARN  [main:004] ERRORS       error with cycle 90888532 errmsg: Error in space '90888532': Query timed out after PT2S
+ 3555522 WARN  [main:088] ERRORS       error with cycle 90891897 errmsg: Error in space '90891897': Query timed out after PT2S
+ 3555522 WARN  [main:126] ERRORS       error with cycle 90888733 errmsg: Error in space '90888733': Query timed out after PT2S
+ 3555522 WARN  [main:060] ERRORS       error with cycle 90891285 errmsg: Error in space '90891285': Query timed out after PT2S
+ 3555522 WARN  [main:131] ERRORS       error with cycle 90890750 errmsg: Error in space '90890750': Query timed out after PT2S
+ 3555522 WARN  [main:056] ERRORS       error with cycle 90882381 errmsg: Error in space '90882381': Query timed out after PT2S
+main (pending,current,complete)=(9098813,160,90901027) 90.90%
+ 3556422 WARN  [main:157] ERRORS       error with cycle 90894685 errmsg: Error in space '90894685': Query timed out after PT2S
+main (pending,current,complete)=(9053737,160,90946103) 90.95%
+main (pending,current,complete)=(8960082,160,91039758) 91.04%
+main (pending,current,complete)=(8859423,160,91140417) 91.14%
+main (pending,current,complete)=(8719362,160,91280478) 91.28%
+main (pending,current,complete)=(8651922,160,91347918) 91.35%
+main (pending,current,complete)=(8550386,160,91449454) 91.45%
+main (pending,current,complete)=(8492257,160,91507584) 91.51%
+main (pending,current,complete)=(8398599,159,91601242) 91.60%
+main (pending,current,complete)=(8325812,160,91674028) 91.67%
+main (pending,current,complete)=(8161485,160,91838355) 91.84%
+main (pending,current,complete)=(8008212,156,91991632) 91.99%
+main (pending,current,complete)=(7880878,160,92118963) 92.12%
+main (pending,current,complete)=(7797969,160,92201871) 92.20%
+main (pending,current,complete)=(7704315,160,92295525) 92.30%
+main (pending,current,complete)=(7611837,160,92388003) 92.39%
+main (pending,current,complete)=(7516065,160,92483775) 92.48%
+main (pending,current,complete)=(7440644,160,92559196) 92.56%
+main (pending,current,complete)=(7289205,160,92710635) 92.71%
+main (pending,current,complete)=(7190122,160,92809718) 92.81%
+main (pending,current,complete)=(7149242,160,92850598) 92.85%
+main (pending,current,complete)=(7069037,160,92930803) 92.93%
+main (pending,current,complete)=(7023898,159,92975943) 92.98%
+main (pending,current,complete)=(6955668,159,93044174) 93.04%
+main (pending,current,complete)=(6878643,160,93121197) 93.12%
+main (pending,current,complete)=(6797530,160,93202310) 93.20%
+main (pending,current,complete)=(6676792,159,93323049) 93.32%
+ 3690622 WARN  [main:032] ERRORS       error with cycle 93363799 errmsg: Error in space '93363799': Query timed out after PT2S
+ 3690622 WARN  [main:018] ERRORS       error with cycle 93395856 errmsg: Error in space '93395856': Query timed out after PT2S
+ 3690622 WARN  [main:012] ERRORS       error with cycle 93377519 errmsg: Error in space '93377519': Query timed out after PT2S
+ 3690622 WARN  [main:006] ERRORS       error with cycle 93360388 errmsg: Error in space '93360388': Query timed out after PT2S
+ 3690622 WARN  [main:044] ERRORS       error with cycle 93365196 errmsg: Error in space '93365196': Query timed out after PT2S
+main (pending,current,complete)=(6557623,160,93442217) 93.44%
+ 3691222 WARN  [main:090] ERRORS       error with cycle 93399898 errmsg: Error in space '93399898': Query timed out after PT2S
+ 3691822 WARN  [main:144] ERRORS       error with cycle 93442467 errmsg: Error in space '93442467': Query timed out after PT2S
+ 3691822 WARN  [main:068] ERRORS       error with cycle 93439690 errmsg: Error in space '93439690': Query timed out after PT2S
+ 3691822 WARN  [main:048] ERRORS       error with cycle 93445636 errmsg: Error in space '93445636': Query timed out after PT2S
+ 3691822 WARN  [main:142] ERRORS       error with cycle 93398846 errmsg: Error in space '93398846': Query timed out after PT2S
+ 3691822 WARN  [main:139] ERRORS       error with cycle 93422363 errmsg: Error in space '93422363': Query timed out after PT2S
+ 3691822 WARN  [main:116] ERRORS       error with cycle 93434939 errmsg: Error in space '93434939': Query timed out after PT2S
+ 3691922 WARN  [main:133] ERRORS       error with cycle 93436932 errmsg: Error in space '93436932': Query timed out after PT2S
+ 3691922 WARN  [main:039] ERRORS       error with cycle 93441280 errmsg: Error in space '93441280': Query timed out after PT2S
+ 3691922 WARN  [main:152] ERRORS       error with cycle 93416925 errmsg: Error in space '93416925': Query timed out after PT2S
+ 3692022 WARN  [main:135] ERRORS       error with cycle 93441082 errmsg: Error in space '93441082': Query timed out after PT2S
+ 3692223 WARN  [main:127] ERRORS       error with cycle 93432571 errmsg: Error in space '93432571': Query timed out after PT2S
+main (pending,current,complete)=(6517881,160,93481959) 93.48%
+main (pending,current,complete)=(6380045,160,93619795) 93.62%
+main (pending,current,complete)=(6260962,160,93738878) 93.74%
+main (pending,current,complete)=(6193922,160,93805918) 93.81%
+ 3714123 WARN  [main:051] ERRORS       error with cycle 93829627 errmsg: Error in space '93829627': Query timed out after PT2S
+ 3714123 WARN  [main:138] ERRORS       error with cycle 93822683 errmsg: Error in space '93822683': Query timed out after PT2S
+ 3714123 WARN  [main:143] ERRORS       error with cycle 93814934 errmsg: Error in space '93814934': Query timed out after PT2S
+ 3714123 WARN  [main:064] ERRORS       error with cycle 93803770 errmsg: Error in space '93803770': Query timed out after PT2S
+ 3714123 WARN  [main:139] ERRORS       error with cycle 93819895 errmsg: Error in space '93819895': Query timed out after PT2S
+ 3714123 WARN  [main:004] ERRORS       error with cycle 93812152 errmsg: Error in space '93812152': Query timed out after PT2S
+ 3714123 WARN  [main:110] ERRORS       error with cycle 93798375 errmsg: Error in space '93798375': Query timed out after PT2S
+ 3714123 WARN  [main:130] ERRORS       error with cycle 93826065 errmsg: Error in space '93826065': Query timed out after PT2S
+ 3714123 WARN  [main:152] ERRORS       error with cycle 93828840 errmsg: Error in space '93828840': Query timed out after PT2S
+ 3714123 WARN  [main:123] ERRORS       error with cycle 93827641 errmsg: Error in space '93827641': Query timed out after PT2S
+ 3714123 WARN  [main:080] ERRORS       error with cycle 93814341 errmsg: Error in space '93814341': Query timed out after PT2S
+ 3714123 WARN  [main:079] ERRORS       error with cycle 93820288 errmsg: Error in space '93820288': Query timed out after PT2S
+ 3714123 WARN  [main:101] ERRORS       error with cycle 93799578 errmsg: Error in space '93799578': Query timed out after PT2S
+ 3714123 WARN  [main:081] ERRORS       error with cycle 93822870 errmsg: Error in space '93822870': Query timed out after PT2S
+ 3714123 WARN  [main:105] ERRORS       error with cycle 93811312 errmsg: Error in space '93811312': Query timed out after PT2S
+ 3714123 WARN  [main:102] ERRORS       error with cycle 93816508 errmsg: Error in space '93816508': Query timed out after PT2S
+ 3714123 WARN  [main:066] ERRORS       error with cycle 93803375 errmsg: Error in space '93803375': Query timed out after PT2S
+ 3714123 WARN  [main:010] ERRORS       error with cycle 93803187 errmsg: Error in space '93803187': Query timed out after PT2S
+ 3714123 WARN  [main:083] ERRORS       error with cycle 93798583 errmsg: Error in space '93798583': Query timed out after PT2S
+ 3714123 WARN  [main:036] ERRORS       error with cycle 93811539 errmsg: Error in space '93811539': Query timed out after PT2S
+ 3714123 WARN  [main:074] ERRORS       error with cycle 93823676 errmsg: Error in space '93823676': Query timed out after PT2S
+ 3714123 WARN  [main:039] ERRORS       error with cycle 93809743 errmsg: Error in space '93809743': Query timed out after PT2S
+main (pending,current,complete)=(6100212,159,93899629) 93.90%
+main (pending,current,complete)=(6009920,160,93989920) 93.99%
+main (pending,current,complete)=(5943351,160,94056489) 94.06%
+main (pending,current,complete)=(5889844,160,94109996) 94.11%
+main (pending,current,complete)=(5824110,160,94175730) 94.18%
+ 3735724 WARN  [main:026] ERRORS       error with cycle 94141653 errmsg: Error in space '94141653': Query timed out after PT2S
+ 3735724 WARN  [main:082] ERRORS       error with cycle 94140250 errmsg: Error in space '94140250': Query timed out after PT2S
+ 3735724 WARN  [main:156] ERRORS       error with cycle 94118935 errmsg: Error in space '94118935': Query timed out after PT2S
+ 3735724 WARN  [main:055] ERRORS       error with cycle 94133382 errmsg: Error in space '94133382': Query timed out after PT2S
+ 3735724 WARN  [main:009] ERRORS       error with cycle 94131694 errmsg: Error in space '94131694': Query timed out after PT2S
+ 3735724 WARN  [main:053] ERRORS       error with cycle 94132940 errmsg: Error in space '94132940': Query timed out after PT2S
+ 3735724 WARN  [main:068] ERRORS       error with cycle 94133862 errmsg: Error in space '94133862': Query timed out after PT2S
+ 3735724 WARN  [main:022] ERRORS       error with cycle 94130899 errmsg: Error in space '94130899': Query timed out after PT2S
+ 3735724 WARN  [main:080] ERRORS       error with cycle 94140074 errmsg: Error in space '94140074': Query timed out after PT2S
+ 3735724 WARN  [main:104] ERRORS       error with cycle 94139859 errmsg: Error in space '94139859': Query timed out after PT2S
+ 3735724 WARN  [main:157] ERRORS       error with cycle 94147809 errmsg: Error in space '94147809': Query timed out after PT2S
+ 3735724 WARN  [main:152] ERRORS       error with cycle 94118592 errmsg: Error in space '94118592': Query timed out after PT2S
+ 3735724 WARN  [main:013] ERRORS       error with cycle 94114582 errmsg: Error in space '94114582': Query timed out after PT2S
+ 3735724 WARN  [main:004] ERRORS       error with cycle 94144036 errmsg: Error in space '94144036': Query timed out after PT2S
+ 3735724 WARN  [main:130] ERRORS       error with cycle 94122935 errmsg: Error in space '94122935': Query timed out after PT2S
+ 3735724 WARN  [main:032] ERRORS       error with cycle 94137060 errmsg: Error in space '94137060': Query timed out after PT2S
+ 3735724 WARN  [main:102] ERRORS       error with cycle 94120552 errmsg: Error in space '94120552': Query timed out after PT2S
+ 3735724 WARN  [main:094] ERRORS       error with cycle 94137469 errmsg: Error in space '94137469': Query timed out after PT2S
+ 3735724 WARN  [main:093] ERRORS       error with cycle 94124549 errmsg: Error in space '94124549': Query timed out after PT2S
+ 3735724 WARN  [main:133] ERRORS       error with cycle 94142077 errmsg: Error in space '94142077': Query timed out after PT2S
+ 3735724 WARN  [main:155] ERRORS       error with cycle 94137841 errmsg: Error in space '94137841': Query timed out after PT2S
+ 3735724 WARN  [main:061] ERRORS       error with cycle 94127130 errmsg: Error in space '94127130': Query timed out after PT2S
+ 3735724 WARN  [main:040] ERRORS       error with cycle 94126754 errmsg: Error in space '94126754': Query timed out after PT2S
+ 3735724 WARN  [main:030] ERRORS       error with cycle 94143641 errmsg: Error in space '94143641': Query timed out after PT2S
+ 3735724 WARN  [main:088] ERRORS       error with cycle 94128337 errmsg: Error in space '94128337': Query timed out after PT2S
+ 3735724 WARN  [main:007] ERRORS       error with cycle 94138876 errmsg: Error in space '94138876': Query timed out after PT2S
+ 3735724 WARN  [main:041] ERRORS       error with cycle 94134124 errmsg: Error in space '94134124': Query timed out after PT2S
+ 3735724 WARN  [main:011] ERRORS       error with cycle 94149407 errmsg: Error in space '94149407': Query timed out after PT2S
+ 3735724 WARN  [main:075] ERRORS       error with cycle 94139467 errmsg: Error in space '94139467': Query timed out after PT2S
+ 3735724 WARN  [main:076] ERRORS       error with cycle 94125127 errmsg: Error in space '94125127': Query timed out after PT2S
+ 3735724 WARN  [main:122] ERRORS       error with cycle 94143442 errmsg: Error in space '94143442': Query timed out after PT2S
+ 3735724 WARN  [main:151] ERRORS       error with cycle 94129913 errmsg: Error in space '94129913': Query timed out after PT2S
+ 3735724 WARN  [main:106] ERRORS       error with cycle 94129509 errmsg: Error in space '94129509': Query timed out after PT2S
+ 3735724 WARN  [main:127] ERRORS       error with cycle 94145236 errmsg: Error in space '94145236': Query timed out after PT2S
+ 3735724 WARN  [main:067] ERRORS       error with cycle 94141464 errmsg: Error in space '94141464': Query timed out after PT2S
+ 3735724 WARN  [main:149] ERRORS       error with cycle 94145046 errmsg: Error in space '94145046': Query timed out after PT2S
+ 3735724 WARN  [main:020] ERRORS       error with cycle 94126336 errmsg: Error in space '94126336': Query timed out after PT2S
+ 3735725 WARN  [main:015] ERRORS       error with cycle 94113784 errmsg: Error in space '94113784': Query timed out after PT2S
+ 3735724 WARN  [main:140] ERRORS       error with cycle 94134504 errmsg: Error in space '94134504': Query timed out after PT2S
+ 3735725 WARN  [main:141] ERRORS       error with cycle 94140463 errmsg: Error in space '94140463': Query timed out after PT2S
+ 3735725 WARN  [main:108] ERRORS       error with cycle 94136282 errmsg: Error in space '94136282': Query timed out after PT2S
+main (pending,current,complete)=(5715064,160,94284776) 94.28%
+main (pending,current,complete)=(5582612,160,94417228) 94.42%
+main (pending,current,complete)=(5469683,160,94530157) 94.53%
+main (pending,current,complete)=(5433482,160,94566358) 94.57%
+main (pending,current,complete)=(5409991,160,94589849) 94.59%
+main (pending,current,complete)=(5323386,160,94676454) 94.68%
+main (pending,current,complete)=(5256390,160,94743450) 94.74%
+main (pending,current,complete)=(5134026,157,94865817) 94.87%
+main (pending,current,complete)=(5042996,159,94956845) 94.96%
+main (pending,current,complete)=(5007948,160,94991892) 94.99%
+main (pending,current,complete)=(4932782,160,95067058) 95.07%
+main (pending,current,complete)=(4806922,160,95192918) 95.19%
+main (pending,current,complete)=(4640783,160,95359057) 95.36%
+main (pending,current,complete)=(4516821,160,95483019) 95.48%
+ 3810424 WARN  [main:043] ERRORS       error with cycle 95495177 errmsg: Error in space '95495177': Query timed out after PT2S
+ 3810424 WARN  [main:112] ERRORS       error with cycle 95515256 errmsg: Error in space '95515256': Query timed out after PT2S
+ 3810424 WARN  [main:117] ERRORS       error with cycle 95524204 errmsg: Error in space '95524204': Query timed out after PT2S
+ 3810424 WARN  [main:129] ERRORS       error with cycle 95496144 errmsg: Error in space '95496144': Query timed out after PT2S
+ 3810424 WARN  [main:051] ERRORS       error with cycle 95518448 errmsg: Error in space '95518448': Query timed out after PT2S
+ 3810424 WARN  [main:056] ERRORS       error with cycle 95499769 errmsg: Error in space '95499769': Query timed out after PT2S
+ 3810424 WARN  [main:044] ERRORS       error with cycle 95521023 errmsg: Error in space '95521023': Query timed out after PT2S
+ 3810424 WARN  [main:008] ERRORS       error with cycle 95493559 errmsg: Error in space '95493559': Query timed out after PT2S
+ 3810424 WARN  [main:124] ERRORS       error with cycle 95494172 errmsg: Error in space '95494172': Query timed out after PT2S
+ 3810424 WARN  [main:034] ERRORS       error with cycle 95520240 errmsg: Error in space '95520240': Query timed out after PT2S
+ 3810424 WARN  [main:103] ERRORS       error with cycle 95524801 errmsg: Error in space '95524801': Query timed out after PT2S
+ 3810424 WARN  [main:013] ERRORS       error with cycle 95504967 errmsg: Error in space '95504967': Query timed out after PT2S
+ 3810424 WARN  [main:101] ERRORS       error with cycle 95517265 errmsg: Error in space '95517265': Query timed out after PT2S
+ 3810524 WARN  [main:111] ERRORS       error with cycle 95501158 errmsg: Error in space '95501158': Query timed out after PT2S
+main (pending,current,complete)=(4424919,160,95574921) 95.58%
+ 3811222 WARN  [main:106] ERRORS       error with cycle 95535912 errmsg: Error in space '95535912': Query timed out after PT2S
+ 3811222 WARN  [main:143] ERRORS       error with cycle 95530557 errmsg: Error in space '95530557': Query timed out after PT2S
+ 3811222 WARN  [main:038] ERRORS       error with cycle 95534916 errmsg: Error in space '95534916': Query timed out after PT2S
+ 3811222 WARN  [main:158] ERRORS       error with cycle 95542036 errmsg: Error in space '95542036': Query timed out after PT2S
+ 3811222 WARN  [main:029] ERRORS       error with cycle 95537288 errmsg: Error in space '95537288': Query timed out after PT2S
+ 3811822 WARN  [main:123] ERRORS       error with cycle 95562829 errmsg: Error in space '95562829': Query timed out after PT2S
+main (pending,current,complete)=(4377004,160,95622836) 95.62%
+main (pending,current,complete)=(4300757,160,95699083) 95.70%
+ 3822423 WARN  [main:066] ERRORS       error with cycle 95698013 errmsg: Error in space '95698013': Query timed out after PT2S
+ 3822423 WARN  [main:092] ERRORS       error with cycle 95678983 errmsg: Error in space '95678983': Query timed out after PT2S
+ 3822423 WARN  [main:104] ERRORS       error with cycle 95689277 errmsg: Error in space '95689277': Query timed out after PT2S
+ 3822423 WARN  [main:069] ERRORS       error with cycle 95693281 errmsg: Error in space '95693281': Query timed out after PT2S
+ 3822423 WARN  [main:057] ERRORS       error with cycle 95690862 errmsg: Error in space '95690862': Query timed out after PT2S
+ 3822423 WARN  [main:103] ERRORS       error with cycle 95691261 errmsg: Error in space '95691261': Query timed out after PT2S
+ 3822423 WARN  [main:120] ERRORS       error with cycle 95685307 errmsg: Error in space '95685307': Query timed out after PT2S
+ 3823222 WARN  [main:078] ERRORS       error with cycle 95710160 errmsg: Error in space '95710160': Query timed out after PT2S
+ 3823222 WARN  [main:126] ERRORS       error with cycle 95709365 errmsg: Error in space '95709365': Query timed out after PT2S
+ 3823223 WARN  [main:087] ERRORS       error with cycle 95665157 errmsg: Error in space '95665157': Query timed out after PT2S
+ 3823223 WARN  [main:014] ERRORS       error with cycle 95727638 errmsg: Error in space '95727638': Query timed out after PT2S
+ 3823222 WARN  [main:089] ERRORS       error with cycle 95726634 errmsg: Error in space '95726634': Query timed out after PT2S
+ 3823323 WARN  [main:075] ERRORS       error with cycle 95698668 errmsg: Error in space '95698668': Query timed out after PT2S
+ 3823323 WARN  [main:153] ERRORS       error with cycle 95732832 errmsg: Error in space '95732832': Query timed out after PT2S
+ 3823323 WARN  [main:046] ERRORS       error with cycle 95717549 errmsg: Error in space '95717549': Query timed out after PT2S
+ 3823323 WARN  [main:015] ERRORS       error with cycle 95723311 errmsg: Error in space '95723311': Query timed out after PT2S
+ 3823323 WARN  [main:044] ERRORS       error with cycle 95732038 errmsg: Error in space '95732038': Query timed out after PT2S
+ 3823323 WARN  [main:058] ERRORS       error with cycle 95728865 errmsg: Error in space '95728865': Query timed out after PT2S
+ 3823323 WARN  [main:132] ERRORS       error with cycle 95733831 errmsg: Error in space '95733831': Query timed out after PT2S
+ 3823323 WARN  [main:086] ERRORS       error with cycle 95733021 errmsg: Error in space '95733021': Query timed out after PT2S
+main (pending,current,complete)=(4200336,159,95799505) 95.80%
+main (pending,current,complete)=(4057659,160,95942181) 95.94%
+main (pending,current,complete)=(3944812,160,96055028) 96.06%
+main (pending,current,complete)=(3901379,159,96098462) 96.10%
+ 3844422 WARN  [main:160] ERRORS       error with cycle 96120921 errmsg: Error in space '96120921': Query timed out after PT2S
+ 3844422 WARN  [main:033] ERRORS       error with cycle 96131836 errmsg: Error in space '96131836': Query timed out after PT2S
+ 3844422 WARN  [main:132] ERRORS       error with cycle 96128528 errmsg: Error in space '96128528': Query timed out after PT2S
+ 3844422 WARN  [main:074] ERRORS       error with cycle 96112986 errmsg: Error in space '96112986': Query timed out after PT2S
+ 3844422 WARN  [main:120] ERRORS       error with cycle 96113783 errmsg: Error in space '96113783': Query timed out after PT2S
+ 3844423 WARN  [main:145] ERRORS       error with cycle 96132023 errmsg: Error in space '96132023': Query timed out after PT2S
+main (pending,current,complete)=(3850676,160,96149164) 96.15%
+main (pending,current,complete)=(3762684,160,96237156) 96.24%
+main (pending,current,complete)=(3659597,159,96340244) 96.34%
+main (pending,current,complete)=(3551278,160,96448562) 96.45%
+main (pending,current,complete)=(3417998,160,96581842) 96.58%
+main (pending,current,complete)=(3361232,160,96638608) 96.64%
+main (pending,current,complete)=(3250811,160,96749029) 96.75%
+ 3876523 WARN  [main:147] ERRORS       error with cycle 96716717 errmsg: Error in space '96716717': Query timed out after PT2S
+ 3876523 WARN  [main:016] ERRORS       error with cycle 96726004 errmsg: Error in space '96726004': Query timed out after PT2S
+ 3876523 WARN  [main:146] ERRORS       error with cycle 96715296 errmsg: Error in space '96715296': Query timed out after PT2S
+ 3876523 WARN  [main:139] ERRORS       error with cycle 96708988 errmsg: Error in space '96708988': Query timed out after PT2S
+ 3876523 WARN  [main:145] ERRORS       error with cycle 96710960 errmsg: Error in space '96710960': Query timed out after PT2S
+ 3876523 WARN  [main:134] ERRORS       error with cycle 96714516 errmsg: Error in space '96714516': Query timed out after PT2S
+ 3876523 WARN  [main:107] ERRORS       error with cycle 96694093 errmsg: Error in space '96694093': Query timed out after PT2S
+ 3876723 WARN  [main:149] ERRORS       error with cycle 96712788 errmsg: Error in space '96712788': Query timed out after PT2S
+ 3877422 WARN  [main:096] ERRORS       error with cycle 96738887 errmsg: Error in space '96738887': Query timed out after PT2S
+ 3877422 WARN  [main:045] ERRORS       error with cycle 96738490 errmsg: Error in space '96738490': Query timed out after PT2S
+ 3877422 WARN  [main:012] ERRORS       error with cycle 96739294 errmsg: Error in space '96739294': Query timed out after PT2S
+ 3877422 WARN  [main:006] ERRORS       error with cycle 96738296 errmsg: Error in space '96738296': Query timed out after PT2S
+ 3877422 WARN  [main:038] ERRORS       error with cycle 96731357 errmsg: Error in space '96731357': Query timed out after PT2S
+ 3877422 WARN  [main:003] ERRORS       error with cycle 96730361 errmsg: Error in space '96730361': Query timed out after PT2S
+ 3877423 WARN  [main:110] ERRORS       error with cycle 96744030 errmsg: Error in space '96744030': Query timed out after PT2S
+ 3877422 WARN  [main:088] ERRORS       error with cycle 96725993 errmsg: Error in space '96725993': Query timed out after PT2S
+ 3877422 WARN  [main:048] ERRORS       error with cycle 96749601 errmsg: Error in space '96749601': Query timed out after PT2S
+ 3878622 WARN  [main:134] ERRORS       error with cycle 96714518 errmsg: Error in space '96714518': Query timed out after PT2S
+ 3878622 WARN  [main:016] ERRORS       error with cycle 96726011 errmsg: Error in space '96726011': Query timed out after PT2S
+ 3878622 WARN  [main:139] ERRORS       error with cycle 96708993 errmsg: Error in space '96708993': Query timed out after PT2S
+ 3878622 WARN  [main:145] ERRORS       error with cycle 96710964 errmsg: Error in space '96710964': Query timed out after PT2S
+ 3879122 WARN  [main:093] ERRORS       error with cycle 96789321 errmsg: Error in space '96789321': Query timed out after PT2S
+ 3879122 WARN  [main:099] ERRORS       error with cycle 96801622 errmsg: Error in space '96801622': Query timed out after PT2S
+ 3879122 WARN  [main:071] ERRORS       error with cycle 96794677 errmsg: Error in space '96794677': Query timed out after PT2S
+ 3879122 WARN  [main:044] ERRORS       error with cycle 96684969 errmsg: Error in space '96684969': Query timed out after PT2S
+ 3879122 WARN  [main:140] ERRORS       error with cycle 96784949 errmsg: Error in space '96784949': Query timed out after PT2S
+ 3879122 WARN  [main:091] ERRORS       error with cycle 96788928 errmsg: Error in space '96788928': Query timed out after PT2S
+ 3879122 WARN  [main:115] ERRORS       error with cycle 96717292 errmsg: Error in space '96717292': Query timed out after PT2S
+ 3879122 WARN  [main:120] ERRORS       error with cycle 96783966 errmsg: Error in space '96783966': Query timed out after PT2S
+ 3879122 WARN  [main:014] ERRORS       error with cycle 96721241 errmsg: Error in space '96721241': Query timed out after PT2S
+ 3879122 WARN  [main:090] ERRORS       error with cycle 96795273 errmsg: Error in space '96795273': Query timed out after PT2S
+ 3879122 WARN  [main:026] ERRORS       error with cycle 96799445 errmsg: Error in space '96799445': Query timed out after PT2S
+ 3879122 WARN  [main:064] ERRORS       error with cycle 96787929 errmsg: Error in space '96787929': Query timed out after PT2S
+ 3879122 WARN  [main:128] ERRORS       error with cycle 96799050 errmsg: Error in space '96799050': Query timed out after PT2S
+ 3879122 WARN  [main:083] ERRORS       error with cycle 96795474 errmsg: Error in space '96795474': Query timed out after PT2S
+ 3879122 WARN  [main:078] ERRORS       error with cycle 96796865 errmsg: Error in space '96796865': Query timed out after PT2S
+ 3879122 WARN  [main:056] ERRORS       error with cycle 96794092 errmsg: Error in space '96794092': Query timed out after PT2S
+ 3879222 WARN  [main:109] ERRORS       error with cycle 96811001 errmsg: Error in space '96811001': Query timed out after PT2S
+ 3879622 WARN  [main:125] ERRORS       error with cycle 96809506 errmsg: Error in space '96809506': Query timed out after PT2S
+ 3879622 WARN  [main:035] ERRORS       error with cycle 96812885 errmsg: Error in space '96812885': Query timed out after PT2S
+ 3879622 WARN  [main:107] ERRORS       error with cycle 96809897 errmsg: Error in space '96809897': Query timed out after PT2S
+main (pending,current,complete)=(3160364,160,96839476) 96.84%
+main (pending,current,complete)=(3097047,160,96902793) 96.90%
+main (pending,current,complete)=(2968362,159,97031479) 97.03%
+main (pending,current,complete)=(2863161,160,97136679) 97.14%
+ 3900122 WARN  [main:005] ERRORS       error with cycle 97163973 errmsg: Error in space '97163973': Query timed out after PT2S
+ 3900222 WARN  [main:127] ERRORS       error with cycle 97190018 errmsg: Error in space '97190018': Query timed out after PT2S
+ 3900222 WARN  [main:053] ERRORS       error with cycle 97170721 errmsg: Error in space '97170721': Query timed out after PT2S
+ 3900523 WARN  [main:150] ERRORS       error with cycle 97163377 errmsg: Error in space '97163377': Query timed out after PT2S
+ 3900524 WARN  [main:105] ERRORS       error with cycle 97169350 errmsg: Error in space '97169350': Query timed out after PT2S
+ 3900524 WARN  [main:087] ERRORS       error with cycle 97164972 errmsg: Error in space '97164972': Query timed out after PT2S
+ 3900523 WARN  [main:121] ERRORS       error with cycle 97165166 errmsg: Error in space '97165166': Query timed out after PT2S
+ 3900524 WARN  [main:007] ERRORS       error with cycle 97181881 errmsg: Error in space '97181881': Query timed out after PT2S
+ 3900524 WARN  [main:071] ERRORS       error with cycle 97167954 errmsg: Error in space '97167954': Query timed out after PT2S
+ 3900524 WARN  [main:159] ERRORS       error with cycle 97180677 errmsg: Error in space '97180677': Query timed out after PT2S
+ 3900524 WARN  [main:123] ERRORS       error with cycle 97168964 errmsg: Error in space '97168964': Query timed out after PT2S
+ 3900524 WARN  [main:144] ERRORS       error with cycle 97167178 errmsg: Error in space '97167178': Query timed out after PT2S
+ 3900622 WARN  [main:069] ERRORS       error with cycle 97164598 errmsg: Error in space '97164598': Query timed out after PT2S
+ 3900622 WARN  [main:025] ERRORS       error with cycle 97188658 errmsg: Error in space '97188658': Query timed out after PT2S
+ 3900622 WARN  [main:078] ERRORS       error with cycle 97171550 errmsg: Error in space '97171550': Query timed out after PT2S
+ 3900622 WARN  [main:134] ERRORS       error with cycle 97172125 errmsg: Error in space '97172125': Query timed out after PT2S
+ 3900622 WARN  [main:045] ERRORS       error with cycle 97167786 errmsg: Error in space '97167786': Query timed out after PT2S
+ 3900622 WARN  [main:018] ERRORS       error with cycle 97189261 errmsg: Error in space '97189261': Query timed out after PT2S
+ 3900622 WARN  [main:153] ERRORS       error with cycle 97175797 errmsg: Error in space '97175797': Query timed out after PT2S
+ 3900622 WARN  [main:139] ERRORS       error with cycle 97191458 errmsg: Error in space '97191458': Query timed out after PT2S
+ 3900622 WARN  [main:046] ERRORS       error with cycle 97182290 errmsg: Error in space '97182290': Query timed out after PT2S
+ 3900622 WARN  [main:142] ERRORS       error with cycle 97176573 errmsg: Error in space '97176573': Query timed out after PT2S
+ 3900622 WARN  [main:137] ERRORS       error with cycle 97179706 errmsg: Error in space '97179706': Query timed out after PT2S
+ 3900622 WARN  [main:133] ERRORS       error with cycle 97165576 errmsg: Error in space '97165576': Query timed out after PT2S
+ 3900622 WARN  [main:012] ERRORS       error with cycle 97195809 errmsg: Error in space '97195809': Query timed out after PT2S
+ 3900623 WARN  [main:083] ERRORS       error with cycle 97169590 errmsg: Error in space '97169590': Query timed out after PT2S
+ 3900622 WARN  [main:004] ERRORS       error with cycle 97186085 errmsg: Error in space '97186085': Query timed out after PT2S
+ 3900622 WARN  [main:090] ERRORS       error with cycle 97162790 errmsg: Error in space '97162790': Query timed out after PT2S
+ 3900622 WARN  [main:132] ERRORS       error with cycle 97175930 errmsg: Error in space '97175930': Query timed out after PT2S
+ 3900622 WARN  [main:112] ERRORS       error with cycle 97170550 errmsg: Error in space '97170550': Query timed out after PT2S
+ 3900622 WARN  [main:033] ERRORS       error with cycle 97180920 errmsg: Error in space '97180920': Query timed out after PT2S
+ 3900622 WARN  [main:084] ERRORS       error with cycle 97190435 errmsg: Error in space '97190435': Query timed out after PT2S
+main (pending,current,complete)=(2796458,160,97203382) 97.20%
+main (pending,current,complete)=(2730689,160,97269151) 97.27%
+ 3906723 WARN  [main:032] ERRORS       error with cycle 97239101 errmsg: Error in space '97239101': Query timed out after PT2S
+ 3906723 WARN  [main:111] ERRORS       error with cycle 97234906 errmsg: Error in space '97234906': Query timed out after PT2S
+ 3907522 WARN  [main:002] ERRORS       error with cycle 97231929 errmsg: Error in space '97231929': Query timed out after PT2S
+ 3907522 WARN  [main:133] ERRORS       error with cycle 97250920 errmsg: Error in space '97250920': Query timed out after PT2S
+ 3907522 WARN  [main:075] ERRORS       error with cycle 97225956 errmsg: Error in space '97225956': Query timed out after PT2S
+ 3907522 WARN  [main:067] ERRORS       error with cycle 97269176 errmsg: Error in space '97269176': Query timed out after PT2S
+ 3907523 WARN  [main:117] ERRORS       error with cycle 97266349 errmsg: Error in space '97266349': Query timed out after PT2S
+ 3907522 WARN  [main:086] ERRORS       error with cycle 97248216 errmsg: Error in space '97248216': Query timed out after PT2S
+ 3907522 WARN  [main:154] ERRORS       error with cycle 97271224 errmsg: Error in space '97271224': Query timed out after PT2S
+ 3907723 WARN  [main:147] ERRORS       error with cycle 97273913 errmsg: Error in space '97273913': Query timed out after PT2S
+ 3907822 WARN  [main:124] ERRORS       error with cycle 97244763 errmsg: Error in space '97244763': Query timed out after PT2S
+ 3907822 WARN  [main:030] ERRORS       error with cycle 97276888 errmsg: Error in space '97276888': Query timed out after PT2S
+ 3907822 WARN  [main:136] ERRORS       error with cycle 97251140 errmsg: Error in space '97251140': Query timed out after PT2S
+ 3907822 WARN  [main:048] ERRORS       error with cycle 97279256 errmsg: Error in space '97279256': Query timed out after PT2S
+ 3907822 WARN  [main:001] ERRORS       error with cycle 97274497 errmsg: Error in space '97274497': Query timed out after PT2S
+ 3907822 WARN  [main:049] ERRORS       error with cycle 97277685 errmsg: Error in space '97277685': Query timed out after PT2S
+main (pending,current,complete)=(2587569,160,97412271) 97.41%
+main (pending,current,complete)=(2535586,160,97464254) 97.46%
+main (pending,current,complete)=(2446009,160,97553831) 97.55%
+main (pending,current,complete)=(2330383,160,97669457) 97.67%
+main (pending,current,complete)=(2205809,160,97794031) 97.79%
+ 3932323 WARN  [main:063] ERRORS       error with cycle 97764149 errmsg: Error in space '97764149': Query timed out after PT2S
+ 3932923 WARN  [main:066] ERRORS       error with cycle 97797102 errmsg: Error in space '97797102': Query timed out after PT2S
+ 3933425 WARN  [main:002] ERRORS       error with cycle 97766640 errmsg: Error in space '97766640': Query timed out after PT2S
+ 3933425 WARN  [main:030] ERRORS       error with cycle 97803761 errmsg: Error in space '97803761': Query timed out after PT2S
+ 3933425 WARN  [main:141] ERRORS       error with cycle 97823026 errmsg: Error in space '97823026': Query timed out after PT2S
+ 3933425 WARN  [main:105] ERRORS       error with cycle 97805146 errmsg: Error in space '97805146': Query timed out after PT2S
+ 3933425 WARN  [main:034] ERRORS       error with cycle 97808731 errmsg: Error in space '97808731': Query timed out after PT2S
+ 3933425 WARN  [main:113] ERRORS       error with cycle 97802768 errmsg: Error in space '97802768': Query timed out after PT2S
+ 3933425 WARN  [main:008] ERRORS       error with cycle 97804963 errmsg: Error in space '97804963': Query timed out after PT2S
+ 3933425 WARN  [main:016] ERRORS       error with cycle 97816670 errmsg: Error in space '97816670': Query timed out after PT2S
+ 3933425 WARN  [main:068] ERRORS       error with cycle 97799596 errmsg: Error in space '97799596': Query timed out after PT2S
+ 3933425 WARN  [main:083] ERRORS       error with cycle 97811518 errmsg: Error in space '97811518': Query timed out after PT2S
+ 3933425 WARN  [main:043] ERRORS       error with cycle 97824419 errmsg: Error in space '97824419': Query timed out after PT2S
+ 3933425 WARN  [main:051] ERRORS       error with cycle 97808139 errmsg: Error in space '97808139': Query timed out after PT2S
+ 3933724 WARN  [main:096] ERRORS       error with cycle 97800992 errmsg: Error in space '97800992': Query timed out after PT2S
+ 3933725 WARN  [main:110] ERRORS       error with cycle 97806355 errmsg: Error in space '97806355': Query timed out after PT2S
+ 3933724 WARN  [main:112] ERRORS       error with cycle 97807153 errmsg: Error in space '97807153': Query timed out after PT2S
+ 3933724 WARN  [main:146] ERRORS       error with cycle 97824614 errmsg: Error in space '97824614': Query timed out after PT2S
+ 3933725 WARN  [main:102] ERRORS       error with cycle 97825009 errmsg: Error in space '97825009': Query timed out after PT2S
+ 3933725 WARN  [main:118] ERRORS       error with cycle 97809143 errmsg: Error in space '97809143': Query timed out after PT2S
+ 3933724 WARN  [main:018] ERRORS       error with cycle 97805384 errmsg: Error in space '97805384': Query timed out after PT2S
+ 3933725 WARN  [main:081] ERRORS       error with cycle 97815492 errmsg: Error in space '97815492': Query timed out after PT2S
+ 3933725 WARN  [main:127] ERRORS       error with cycle 97817072 errmsg: Error in space '97817072': Query timed out after PT2S
+ 3933724 WARN  [main:045] ERRORS       error with cycle 97773687 errmsg: Error in space '97773687': Query timed out after PT2S
+ 3933725 WARN  [main:156] ERRORS       error with cycle 97803182 errmsg: Error in space '97803182': Query timed out after PT2S
+main (pending,current,complete)=(2082848,160,97916992) 97.92%
+main (pending,current,complete)=(2039280,160,97960560) 97.96%
+main (pending,current,complete)=(1991914,160,98007926) 98.01%
+main (pending,current,complete)=(1954795,160,98045045) 98.05%
+main (pending,current,complete)=(1812393,158,98187449) 98.19%
+ 3960623 WARN  [main:117] ERRORS       error with cycle 98220188 errmsg: Error in space '98220188': Query timed out after PT2S
+ 3960623 WARN  [main:099] ERRORS       error with cycle 98249237 errmsg: Error in space '98249237': Query timed out after PT2S
+main (pending,current,complete)=(1735706,160,98264134) 98.26%
+main (pending,current,complete)=(1589261,160,98410579) 98.41%
+main (pending,current,complete)=(1444026,160,98555814) 98.56%
+main (pending,current,complete)=(1325802,160,98674038) 98.67%
+main (pending,current,complete)=(1303337,160,98696503) 98.70%
+ 3983122 WARN  [main:146] ERRORS       error with cycle 98696193 errmsg: Error in space '98696193': Query timed out after PT2S
+ 3983222 WARN  [main:056] ERRORS       error with cycle 98696476 errmsg: Error in space '98696476': Query timed out after PT2S
+ 3983222 WARN  [main:036] ERRORS       error with cycle 98708288 errmsg: Error in space '98708288': Query timed out after PT2S
+ 3983222 WARN  [main:110] ERRORS       error with cycle 98698181 errmsg: Error in space '98698181': Query timed out after PT2S
+ 3983223 WARN  [main:064] ERRORS       error with cycle 98710052 errmsg: Error in space '98710052': Query timed out after PT2S
+ 3983223 WARN  [main:150] ERRORS       error with cycle 98681388 errmsg: Error in space '98681388': Query timed out after PT2S
+ 3983223 WARN  [main:052] ERRORS       error with cycle 98695177 errmsg: Error in space '98695177': Query timed out after PT2S
+ 3983223 WARN  [main:002] ERRORS       error with cycle 98691316 errmsg: Error in space '98691316': Query timed out after PT2S
+ 3983223 WARN  [main:062] ERRORS       error with cycle 98704152 errmsg: Error in space '98704152': Query timed out after PT2S
+ 3983222 WARN  [main:001] ERRORS       error with cycle 98687533 errmsg: Error in space '98687533': Query timed out after PT2S
+ 3983223 WARN  [main:080] ERRORS       error with cycle 98699885 errmsg: Error in space '98699885': Query timed out after PT2S
+ 3983223 WARN  [main:096] ERRORS       error with cycle 98704489 errmsg: Error in space '98704489': Query timed out after PT2S
+ 3983223 WARN  [main:061] ERRORS       error with cycle 98702480 errmsg: Error in space '98702480': Query timed out after PT2S
+ 3983223 WARN  [main:140] ERRORS       error with cycle 98693537 errmsg: Error in space '98693537': Query timed out after PT2S
+ 3983223 WARN  [main:023] ERRORS       error with cycle 98704941 errmsg: Error in space '98704941': Query timed out after PT2S
+ 3983223 WARN  [main:049] ERRORS       error with cycle 98686965 errmsg: Error in space '98686965': Query timed out after PT2S
+ 3983223 WARN  [main:157] ERRORS       error with cycle 98699740 errmsg: Error in space '98699740': Query timed out after PT2S
+ 3983223 WARN  [main:114] ERRORS       error with cycle 98684352 errmsg: Error in space '98684352': Query timed out after PT2S
+ 3983223 WARN  [main:008] ERRORS       error with cycle 98682796 errmsg: Error in space '98682796': Query timed out after PT2S
+ 3983222 WARN  [main:025] ERRORS       error with cycle 98709852 errmsg: Error in space '98709852': Query timed out after PT2S
+ 3983223 WARN  [main:046] ERRORS       error with cycle 98703424 errmsg: Error in space '98703424': Query timed out after PT2S
+ 3983223 WARN  [main:103] ERRORS       error with cycle 98712612 errmsg: Error in space '98712612': Query timed out after PT2S
+ 3983223 WARN  [main:126] ERRORS       error with cycle 98672960 errmsg: Error in space '98672960': Query timed out after PT2S
+ 3983223 WARN  [main:122] ERRORS       error with cycle 98702617 errmsg: Error in space '98702617': Query timed out after PT2S
+ 3983223 WARN  [main:014] ERRORS       error with cycle 98688532 errmsg: Error in space '98688532': Query timed out after PT2S
+ 3983322 WARN  [main:091] ERRORS       error with cycle 98679196 errmsg: Error in space '98679196': Query timed out after PT2S
+ 3983322 WARN  [main:102] ERRORS       error with cycle 98677369 errmsg: Error in space '98677369': Query timed out after PT2S
+ 3983322 WARN  [main:026] ERRORS       error with cycle 98688325 errmsg: Error in space '98688325': Query timed out after PT2S
+ 3983322 WARN  [main:077] ERRORS       error with cycle 98696711 errmsg: Error in space '98696711': Query timed out after PT2S
+ 3983322 WARN  [main:015] ERRORS       error with cycle 98705470 errmsg: Error in space '98705470': Query timed out after PT2S
+ 3983322 WARN  [main:112] ERRORS       error with cycle 98704268 errmsg: Error in space '98704268': Query timed out after PT2S
+ 3983322 WARN  [main:094] ERRORS       error with cycle 98697344 errmsg: Error in space '98697344': Query timed out after PT2S
+ 3983322 WARN  [main:142] ERRORS       error with cycle 98678190 errmsg: Error in space '98678190': Query timed out after PT2S
+ 3983322 WARN  [main:155] ERRORS       error with cycle 98703042 errmsg: Error in space '98703042': Query timed out after PT2S
+ 3983322 WARN  [main:066] ERRORS       error with cycle 98684589 errmsg: Error in space '98684589': Query timed out after PT2S
+ 3983322 WARN  [main:074] ERRORS       error with cycle 98699480 errmsg: Error in space '98699480': Query timed out after PT2S
+ 3983322 WARN  [main:041] ERRORS       error with cycle 98698472 errmsg: Error in space '98698472': Query timed out after PT2S
+ 3983322 WARN  [main:068] ERRORS       error with cycle 98691533 errmsg: Error in space '98691533': Query timed out after PT2S
+ 3983322 WARN  [main:072] ERRORS       error with cycle 98682186 errmsg: Error in space '98682186': Query timed out after PT2S
+ 3983322 WARN  [main:105] ERRORS       error with cycle 98701090 errmsg: Error in space '98701090': Query timed out after PT2S
+ 3983322 WARN  [main:013] ERRORS       error with cycle 98697469 errmsg: Error in space '98697469': Query timed out after PT2S
+ 3983322 WARN  [main:118] ERRORS       error with cycle 98681577 errmsg: Error in space '98681577': Query timed out after PT2S
+ 3983622 WARN  [main:120] ERRORS       error with cycle 98712805 errmsg: Error in space '98712805': Query timed out after PT2S
+main (pending,current,complete)=(1291131,160,98708709) 98.71%
+main (pending,current,complete)=(1247017,160,98752823) 98.75%
+main (pending,current,complete)=(1196688,160,98803152) 98.80%
+main (pending,current,complete)=(1042332,160,98957508) 98.96%
+main (pending,current,complete)=(877579,160,99122261) 99.12%
+main (pending,current,complete)=(801943,160,99197897) 99.20%
+main (pending,current,complete)=(729527,160,99270313) 99.27%
+main (pending,current,complete)=(674080,159,99325761) 99.33%
+main (pending,current,complete)=(630245,160,99369595) 99.37%
+main (pending,current,complete)=(584951,160,99414889) 99.42%
+main (pending,current,complete)=(451300,160,99548540) 99.55%
+main (pending,current,complete)=(297298,160,99702542) 99.70%
+main (pending,current,complete)=(174451,160,99825389) 99.83%
+main (pending,current,complete)=(107027,160,99892813) 99.89%
+main (pending,current,complete)=(75115,160,99924725) 99.92%
+main (pending,current,complete)=(15727,160,99984113) 99.98%
+main (pending,current,complete)=(0,0,100000000) 100.00% (last report)
+10/21/25, 5:32:03 PM ===========================================================
+
+-- Gauges ----------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="ops_pending",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_5m",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.4958334297812732
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_15m",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.49861111468334507
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_1m",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.479178714627256
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="ops_complete",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             value = 3.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="errors_total",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             value = 1.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="error_rate_total",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.3333333333333333
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="ops_active",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="threads",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             value = 1.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="ops_pending",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_total",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="threads",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             value = 160.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="ops_complete",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             value = 100000.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_1m",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="errors_total",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_15m",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="ops_active",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="error_rate_5m",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="ops_complete",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             value = 1.0E8
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="threads",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             value = 160.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="errors_total",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             value = 632.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_1m",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             value = -1.011931129676311E-5
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_15m",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             value = 1.2518596660383423E-5
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="ops_active",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="ops_pending",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             value = 0.0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_5m",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             value = 2.374771390674164E-5
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="error_rate_total",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             value = 6.32E-6
+
+-- Counters --------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="pending_ops",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 0
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="errors_RuntimeException",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 1
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="errors_ALL",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 1
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="pending_ops",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 0
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="errors_RuntimeException",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 632
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="errors_ALL",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 632
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="pending_ops",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 0
+
+-- Histograms ------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="tries",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 3
+               min = 1
+               max = 1
+              mean = 1.00
+            stddev = 0.00
+            median = 1.00
+              75% <= 1.00
+              95% <= 1.00
+              98% <= 1.00
+              99% <= 1.00
+            99.9% <= 1.00
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="tries",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000
+               min = 1
+               max = 1
+              mean = 1.00
+            stddev = 0.00
+            median = 1.00
+              75% <= 1.00
+              95% <= 1.00
+              98% <= 1.00
+              99% <= 1.00
+            99.9% <= 1.00
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="tries",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000000
+               min = 1
+               max = 1
+              mean = 1.00
+            stddev = 0.00
+            median = 1.00
+              75% <= 1.00
+              95% <= 1.00
+              98% <= 1.00
+              99% <= 1.00
+            99.9% <= 1.00
+
+-- Timers ----------------------------------------------------------------------
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="cycles_servicetime",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1107230720.00 nanoseconds
+               max = 3082682367.00 nanoseconds
+              mean = 1803572565.33 nanoseconds
+            stddev = 905608610.85 nanoseconds
+            median = 1220870143.00 nanoseconds
+              75% <= 3082682367.00 nanoseconds
+              95% <= 3082682367.00 nanoseconds
+              98% <= 3082682367.00 nanoseconds
+              99% <= 3082682367.00 nanoseconds
+            99.9% <= 3082682367.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="bind",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 7282688.00 nanoseconds
+               max = 969965567.00 nanoseconds
+              mean = 329419392.00 nanoseconds
+            stddev = 452925537.67 nanoseconds
+            median = 11026431.00 nanoseconds
+              75% <= 969965567.00 nanoseconds
+              95% <= 969965567.00 nanoseconds
+              98% <= 969965567.00 nanoseconds
+              99% <= 969965567.00 nanoseconds
+            99.9% <= 969965567.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="read_input",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 2
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 160512.00 nanoseconds
+               max = 1214399.00 nanoseconds
+              mean = 687442.00 nanoseconds
+            stddev = 526926.00 nanoseconds
+            median = 160519.00 nanoseconds
+              75% <= 1214399.00 nanoseconds
+              95% <= 1214399.00 nanoseconds
+              98% <= 1214399.00 nanoseconds
+              99% <= 1214399.00 nanoseconds
+            99.9% <= 1214399.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="strides",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 1
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 5411438592.00 nanoseconds
+               max = 5411700735.00 nanoseconds
+              mean = 5411569664.00 nanoseconds
+            stddev = 0.00 nanoseconds
+            median = 5411700735.00 nanoseconds
+              75% <= 5411700735.00 nanoseconds
+              95% <= 5411700735.00 nanoseconds
+              98% <= 5411700735.00 nanoseconds
+              99% <= 5411700735.00 nanoseconds
+            99.9% <= 5411700735.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="execute",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1099759616.00 nanoseconds
+               max = 2097217535.00 nanoseconds
+              mean = 1467842560.00 nanoseconds
+            stddev = 447141317.26 nanoseconds
+            median = 1206583295.00 nanoseconds
+              75% <= 2097217535.00 nanoseconds
+              95% <= 2097217535.00 nanoseconds
+              98% <= 2097217535.00 nanoseconds
+              99% <= 2097217535.00 nanoseconds
+            99.9% <= 2097217535.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="result",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 3
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1099890688.00 nanoseconds
+               max = 2099642367.00 nanoseconds
+              mean = 1468869290.67 nanoseconds
+            stddev = 448140868.37 nanoseconds
+            median = 1207107583.00 nanoseconds
+              75% <= 2099642367.00 nanoseconds
+              95% <= 2099642367.00 nanoseconds
+              98% <= 2099642367.00 nanoseconds
+              99% <= 2099642367.00 nanoseconds
+            99.9% <= 2099642367.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="verifier",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 2
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 25179.00 nanoseconds
+               max = 62611.00 nanoseconds
+              mean = 43895.00 nanoseconds
+            stddev = 18716.00 nanoseconds
+            median = 25179.00 nanoseconds
+              75% <= 62611.00 nanoseconds
+              95% <= 62611.00 nanoseconds
+              98% <= 62611.00 nanoseconds
+              99% <= 62611.00 nanoseconds
+            99.9% <= 62611.00 nanoseconds
+{activity="schema",container="default.schema",instance="default",jobname="nosqlbench",name="result_success",node="10.100.9.73",scenario="default.schema",session="oD7AuB4",workload="fraud_detection"}
+             count = 2
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1099890688.00 nanoseconds
+               max = 1207107583.00 nanoseconds
+              mean = 1153499136.00 nanoseconds
+            stddev = 53575680.00 nanoseconds
+            median = 1099956223.00 nanoseconds
+              75% <= 1207107583.00 nanoseconds
+              95% <= 1207107583.00 nanoseconds
+              98% <= 1207107583.00 nanoseconds
+              99% <= 1207107583.00 nanoseconds
+            99.9% <= 1207107583.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="read_input",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 50160
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 43.00 nanoseconds
+               max = 525279.00 nanoseconds
+              mean = 794.92 nanoseconds
+            stddev = 3027.24 nanoseconds
+            median = 605.00 nanoseconds
+              75% <= 868.00 nanoseconds
+              95% <= 1270.00 nanoseconds
+              98% <= 2899.00 nanoseconds
+              99% <= 4949.00 nanoseconds
+            99.9% <= 22643.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="execute",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 547296.00 nanoseconds
+               max = 1224278015.00 nanoseconds
+              mean = 5720610.20 nanoseconds
+            stddev = 36623190.61 nanoseconds
+            median = 1101055.00 nanoseconds
+              75% <= 1345791.00 nanoseconds
+              95% <= 8110847.00 nanoseconds
+              98% <= 66672639.00 nanoseconds
+              99% <= 78393343.00 nanoseconds
+            99.9% <= 574914559.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="result",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 551456.00 nanoseconds
+               max = 1224278015.00 nanoseconds
+              mean = 5729891.40 nanoseconds
+            stddev = 36670148.76 nanoseconds
+            median = 1103615.00 nanoseconds
+              75% <= 1348415.00 nanoseconds
+              95% <= 8155135.00 nanoseconds
+              98% <= 66684927.00 nanoseconds
+              99% <= 78397439.00 nanoseconds
+            99.9% <= 574914559.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="result_success",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 551456.00 nanoseconds
+               max = 1224278015.00 nanoseconds
+              mean = 5729891.40 nanoseconds
+            stddev = 36670148.76 nanoseconds
+            median = 1103615.00 nanoseconds
+              75% <= 1348415.00 nanoseconds
+              95% <= 8155135.00 nanoseconds
+              98% <= 66684927.00 nanoseconds
+              99% <= 78397439.00 nanoseconds
+            99.9% <= 574914559.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="bind",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 2272.00 nanoseconds
+               max = 239927295.00 nanoseconds
+              mean = 389249.65 nanoseconds
+            stddev = 9014544.15 nanoseconds
+            median = 15629.00 nanoseconds
+              75% <= 21383.00 nanoseconds
+              95% <= 45251.00 nanoseconds
+              98% <= 80627.00 nanoseconds
+              99% <= 122447.00 nanoseconds
+            99.9% <= 222658559.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="strides",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 50000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 1374784.00 nanoseconds
+               max = 1433141247.00 nanoseconds
+10/21/25, 5:32:04 PM ===========================================================
+
+-- Gauges ----------------------------------------------------------------------
+{instance="default",jobname="nosqlbench",name="off_heap_memory_committed",node="10.100.9.73",session="oD7AuB4"}
+             value = 7.4514432E7
+{instance="default",jobname="nosqlbench",name="on_heap_memory_committed",node="10.100.9.73",session="oD7AuB4"}
+             value = 5.268045824E9
+{instance="default",jobname="nosqlbench",name="session_time",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.0799632958348E14
+{instance="default",jobname="nosqlbench",name="off_heap_memory_max",node="10.100.9.73",session="oD7AuB4"}
+             value = -1.0
+{instance="default",jobname="nosqlbench",name="open_file_descriptors",node="10.100.9.73",session="oD7AuB4"}
+             value = 12.0
+{instance="default",jobname="nosqlbench",name="on_heap_memory_used",node="10.100.9.73",session="oD7AuB4"}
+             value = 2.426404864E9
+{instance="default",jobname="nosqlbench",name="on_heap_memory_max",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.610612736E10
+{instance="default",jobname="nosqlbench",name="off_heap_memory_used",node="10.100.9.73",session="oD7AuB4"}
+             value = 6.9905792E7
+{instance="default",jobname="nosqlbench",name="lo_tx_bytes",node="10.100.9.73",session="oD7AuB4"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="swap_free",node="10.100.9.73",session="oD7AuB4"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="mem_available",node="10.100.9.73",session="oD7AuB4"}
+             value = 5.8498496E7
+{instance="default",jobname="nosqlbench",name="lo_rx_packets",node="10.100.9.73",session="oD7AuB4"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="mem_cache",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.0313132E7
+{instance="default",jobname="nosqlbench",name="lo_rx_bytes",node="10.100.9.73",session="oD7AuB4"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="eth0_tx_bytes",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.689968751E10
+{instance="default",jobname="nosqlbench",name="eth0_tx_packets",node="10.100.9.73",session="oD7AuB4"}
+             value = 6.1403624E7
+{instance="default",jobname="nosqlbench",name="lo_tx_packets",node="10.100.9.73",session="oD7AuB4"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="cpu_idle",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.62071656E8
+{instance="default",jobname="nosqlbench",name="swap_used",node="10.100.9.73",session="oD7AuB4"}
+             value = 0.0
+{instance="default",jobname="nosqlbench",name="mem_total",node="10.100.9.73",session="oD7AuB4"}
+             value = 6.5851524E7
+{instance="default",jobname="nosqlbench",name="eth0_rx_packets",node="10.100.9.73",session="oD7AuB4"}
+             value = 5.9592156E7
+{instance="default",jobname="nosqlbench",name="cpu_iowait",node="10.100.9.73",session="oD7AuB4"}
+             value = 195893.0
+{instance="default",jobname="nosqlbench",name="loadavg_15min",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.64
+{instance="default",jobname="nosqlbench",name="mem_buffered",node="10.100.9.73",session="oD7AuB4"}
+             value = 138940.0
+{instance="default",jobname="nosqlbench",name="mem_used",node="10.100.9.73",session="oD7AuB4"}
+             value = 7353028.0
+{instance="default",jobname="nosqlbench",name="cpu_system",node="10.100.9.73",session="oD7AuB4"}
+             value = 2102335.0
+{instance="default",jobname="nosqlbench",name="loadavg_5min",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.57
+{instance="default",jobname="nosqlbench",name="cpu_total",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.7190714E8
+{instance="default",jobname="nosqlbench",name="eth0_rx_bytes",node="10.100.9.73",session="oD7AuB4"}
+             value = 2.1956275725E10
+{instance="default",jobname="nosqlbench",name="cpu_user",node="10.100.9.73",session="oD7AuB4"}
+             value = 5921606.0
+{instance="default",jobname="nosqlbench",name="mem_free",node="10.100.9.73",session="oD7AuB4"}
+             value = 5.3700836E7
+{instance="default",jobname="nosqlbench",name="loadavg_1min",node="10.100.9.73",session="oD7AuB4"}
+             value = 0.7
+{instance="default",jobname="nosqlbench",name="swap_total",node="10.100.9.73",session="oD7AuB4"}
+             value = 0.0
+
+
+              mean = 12323854.83 nanoseconds
+            stddev = 54472446.06 nanoseconds
+            median = 2277759.00 nanoseconds
+              75% <= 2829695.00 nanoseconds
+              95% <= 64782335.00 nanoseconds
+              98% <= 86515711.00 nanoseconds
+              99% <= 237854719.00 nanoseconds
+            99.9% <= 910852095.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="cycles_servicetime",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 565856.00 nanoseconds
+               max = 1230635007.00 nanoseconds
+              mean = 6154643.22 nanoseconds
+            stddev = 38106845.32 nanoseconds
+            median = 1125119.00 nanoseconds
+              75% <= 1372735.00 nanoseconds
+              95% <= 8562687.00 nanoseconds
+              98% <= 68292607.00 nanoseconds
+              99% <= 85872639.00 nanoseconds
+            99.9% <= 574947327.00 nanoseconds
+{activity="rampup",container="default.rampup",instance="default",jobname="nosqlbench",name="verifier",node="10.100.9.73",scenario="default.rampup",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 68.00 nanoseconds
+               max = 3293823.00 nanoseconds
+              mean = 620.01 nanoseconds
+            stddev = 12666.18 nanoseconds
+            median = 352.00 nanoseconds
+              75% <= 498.00 nanoseconds
+              95% <= 1170.00 nanoseconds
+              98% <= 1535.00 nanoseconds
+              99% <= 1833.00 nanoseconds
+            99.9% <= 18307.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="result",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 488016.00 nanoseconds
+               max = 2102394879.00 nanoseconds
+              mean = 6460281.68 nanoseconds
+            stddev = 43048937.20 nanoseconds
+            median = 1133119.00 nanoseconds
+              75% <= 1347199.00 nanoseconds
+              95% <= 2011839.00 nanoseconds
+              98% <= 71495679.00 nanoseconds
+              99% <= 239083519.00 nanoseconds
+            99.9% <= 471121919.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="strides",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 500000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 172908544.00 nanoseconds
+               max = 13770948607.00 nanoseconds
+              mean = 1294356276.43 nanoseconds
+            stddev = 915234816.19 nanoseconds
+            median = 1058439167.00 nanoseconds
+              75% <= 1586036735.00 nanoseconds
+              95% <= 3033530367.00 nanoseconds
+              98% <= 3952607231.00 nanoseconds
+              99% <= 4730126335.00 nanoseconds
+            99.9% <= 7022837759.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="verifier",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 99999368
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 42.00 nanoseconds
+               max = 494415.00 nanoseconds
+              mean = 336.68 nanoseconds
+            stddev = 810.94 nanoseconds
+            median = 280.00 nanoseconds
+              75% <= 368.00 nanoseconds
+              95% <= 570.00 nanoseconds
+              98% <= 704.00 nanoseconds
+              99% <= 813.00 nanoseconds
+            99.9% <= 12802.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="bind",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 678.00 nanoseconds
+               max = 232742911.00 nanoseconds
+              mean = 7364.44 nanoseconds
+            stddev = 276881.66 nanoseconds
+            median = 4720.00 nanoseconds
+              75% <= 10087.00 nanoseconds
+              95% <= 17772.00 nanoseconds
+              98% <= 24629.00 nanoseconds
+              99% <= 31412.00 nanoseconds
+            99.9% <= 60691.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="result_success",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 99999368
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 488016.00 nanoseconds
+               max = 2055471103.00 nanoseconds
+              mean = 6447367.25 nanoseconds
+            stddev = 42741386.77 nanoseconds
+            median = 1133119.00 nanoseconds
+              75% <= 1347199.00 nanoseconds
+              95% <= 2011775.00 nanoseconds
+              98% <= 71462911.00 nanoseconds
+              99% <= 238911487.00 nanoseconds
+            99.9% <= 469909503.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="read_input",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 500160
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 43.00 nanoseconds
+               max = 120803.00 nanoseconds
+              mean = 418.95 nanoseconds
+            stddev = 969.79 nanoseconds
+            median = 321.00 nanoseconds
+              75% <= 437.00 nanoseconds
+              95% <= 745.00 nanoseconds
+              98% <= 943.00 nanoseconds
+              99% <= 1210.00 nanoseconds
+            99.9% <= 14409.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="execute",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 484944.00 nanoseconds
+               max = 2102394879.00 nanoseconds
+              mean = 6458240.69 nanoseconds
+            stddev = 43048823.16 nanoseconds
+            median = 1131071.00 nanoseconds
+              75% <= 1345151.00 nanoseconds
+              95% <= 2009727.00 nanoseconds
+              98% <= 71491583.00 nanoseconds
+              99% <= 239075327.00 nanoseconds
+            99.9% <= 471121919.00 nanoseconds
+{activity="main",container="default.main",instance="default",jobname="nosqlbench",name="cycles_servicetime",node="10.100.9.73",scenario="default.main",session="oD7AuB4",workload="fraud_detection"}
+             count = 100000000
+         mean rate = 0.00 calls/nanosecond
+     1-minute rate = 0.00 calls/nanosecond
+     5-minute rate = 0.00 calls/nanosecond
+    15-minute rate = 0.00 calls/nanosecond
+               min = 498656.00 nanoseconds
+               max = 2102591487.00 nanoseconds
+              mean = 6470630.15 nanoseconds
+            stddev = 43049878.95 nanoseconds
+            median = 1143615.00 nanoseconds
+              75% <= 1356543.00 nanoseconds
+              95% <= 2019775.00 nanoseconds
+              98% <= 71512063.00 nanoseconds
+              99% <= 239108095.00 nanoseconds
+            99.9% <= 471121919.00 nanoseconds
+
+
+10/21/25, 5:32:05 PM ===========================================================
+
+-- Gauges ----------------------------------------------------------------------
+{instance="default",jobname="nosqlbench",name="off_heap_memory_committed",node="10.100.9.73",session="oD7AuB4"}
+             value = 7.4645504E7
+{instance="default",jobname="nosqlbench",name="on_heap_memory_committed",node="10.100.9.73",session="oD7AuB4"}
+             value = 5.268045824E9
+{instance="default",jobname="nosqlbench",name="session_time",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.07997190297259E14
+{instance="default",jobname="nosqlbench",name="off_heap_memory_max",node="10.100.9.73",session="oD7AuB4"}
+             value = -1.0
+{instance="default",jobname="nosqlbench",name="open_file_descriptors",node="10.100.9.73",session="oD7AuB4"}
+             value = 13.0
+{instance="default",jobname="nosqlbench",name="on_heap_memory_used",node="10.100.9.73",session="oD7AuB4"}
+             value = 2.470445056E9
+{instance="default",jobname="nosqlbench",name="on_heap_memory_max",node="10.100.9.73",session="oD7AuB4"}
+             value = 1.610612736E10
+{instance="default",jobname="nosqlbench",name="off_heap_memory_used",node="10.100.9.73",session="oD7AuB4"}
+             value = 7.004084E7
+
+
